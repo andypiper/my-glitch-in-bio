@@ -1,4 +1,8 @@
 {
+  "name": "glitch-mvp-react",
+  "version": "0.0.1",
+  "description": "A simple React app built with Vite and React.",
+  "main": "server.js",
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -17,7 +21,10 @@
     "not dead"
   ],
   "engines": {
-    "node": "12"
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-mvp-react"
   },
   "glitch": {
     "projectType": "generated_static"
