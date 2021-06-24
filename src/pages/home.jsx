@@ -12,7 +12,7 @@ export default function Home() {
         more options included out of the box, try remixing
         {" "}
         <a href="https://glitch.com/edit/#!/remix/glitch-hello-react">
-          ~gitch-hello-react
+          ~glitch-hello-react
         </a>
         .
       </p>
