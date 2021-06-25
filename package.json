@@ -1,5 +1,5 @@
 {
-  "name": "glitch-mvp-react",
+  "name": "glitch-blank-react",
   "version": "0.0.1",
   "description": "A simple React app built with Vite and React.",
   "main": "server.js",
@@ -24,7 +24,7 @@
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-mvp-react"
+    "url": "https://glitch.com/edit/#!/glitch-blank-react"
   },
   "glitch": {
     "projectType": "generated_static"
