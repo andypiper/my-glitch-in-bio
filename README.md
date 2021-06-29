@@ -1,4 +1,4 @@
-# Hello React! (mvp)
+# Hello React! (blank)
 
 [React](https://reactjs.org/) is a popular UI library for building web apps, usually single page apps. [Vite](https://vitejs.dev/) is a powerful tool for building javascript apps that bundles all of your code and shows immediate changes while you're editing. We're big fans!
 
