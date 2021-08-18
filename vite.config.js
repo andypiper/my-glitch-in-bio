@@ -3,7 +3,13 @@ import handlebars from "vite-plugin-handlebars";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [handlebars()],
+  plugins: [
+    handlebars({
+      context: {
+        title: "Hello, world!" //todo - send links.json & meta.json
+      }
+    })
+  ],
   build: {
     outDir: "build"
   },
