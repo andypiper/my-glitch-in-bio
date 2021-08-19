@@ -9,6 +9,7 @@ import meta from "./config/meta.json";
 export default defineConfig({
   plugins: [
     handlebars({
+      partialDirectory: resolve('/config/templat', 'partials'),
       context: {
         links,
         meta
