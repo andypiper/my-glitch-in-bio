@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Your new 11ty blog" />
+    <meta name="description" content="Your links in bio." />
     <link rel="stylesheet" type="text/css" href="/config/style.css" />
   </head>
   <body>
@@ -24,21 +24,21 @@
         </div>
       </div>
 
-      
       <div class="wrapper home">
-  <div class="content">
-    {{#if links}}
-    <ul class="link-list">
-      {{#each links}}
-        <li><a href='{{ link.url }}'>{{ link.text }}</a></li>
-      {{/each}}
-    </ul>
-    {{/if}}
-    
-  </div>
-</div>
+        <div class="content">
+          {{#if links}}
+          <ul class="link-list">
+            {{#each links}}
+            <li><a href="{{ this.url }}">{{ this.text }}</a></li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </div>
+      </div>
+
       
-      
+<!-- jesse, i updated it with handlebars!! lmao suspendAll(jessevondoom) -->
+      <!-- jenn who are u man? -->
       
       
       
