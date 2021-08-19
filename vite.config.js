@@ -1,12 +1,17 @@
 import { defineConfig } from "vite";
 import handlebars from "vite-plugin-handlebars";
 
+// import json of links and meta in /config
+import links from "./config/links.json";
+import meta from "./config/meta.json";
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     handlebars({
       context: {
-        title: "Hello, world!" //todo - send links.json & meta.json
+        links,
+        meta
       }
     })
   ],

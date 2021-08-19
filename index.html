@@ -12,24 +12,31 @@
       <div class="">
         <div class="content">
           <!-- Avatar Image -->
-          {{#if settings.avatarImage}}
+          {{#if meta.avatarImage}}
           <div class="illo-container">
             <img
-              src="{{settings.avatarImage}}"
+              src="{{meta.avatarImage}}"
               class="illustration"
-              alt="{{settings.yourName}}"
+              alt="{{meta.yourName}}"
             />
           </div>
           {{/if}}
-
-          <h1>
-            {{title}}
-          </h1>
         </div>
       </div>
 
       
-      
+      <div class="wrapper home">
+  <div class="content">
+    {{#if links}}
+    <ul class="link-list">
+      {{#each links}}
+        <li><a href='{{ link.url }}'>{{ link.text }}</a></li>
+      {{/each}}
+    </ul>
+    {{/if}}
+    
+  </div>
+</div>
       
       
       
@@ -40,10 +47,10 @@
         <div class="social-icons">
           <!-- ==================== -->
           <!-- Glitch -->
-          {{#if settings.social.glitch}}
+          {{#if meta.social.glitch}}
           <a
-            aria-label="{{settings.yourName}} on Glitch"
-            href="{{settings.social.glitch}}"
+            aria-label="{{meta.yourName}} on Glitch"
+            href="{{meta.social.glitch}}"
           >
             <svg
               class="social-profile-icon"
@@ -61,10 +68,10 @@
 
           <!-- ==================== -->
           <!-- Spotify -->
-          {{#if settings.social.spotify}}
+          {{#if meta.social.spotify}}
           <a
-            aria-label="{{settings.yourName}} on Spotify"
-            href="{{settings.social.spotify}}"
+            aria-label="{{meta.yourName}} on Spotify"
+            href="{{meta.social.spotify}}"
           >
             <svg
               class="social-profile-icon"
@@ -82,10 +89,10 @@
 
           <!-- ==================== -->
           <!-- Substack -->
-          {{#if settings.social.substack}}
+          {{#if meta.social.substack}}
           <a
-            aria-label="{{settings.yourName}} on Substack"
-            href="{{settings.social.substack}}"
+            aria-label="{{meta.yourName}} on Substack"
+            href="{{meta.social.substack}}"
           >
             <svg
               class="social-profile-icon"
@@ -105,10 +112,10 @@
 
           <!-- ==================== -->
           <!-- Dev.to -->
-          {{#if settings.social.dev}}
+          {{#if meta.social.dev}}
           <a
-            aria-label="{{settings.yourName}} on Dev.to"
-            href="{{settings.social.dev}}"
+            aria-label="{{meta.yourName}} on Dev.to"
+            href="{{meta.social.dev}}"
           >
             <svg
               class="social-profile-icon"
@@ -124,10 +131,10 @@
 
           <!-- ==================== -->
           <!-- Facebook -->
-          {{#if settings.social.facebook}}
+          {{#if meta.social.facebook}}
           <a
-            aria-label="{{settings.yourName}} on Facebook"
-            href="{{settings.social.facebook}}"
+            aria-label="{{meta.yourName}} on Facebook"
+            href="{{meta.social.facebook}}"
           >
             <svg
               class="social-profile-icon"
@@ -145,10 +152,10 @@
 
           <!-- ==================== -->
           <!-- Github -->
-          {{#if settings.social.github}}
+          {{#if meta.social.github}}
           <a
-            aria-label="{{settings.yourName}} on GitHub"
-            href="{{settings.social.github}}"
+            aria-label="{{meta.yourName}} on GitHub"
+            href="{{meta.social.github}}"
           >
             <svg
               class="social-profile-icon"
@@ -168,10 +175,10 @@
 
           <!-- ==================== -->
           <!-- Instagram -->
-          {{#if settings.social.instagram}}
+          {{#if meta.social.instagram}}
           <a
-            aria-label="{{settings.yourName}} on Instagram"
-            href="{{settings.social.instagram}}"
+            aria-label="{{meta.yourName}} on Instagram"
+            href="{{meta.social.instagram}}"
           >
             <svg
               class="social-profile-icon"
@@ -189,10 +196,10 @@
 
           <!-- ==================== -->
           <!-- LinkedIn -->
-          {{#if settings.social.linkedin}}
+          {{#if meta.social.linkedin}}
           <a
-            aria-label="{{settings.yourName}} on LinkedIn!"
-            href="{{settings.social.linkedin}}"
+            aria-label="{{meta.yourName}} on LinkedIn!"
+            href="{{meta.social.linkedin}}"
           >
             <svg
               class="social-profile-icon"
@@ -210,10 +217,10 @@
 
           <!-- ==================== -->
           <!-- Patreon -->
-          {{#if settings.social.patreon}}
+          {{#if meta.social.patreon}}
           <a
-            aria-label="{{settings.yourName}} on Patreon!"
-            href="{{settings.social.patreon}}"
+            aria-label="{{meta.yourName}} on Patreon!"
+            href="{{meta.social.patreon}}"
           >
             <svg
               class="social-profile-icon"
@@ -231,10 +238,10 @@
 
           <!-- ==================== -->
           <!-- Pinterest -->
-          {{#if settings.social.pinterest}}
+          {{#if meta.social.pinterest}}
           <a
-            aria-label="{{settings.yourName}} on Pinterest"
-            href="{{settings.social.pinterest}}"
+            aria-label="{{meta.yourName}} on Pinterest"
+            href="{{meta.social.pinterest}}"
           >
             <svg
               class="social-profile-icon"
@@ -252,10 +259,10 @@
 
           <!-- ==================== -->
           <!-- Twitter -->
-          {{#if settings.social.twitter}}
+          {{#if meta.social.twitter}}
           <a
-            aria-label="{{settings.yourName}} on Twitter"
-            href="{{settings.social.twitter}}"
+            aria-label="{{meta.yourName}} on Twitter"
+            href="{{meta.social.twitter}}"
           >
             <svg
               class="social-profile-icon"
@@ -273,10 +280,10 @@
 
           <!-- ==================== -->
           <!-- YouTube -->
-          {{#if settings.social.youtube}}
+          {{#if meta.social.youtube}}
           <a
-            aria-label="{{settings.yourName}} on YouTube"
-            href="{{settings.social.youtube}}"
+            aria-label="{{meta.yourName}} on YouTube"
+            href="{{meta.social.youtube}}"
           >
             <svg
               class="social-profile-icon"
@@ -294,10 +301,10 @@
 
           <!-- ==================== -->
           <!-- Twitch -->
-          {{#if settings.social.youtube}}
+          {{#if meta.social.youtube}}
           <a
-            aria-label="{{settings.yourName}} on Twitch"
-            href="{{settings.social.twitch}}"
+            aria-label="{{meta.yourName}} on Twitch"
+            href="{{meta.social.twitch}}"
           >
             <svg
               class="social-profile-icon"
@@ -315,10 +322,10 @@
 
           <!-- ==================== -->
           <!-- Email -->
-          {{#if settings.social.email}}
+          {{#if meta.social.email}}
           <a
-            aria-label="Send {{settings.yourName}} an email"
-            href="mailto:{{settings.social.email}}"
+            aria-label="Send {{meta.yourName}} an email"
+            href="mailto:{{meta.social.email}}"
           >
             <svg
               class="social-profile-icon"
