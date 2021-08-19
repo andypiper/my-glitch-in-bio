@@ -1,3 +1,4 @@
+import { resolve } from "path";
 import { defineConfig } from "vite";
 import handlebars from "vite-plugin-handlebars";
 
@@ -9,7 +10,7 @@ import meta from "./config/meta.json";
 export default defineConfig({
   plugins: [
     handlebars({
-      partialDirectory: resolve('/config/templat', 'partials'),
+      partialDirectory: resolve(__dirname, 'config/partials'),
       context: {
         links,
         meta
