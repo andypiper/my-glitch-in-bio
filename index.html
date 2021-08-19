@@ -9,55 +9,14 @@
   </head>
   <body>
     <main>
-      <div class="">
-        <div class="content">
-          <!-- Avatar Image -->
-          {{#if meta.avatarImage}}
-          <div class="illo-container">
-            <img
-              src="{{meta.avatarImage}}"
-              class="illustration"
-              alt="{{meta.yourName}}"
-            />
-          </div>
-          {{/if}}
-        </div>
+      
+      <div class="wrapper">
+        {{> header }}
+        {{> links }}
+        {{> social }}
       </div>
-
-      <div class="wrapper home">
-        <div class="content">
-          {{#if links}}
-          <ul class="link-list">
-            {{#each links}}
-            <li><a href="{{ this.url }}">{{ this.text }}</a></li>
-            {{/each}}
-          </ul>
-          {{/if}}
-        </div>
-      </div>
-
-      <div class="content">
-        
-      </div>
-
-      <footer class="footer">
-        <div class="links">
-          <a href="/">Home</a>
-          <span class="divider">|</span>
-          <a href="/about">About</a>
-        </div>
-        <a
-          class="btn--remix"
-          target="_top"
-          href="https://glitch.com/edit/#!/remix/glitch-hello-eleventy"
-        >
-          <img
-            src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-            alt=""
-          />
-          Remix on Glitch
-        </a>
-      </footer>
+      
+      {{> footer }}
     </main>
   </body>
 </html>

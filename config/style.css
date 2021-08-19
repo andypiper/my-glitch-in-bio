@@ -208,9 +208,6 @@ a:hover {
 }
 
 /* Layout: Home */
-.home {
-  justify-content: left;
-}
 .illo-container, .social-icons {
   display: flex;
   justify-content: center;
