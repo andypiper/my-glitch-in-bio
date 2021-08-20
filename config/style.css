@@ -198,13 +198,6 @@ a:hover {
   background: var(--color-primary);
 }
 
-.footer a:not(.btn--remix):link,{
-  font-size: 1rem;
-  color: #000;
-  text-decoration: none;
-  border-style: none;
-}
-
 .footer .links {
   padding: 0.25rem 1rem 1rem;
   text-align: left;
