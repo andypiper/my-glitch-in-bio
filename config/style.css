@@ -203,13 +203,13 @@ a:hover {
   justify-content: center;
 }
 .avatar {
-  max-width: 180px;
+  max-width: 140px;
   max-height: var(--image-max-width);
-  margin-top: 1rem;
+  margin: 1rem 0 2rem;
   border-radius: 50%;
 }
 ul.link-list {
-  margin: 2.5em 0;
+  margin: 0.5em 0 2.5rem;
   padding-left: 0px;
 }
 
@@ -228,7 +228,7 @@ ul.link-list li a:visited {
   display: block;
   text-align: center;
   border: 2px solid var(--color-primary);
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .social-icons a:link {
