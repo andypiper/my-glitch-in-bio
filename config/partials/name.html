@@ -2,11 +2,7 @@
   <h1>
     {{# meta.name }}
       {{ meta.name }}
-    {{/ meta.name}}
-    {{^ meta.name }}
-      {{ meta.metaTitle }}
-    {{/ meta.name}}
-    {{#empty meta.name }}
+    {{ else }}
       {{ meta.metaTitle }}
     {{/ meta.name}}
   </h1>
