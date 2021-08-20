@@ -6,15 +6,14 @@ import handlebars from "vite-plugin-handlebars";
 import links from "./config/links.json";
 import meta from "./config/meta.json";
 
-handlebars.registerHelper('check', function(value, "") {
-    return (value == "") ? false : value;
-});
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     handlebars({
       partialDirectory: resolve(__dirname, 'config/partials'),
+      helpers: {
+        empty: (value) => (value.trim() === "") ? true : false,
+      },
       context: {
         links,
         meta
