@@ -1,4 +1,14 @@
+/******************************************************************************
+TBD: theme docs
+******************************************************************************/
 
+:root {
+  --color-bg: #9480FF;
+  --color-bg-alt: #D7F5EF;
+  --color-text-main: #000000;
+  --color-primary: #AFECE0;
+  /* --theme-color-custom: #FFFFFF */
+}
 
 body {
   background: linear-gradient(0deg,var(--color-bg-alt),var(--color-bg));
@@ -10,9 +20,5 @@ ul.link-list li a:visited {
 }
 
 .social-profile-icon path {
-  fill: var(--glitch-purple);
-}
-
-.social-profile-icon path:hover {
-  fill: var(--color-text-main);
+  fill: var(--color-bg);
 }
