@@ -1,4 +1,10 @@
+body {
+  background: linear-gradient(0deg,var(--color-bg-alt),var(--color-bg));
+}
+
 ul.link-list {
+  margin: 2.5em 0;
+  padding-left: 0px;
 }
 
 ul.link-list li {
@@ -24,7 +30,7 @@ ul.link-list li a:visited {
   background: transparent;
   width: 3rem;
   height: 3rem;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem 1.5rem;
 }
 
 .social-profile-icon  {
