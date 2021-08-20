@@ -12,7 +12,7 @@ export default defineConfig({
     handlebars({
       partialDirectory: resolve(__dirname, 'config/partials'),
       helpers: {
-        empty: (value) => (value.trim() === "") ? true : false,
+        empty: (key, value) => (key == "") ? value = true : value = false,
       },
       context: {
         links,

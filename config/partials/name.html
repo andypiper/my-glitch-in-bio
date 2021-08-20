@@ -6,6 +6,8 @@
     {{^ meta.name }}
       {{ meta.metaTitle }}
     {{/ meta.name}}
-    {{notEmpty meta.metaTitle }}
+    {{#empty meta.name }}
+      {{ meta.metaTitle }}
+    {{/ meta.name}}
   </h1>
 </div>
