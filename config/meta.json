@@ -1,9 +1,9 @@
 {
-  "metaTitle": "Your Links",
-  "metaDescription": "Your meta description.",
-  "yourName": "Your Name",
+  "metaTitle": "Hello Links",
+  "metaDescription": "My meta description.",
+  "name": "My Name",
   "avatarImage": "https://cdn.glitch.com/560ed5ed-9d00-433a-9ff9-7750d79d13da%2FGlitch_TeamAvatar.png?v=1624643105812",
-  "briefBio": "Describe yourself succinctly",
+  "bio": "A brief bio.",
   "social": {
     "glitch": "https://glitch.com/",
     "spotify": "https://spotify.com/",
