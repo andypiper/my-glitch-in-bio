@@ -49,25 +49,28 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our remix on glitch button */
 .btn--remix {
-  font-family: HK Grotesk;
-  padding: 0.75rem 1rem;
-  font-size: 1.1rem;
+  font-family: Menlo,Consolas,Monaco,"Lucida Console",monospace;
+  padding: 0.80rem 1.75rem;
+  font-size: 0.95rem;
   line-height: 1rem;
   font-weight: 500;
-  height: 2.75rem;
+  height: 3rem;
   align-items: center;
   cursor: pointer;
   background: #FFFFFF;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
   text-decoration: none;
   color: #000;
   white-space: nowrap;
   margin-left: auto;
+  margin-right: 1rem;
 }
 .btn--remix img {
-  margin-right: 0.5rem;
+  position:relative;
+  top: 1px;  
+  margin-right: 0.25rem;
 }
 .btn--remix:hover {
   background-color: #D0FFF1;
