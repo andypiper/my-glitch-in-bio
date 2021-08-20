@@ -3,5 +3,8 @@
     {{# meta.name }}
       {{ meta.name }}
     {{/ meta.name}}
+    {{^ meta.name }}
+      {{ meta.metaTitle }}
+    {{/ meta.name}}
   </h1>
 </div>
