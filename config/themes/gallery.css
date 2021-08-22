@@ -22,29 +22,29 @@ ul.link-list {
   width: 100%; 
   display: grid;
   /* Define Auto Row size */
-  grid-auto-rows: 100px; 
-  
   grid-gap: 1em;
+  margin-bottom: 4em;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
   ul.link-list {
-  /*Define our columns */
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-  /* Define Auto Row size */
-  grid-auto-rows: 200px; 
+    /*Define our columns */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    /* Define Auto Row size */
+    
   }
 }
 
 ul.link-list li {
-  height:100%;
+  
 }
 
 ul.link-list li a {
   position:relative;
-  height:100%;
+  width:100%;
   display: inline-block;
   background-color: #000000;
+  aspect-ratio: 1;
 }
 
 ul.link-list li a:link,
