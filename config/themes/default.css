@@ -7,6 +7,7 @@ TBD: theme docs
   --color-bg-alt: #D7F5EF;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
+  --theme-color-title: #FFFFFF;
 }
 
 body {
@@ -24,4 +25,8 @@ ul.link-list li a:visited {
 
 .social-profile-icon path {
   fill: var(--color-bg);
+}
+
+h1 {
+  color: var(--theme-color-title);
 }
