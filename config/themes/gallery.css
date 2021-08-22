@@ -10,19 +10,29 @@ TBD: theme docs
   --theme-color-title: #FFFFFF;
 }
 
+.content {
+  max-width: 900px;
+}
+
 body {
   background: linear-gradient(0deg,var(--color-bg-alt),var(--color-bg));
 }
 
 ul.link-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 1em;
+}
+
+@media (min-width: 2em) {
+  ul.link-list {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 12em));
+  }
 }
 
 ul.link-list li {
-  flex: 1;
-  display: flex;
-  flex-basis: 30%;
+  
 }
 
 ul.link-list li a {
