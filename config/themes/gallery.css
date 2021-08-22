@@ -17,15 +17,18 @@ body {
 ul.link-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
 }
 
 ul.link-list li {
   flex: 1;
   display: flex;
   flex-basis: 30%;
-  justify-content: ;
-  min-height: 200px;
+}
+
+ul.link-list li a {
+  position:relative;
+  display: inline-block;
+  background-color: #000000;
 }
 
 ul.link-list li a:link,
