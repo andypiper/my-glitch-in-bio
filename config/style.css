@@ -203,7 +203,12 @@ a:hover {
   text-align: left;
 }
 
-/* Layout: Hello Links Home */
+/******************************************************************************
+START Hello Links default styles
+******************************************************************************/
+.content {
+  max-width: 550px;
+}
 .avatar-container, .social-icons {
   display: flex;
   justify-content: center;
@@ -224,7 +229,7 @@ ul.link-list li {
   font-weight: 400;
   list-style: none;
   clear: both;
-  width: 90%;
+  width: 100%;
   text-align: center;
   margin: 1rem auto;
 }
@@ -246,8 +251,7 @@ ul.link-list li a:visited {
 }
 
 .social-profile-icon  {
-  min-width: 1rem;
-  min-width: 1rem;
+  min-width: 2rem;
   max-width: 3em;
   max-height: 3rem;
   display: inline-flex;
@@ -260,4 +264,6 @@ ul.link-list li a:visited {
 .social-profile-icon path:hover {
   fill: var(--color-text-main);
 }
-
+/******************************************************************************
+END Hello Links default styles
+******************************************************************************/
