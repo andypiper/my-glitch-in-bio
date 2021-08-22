@@ -3,11 +3,11 @@ TBD: theme docs
 ******************************************************************************/
 
 :root {
-  --color-bg: #9480FF;
+  --color-bg: #FFFFFF;
   --color-bg-alt: #D7F5EF;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
-  --theme-color-title: #FFFFFF;
+  --theme-color-title: #9480FF;
 }
 
 .content {
@@ -39,7 +39,7 @@ ul.link-list li {
   aspect-ratio: 1;
   min-height: 200px;
   background-color: #FFFFFF;
-  border-radius: 50%;
+  border-radius: 8%;
   overflow: hidden;  
   margin: 0;
 }
