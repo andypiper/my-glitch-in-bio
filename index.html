@@ -2,22 +2,23 @@
 <html lang="en">
   <head>
     <title>{{ meta.metaTitle }}</title>
+    
     <meta charset="utf-8" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Your links in bio." />
+    <meta name="description" content="{{ meta.metaDescription }}" />
+    <meta property="og:image" content="{{ meta.avatarImage }}" />
+    <meta name="twitter:card" content="summary" />
+    
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="/config/style.css" />
-    <link rel="stylesheet" type="text/css" href="/config/themes/default.css" />
+    
+    <link rel="stylesheet" type="text/css" href="/config/themes/glitch.css" />
   </head>
   <body>
     <main>
-      
       <div class="wrapper">
-        
-        {{> avatar }}
-        
-        {{> name }}
-        
+        {{> avatar }} {{> name }}
+
         <!--- Want to add a bio or some text? Just add a <p> here:
         <div class="content">
           <p>
@@ -25,7 +26,7 @@
           </p>
         </div>
         --->
-        
+
         <!--- Easy, responsive YouTube/iframe embeds? We've got a helper for that:
         <div class="content">
           <div class="video-wrapper__16-9">
@@ -33,13 +34,10 @@
           </div>
         </div>
         --->
-        
-        {{> links }}
-        
-        {{> social }}
-        
+
+        {{> links }} {{> social }}
       </div>
-      
+
       {{> glitch-footer }}
     </main>
   </body>
