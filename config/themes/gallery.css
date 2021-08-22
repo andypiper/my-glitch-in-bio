@@ -7,7 +7,7 @@ TBD: theme docs
   --color-bg-alt: #D7F5EF;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
-  --theme-color-title: #9480FF;
+  --theme-color-title: #AFECE0;
 }
 
 .content {
@@ -54,6 +54,11 @@ ul.link-list li a span {
   width:85%;
   height: 60%;
   padding-top: 40%;
+}
+
+/* Background colors for each of the big links */
+ul.link-list li:nth-child(2) {
+  background-color: lime;
 }
 
 ul.link-list li a:link,
