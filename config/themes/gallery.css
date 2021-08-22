@@ -39,17 +39,21 @@ ul.link-list li {
   aspect-ratio: 1;
   min-height: 200px;
   background-color: #FFFFFF;
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 50%;
+  overflow: hidden;  
   margin: 0;
 }
 
 ul.link-list li a {
-  position:relative;
   width:100%;
   height: 100%;
+}
+
+ul.link-list li a span {
   display: inline-block;
-  
+  width:85%;
+  height: 60%;
+  padding-top: 40%;
 }
 
 ul.link-list li a:link,
