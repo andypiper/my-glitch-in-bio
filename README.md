@@ -1,6 +1,6 @@
 # Hello Links!
 
-TBD
+Your links, your way. A link-in-bio app you can customize any way you want.
 
 ## What's in this project?
 
@@ -16,7 +16,15 @@ TBD
 
 ### Working with Hello Links
 
-Most
+To get started open `settings.json` and add your name, avatar, social accounts, and links. Your changes
+will all be reflected instantly. 
+
+To help you make it your own we've included multiple themes. Open `index.html` and look for the first
+comment, which starts with `<!--- THEMES:` to see where to make a change. Choose any theme you want, or
+start with one of them and make your own. 
+
+We've also included a few `<!--- NEXT STEPS: ` comments that show things like adding a bio paragraph or 
+embedding a YouTube video. 
 
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
