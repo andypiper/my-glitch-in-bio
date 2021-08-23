@@ -7,8 +7,10 @@ TBD: theme docs
   --color-bg: #FFFFFF;
   --color-bg-alt: #D7F5EF;
   --color-text-main: #000000;
-  --color-primary: #AFECE0;
-  --theme-color-title: #AFECE0;
+  --color-primary: #FF7698;
+  --glitch-gray-5: #4F4F4F;
+  --glitch-gray-4: #828282;
+  --glitch-gray-3: #BDBDBD;
 }
 
 .content {
@@ -16,7 +18,7 @@ TBD: theme docs
 }
 
 body {
-  background: linear-gradient(0deg,var(--color-bg-alt),var(--color-bg));
+  background: var(--color-bg);
 }
 
 ul.link-list {
@@ -36,7 +38,7 @@ ul.link-list {
 ul.link-list li {
   aspect-ratio: 1;
   min-height: 200px;
-  background-color: #FFFFFF;
+  background-color: var(--glitch-gray-3);
   border-radius: 8%;
   overflow: hidden;  
   margin: 0;
@@ -69,7 +71,8 @@ ul.link-list li a:visited {
 }
 
 h1 {
-  color: var(--theme-color-title);
+  color: var(--glitch-gray-5);
+  font-weight: 100;
 }
 
 .content {
@@ -86,4 +89,14 @@ h1 {
   position: absolute;
   top:15px;
   left: 68px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 4px solid #fff;
 }
