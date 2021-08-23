@@ -5,18 +5,18 @@
   "avatarImage": "https://cdn.glitch.com/560ed5ed-9d00-433a-9ff9-7750d79d13da%2FGlitch_TeamAvatar.png?v=1624643105812",
   "social": {
     "glitch": "https://glitch.com/",
-    "spotify": "https://spotify.com/",
-    "substack": "https://substack.com/",
-    "dev": "https://dev.to/",
+    "spotify": "",
+    "substack": "",
+    "dev": "https://dev.to/glitch",
     "facebook": "",
-    "github": "https://github.com/",
-    "instagram": "https://instagram.com/",
-    "linkedin": "http://www.linkedin.com/",
+    "github": "https://github.com/glitchdotcom",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/company/fog-creek-software",
     "patreon": "",
     "pinterest": "",
-    "twitter": "https://twitter.com/",
-    "youtube": "https://youtube.com/",
-    "twitch": "https://twitch.com/",
+    "twitter": "https://twitter.com/glitch",
+    "youtube": "",
+    "twitch": "",
     "email": "you@your-email.com"
   }
 }
