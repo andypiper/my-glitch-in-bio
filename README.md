@@ -10,19 +10,14 @@ TBD
 
 ← `settings.json`: Settings for your name, image, and links.
 
-← `layout/`: 
+← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. 
 
 ← `styles/`: Stylesheets for Hello Links, including alternate themes.
 
 ### Working with Hello Links
 
-← `src/index.jsx`: This is the root of your React app. If you add libraries like [chakra-ui](https://chakra-ui.com) or [redux](https://react-redux.js.org), you'll insert their providers here. The `<HelmetProvider`> is an example of a provider you'd use.
+Most
 
-← `src/app.jsx`: The base for your react app, here is where the magic really happens.
-
-← `src/pages/`: Pages to import to the router should go here!
-
-← `src/styles`: CSS files add styling rules to your content. You have [a lot of](https://vitejs.dev/guide/features.html#css) importing options for CSS including CSS modules if that's your jam.
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
