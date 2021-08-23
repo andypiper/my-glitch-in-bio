@@ -1,6 +1,6 @@
-{{#if links}}
+{{#if settings.links}}
 <ul class="link-list">
-  {{#each links}}
+  {{#each settings.links}}
   <li><a href="{{ this.url }}"><span>{{ this.text }}</span></a></li>
   {{/each}}
 </ul>

@@ -3,20 +3,18 @@ import { defineConfig } from "vite";
 import handlebars from "vite-plugin-handlebars";
 
 // import json of links and meta in /config
-import links from "./config/links.json";
-import meta from "./config/meta.json";
+import settings from "./settings.json";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     handlebars({
-      partialDirectory: resolve(__dirname, 'config/partials'),
+      partialDirectory: resolve(__dirname, 'layout'),
       helpers: {
         empty: (value) => console.log(value),
       },
       context: {
-        links,
-        meta
+        settings
       }
     })
   ],
