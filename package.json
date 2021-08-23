@@ -1,7 +1,7 @@
 {
   "name": "glitch-hello-links",
   "version": "0.0.1",
-  "description": "A static link-in-bio app.",
+  "description": "Your very own link-in-bio app.",
   "main": "server.js",
   "scripts": {
     "start": "vite",

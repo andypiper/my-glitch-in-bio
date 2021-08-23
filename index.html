@@ -3,14 +3,7 @@
   <head>
     <title>{{ settings.metaTitle }}</title>
     
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="{{ settings.metaDescription }}" />
-    <meta property="og:image" content="{{ settings.avatarImage }}" />
-    <meta name="twitter:card" content="summary" />
-    {{> pwa }}
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    {{> head }}
     
     <!--- THEMES: change 'glitch' to 'gallery' or any other theme in the layout/themes folder --->
     <link rel="stylesheet" type="text/css" href="/styles/themes/glitch.css" />
