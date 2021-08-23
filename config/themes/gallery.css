@@ -58,7 +58,7 @@ ul.link-list li a span {
 
 /* Background colors for each of the big links */
 ul.link-list li:nth-child(2) {
-  background-color: lime;
+  background: center / cover no-repeat url("https://placedog.net/400?random");
 }
 
 ul.link-list li a:link,
