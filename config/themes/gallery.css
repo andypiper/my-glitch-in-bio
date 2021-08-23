@@ -3,7 +3,7 @@ TBD: theme docs
 ******************************************************************************/
 
 :root {
-  --image-max-width: 70px;
+  --image-max-width: 50px;
   --color-bg: #FFFFFF;
   --color-bg-alt: #D7F5EF;
   --color-text-main: #000000;
@@ -22,17 +22,14 @@ body {
 ul.link-list {
   width: 100%; 
   display: grid;
-  /* Define Auto Row size */
   grid-gap: 1em;
-  margin-bottom: 4em;
+  margin: 8.5rem 0 4em 0;
 }
 
 @media (min-width: 500px) {
   ul.link-list {
     /*Define our columns */
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-    /* Define Auto Row size */
-    
   }
 }
 
@@ -75,6 +72,18 @@ h1 {
   color: var(--theme-color-title);
 }
 
-.avatar-container, h1 {
-  display: inline-block;
+.content {
+  position: relative;
+}
+
+.avatar-container {
+  position: absolute;
+  top:6px;
+  left: 6px;
+}
+
+h1 {
+  position: absolute;
+  top:15px;
+  left: 68px;
 }
