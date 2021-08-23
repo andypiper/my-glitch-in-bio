@@ -3,6 +3,7 @@ TBD: theme docs
 ******************************************************************************/
 
 :root {
+  --image-max-width: 70px;
   --color-bg: #FFFFFF;
   --color-bg-alt: #D7F5EF;
   --color-text-main: #000000;
@@ -72,4 +73,8 @@ ul.link-list li a:visited {
 
 h1 {
   color: var(--theme-color-title);
+}
+
+.avatar-container, h1 {
+  display: inline-block;
 }

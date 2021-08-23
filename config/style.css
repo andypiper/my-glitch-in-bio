@@ -9,7 +9,7 @@ to this section's matching END comment to see page-specific styles.
 /* Our default values set as CSS variables */
 :root {
   --wrapper-height: 85vh;
-  --image-max-width: 320px;
+  --image-max-width: 140px;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
   --color-bg: #BDBDBD;
@@ -217,7 +217,7 @@ START Hello Links default styles
   justify-content: center;
 }
 .avatar {
-  max-width: 140px;
+  max-width: var(--image-max-width);
   max-height: var(--image-max-width);
   margin: 1rem 0 1.5rem;
   border-radius: 50%;
