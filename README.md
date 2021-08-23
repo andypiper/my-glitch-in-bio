@@ -4,13 +4,17 @@ TBD
 
 ## What's in this project?
 
-← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
+← `README.md`: That’s this file. You can delete it, or keep it handy so you don't lose the instructions.
 
 ← `index.html`: This is the main page template vite uses to build your site. 
 
-← `config/`: This folder contains JSON settings you can use to change your links, CSS files to style your page, and 
+← `settings.json`: Settings for your name, image, and links.
 
-### Working in the `config/` folder 📁
+← `layout/`: 
+
+← `styles/`: Stylesheets for Hello Links, including alternate themes.
+
+### Working with Hello Links
 
 ← `src/index.jsx`: This is the root of your React app. If you add libraries like [chakra-ui](https://chakra-ui.com) or [redux](https://react-redux.js.org), you'll insert their providers here. The `<HelmetProvider`> is an example of a provider you'd use.
 

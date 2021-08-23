@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ meta.metaTitle }}</title>
+    <title>{{ settings.metaTitle }}</title>
     
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,37 +10,39 @@
     <meta name="twitter:card" content="summary" />
     
     <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/config/style.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
     
-    <!--- THEMES: try pulling this CSS or change 'glitch' to 'gallery' for something new --->
-    <link rel="stylesheet" type="text/css" href="/config/themes/glitch.css" />
+    <!--- THEMES: change 'glitch' to 'gallery' or any other theme in the layout/themes folder --->
+    <link rel="stylesheet" type="text/css" href="/styles/themes/glitch.css" />
   </head>
   <body>
     <main>
       <div class="wrapper">
         <div class="content">
+          
           {{> avatar }} 
           {{> name }}
 
-          <!--- Want to add a bio or some text? Just add a <p> here:
+          <!--- NEXT STEPS: Want to add a bio or some text? Just add a <p> here:
           <p>
             Put anything you like here!
           </p>
           --->
 
-          <!--- Easy, responsive YouTube/iframe embeds? We've got a helper for that:
+          <!--- NEXT STEPS: Easy, responsive YouTube/iframe embeds? We've got a helper for that:
           <div class="video-wrapper__16-9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/GSP0b85BKmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           --->
 
           {{> links }} 
+          
         </div>
       </div>
 
       {{> social }}
       
-      <!--- FOOTER: safe to remove --->
+      <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
       {{> glitch-footer }}
     </main>
   </body>
