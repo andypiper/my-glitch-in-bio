@@ -47,14 +47,16 @@ ul.link-list li {
 ul.link-list li a {
   width:100%;
   height: 100%;
-  background-color: 
+  background-color: rgba(0,0,0,0.3);
 }
 
 a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
   font-weight: bold;
   color: var(--color-bg);
-  text-transform: uppercase
+}
+ul.link-list li a:hover {
+  background: var(--color-primary);
 }
 
 ul.link-list li a span {
