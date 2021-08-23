@@ -1,7 +1,7 @@
 {
-  "name": "hello-links-test",
+  "name": "glitch-hello-links",
   "version": "0.0.1",
-  "description": "A simple React app built with Vite and React.",
+  "description": "A static link-in-bio app.",
   "main": "server.js",
   "scripts": {
     "start": "vite",
@@ -20,7 +20,7 @@
     "node": "14.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-blank-react"
+    "url": "https://glitch.com/edit/#!/glitch-hello-links"
   },
   "glitch": {
     "projectType": "generated_static"
