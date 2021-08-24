@@ -4,7 +4,7 @@
   "description": "Your very own link-in-bio app.",
   "icons": [
     {
-      "sizes": "330x330",
+      "sizes": "800x800",
       "type": "image/png",
       "src": "https://cdn.glitch.com/560ed5ed-9d00-433a-9ff9-7750d79d13da%2FGlitch_TeamAvatar.png?v=1624643105812"
     }
