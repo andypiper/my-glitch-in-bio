@@ -6,28 +6,23 @@
   "links": [
     {
       "url": "https://www.glitch.com/",
-      "text": "Glitch : The easiest way to build the web",
-      "image": "https://cdn.glitch.com/560ed5ed-9d00-433a-9ff9-7750d79d13da%2Fapp-stack.png?v=1624891881502"
+      "text": "Glitch: The easiest way to build the web"
     },
     {
       "url": "https://ssd.eff.org/",
-      "text": "Surveillance Self Defense",
-      "image": "https://cdn.glitch.com/560ed5ed-9d00-433a-9ff9-7750d79d13da%2Fefff-ssd-logo.png?v=1624891941418"
+      "text": "Surveillance Self Defense"
     },
     {
       "url": "https://www.themarshallproject.org/",
-      "text": "The Marshall Project",
-      "image": ""
+      "text": "The Marshall Project"
     },
     {
       "url": "https://www.detroitwaterproject.org/",
-      "text": "The Human Utility",
-      "image": ""
+      "text": "The Human Utility"
     },
     {
       "url": "https://eji.org/",
-      "text": "The Equal Justice Initiative",
-      "image": ""
+      "text": "The Equal Justice Initiative"
     }
   ],
   "social": {
