@@ -25,9 +25,11 @@ self.addEventListener("install", e => {
 self.addEventListener("fetch", event => {
   event.respondWith(
     // Try fetching from network
-    fetch(event.request).catch(() => {
+    fetch(event.request).then(response => {
+      console.log(response.url)
+      return response;
+    }).catch(() => {
       // Request failed - maybe we're offline - return cache
-      console.log(caches.match(event.request));
       return caches.match(event.request);
     })
   );
