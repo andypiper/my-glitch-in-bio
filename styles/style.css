@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --wrapper-height: 81vh;
+  --wrapper-height: 80vh;
   --image-max-width: 140px;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
@@ -118,7 +118,6 @@ body {
   font-family: var(--font-family);
   background-color: var(--color-bg);
   text-align: center;
-  height: 100%;
 }
 .wrapper {
   min-height: var(--wrapper-height);

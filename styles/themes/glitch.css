@@ -11,7 +11,7 @@ TBD: theme docs
 }
 
 body {
-  background: linear-gradient(0deg,var(--color-bg-alt),var(--color-bg));
+  background: fixed linear-gradient(0deg,var(--color-bg-alt),var(--color-bg));
 }
 
 ul.link-list li {
