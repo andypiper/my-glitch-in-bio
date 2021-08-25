@@ -27,6 +27,7 @@ self.addEventListener("fetch", event => {
     // Try fetching from network
     fetch(event.request).catch(() => {
       // Request failed - maybe we're offline - return cache
+      console.log(caches.match(event.request));
       return caches.match(event.request);
     })
   );
