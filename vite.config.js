@@ -11,7 +11,7 @@ export default defineConfig({
     handlebars({
       partialDirectory: resolve(__dirname, 'layout'),
       helpers: {
-        empty: (value) => console.log(value),
+        hostasclass: (value) => '',
       },
       context: {
         settings
