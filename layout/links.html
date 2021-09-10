@@ -1,7 +1,7 @@
 {{#if settings.links}}
 <ul class="link-list">
   {{#each settings.links}}
-  <li class="{{hostasclass  this.url }}"><a href="{{ this.url }}"><span>{{ this.text }}</span></a></li>
+  <li class="{{hostasclass  this.url }}"><a href="{{ this.url }}">{{#if this.img }}<img src="{{ this.img }}" alt="" />{{/if }}<span>{{ this.text }}</span></a></li>
   {{/each}}
 </ul>
 {{/if}}

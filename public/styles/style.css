@@ -245,6 +245,10 @@ ul.link-list li a:visited {
   padding: 1.5rem 1rem;
 }
 
+ul.link-list li * img {
+  display: none;
+}
+
 .social-icons a:link {
   border-bottom: none;
   background: transparent;
