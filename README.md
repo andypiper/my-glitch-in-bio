@@ -24,8 +24,9 @@ We've also included a few `<!--- NEXT STEPS: ` comments that show things like ad
 
 ← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here.
 
-← `styles/`: Stylesheets for Hello Links, including alternate themes. Change your theme in `index.html`.
+← `public/styles/`: Stylesheets for Hello Links, including alternate themes. Change your theme in `index.html`.
 
+← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA).
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
