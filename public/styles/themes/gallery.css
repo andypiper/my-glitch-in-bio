@@ -2,6 +2,8 @@
 TBD: theme docs
 ******************************************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
 :root {
   --image-max-width: 50px;
   --color-bg: #FFFFFF;
@@ -17,8 +19,22 @@ TBD: theme docs
   max-width: 900px;
 }
 
+.avatar {
+  border-radius: 8px;
+}
+
 body {
   background: var(--color-bg);
+}
+
+h1 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 2rem;
+  position: absolute;
+  top:15px;
+  left: 68px;
+  font-weight: normal;
+  color: var(--glitch-gray-3);
 }
 
 ul.link-list {
@@ -39,7 +55,7 @@ ul.link-list li {
   position: relative;
   aspect-ratio: 1;
   min-height: 200px;
-  background-color: var(--glitch-gray-3);
+  background-color: var(--color-primary);
   border-radius: 8%;
   overflow: hidden;  
   margin: 0;
@@ -94,11 +110,6 @@ ul.link-list li a:visited {
   fill: var(--glitch-gray-3);
 }
 
-h1 {
-  color: var(--glitch-gray-5);
-  font-weight: 100;
-}
-
 .content {
   position: relative;
 }
@@ -107,12 +118,6 @@ h1 {
   position: absolute;
   top:6px;
   left: 6px;
-}
-
-h1 {
-  position: absolute;
-  top:15px;
-  left: 68px;
 }
 
 .footer {
