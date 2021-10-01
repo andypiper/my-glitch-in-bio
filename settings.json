@@ -8,22 +8,22 @@
     {
       "url": "https://www.glitch.com/",
       "text": "Glitch: The easiest way to build the web",
-      "img":""
+      "img":"https://placedog.net/400?id=9"
     },
     {
       "url": "https://blog.glitch.com/",
       "text": "Glitch blog: Say “hi” to Hello Links",
-      "img":""
+      "img":"https://placedog.net/400?id=2"
     },
     {
       "url": "https://anildash.com/2019/12/10/link-in-bio-is-how-they-tried-to-kill-the-web/",
       "text": "“Link In Bio” is a slow knife (anildash.com)",
-      "img":""
+      "img":"https://placedog.net/400?id=3"
     },
     {
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
       "text": "Learn more about JSON",
-      "img":""
+      "img":"https://placedog.net/400?id=6"
     }
   ],
   "social": {
