@@ -36,6 +36,7 @@ ul.link-list {
 }
 
 ul.link-list li {
+  position: relative;
   aspect-ratio: 1;
   min-height: 200px;
   background-color: var(--glitch-gray-3);
@@ -60,30 +61,28 @@ ul.link-list li a:hover {
 }
 
 ul.link-list li a span {
+  position: relative;
   display: inline-block;
   width:85%;
   height: 60%;
   padding-top: 40%;
+  z-index: 10;
 }
 
 /* Background colors for each of the big links */
-ul.link-list li:nth-child(1) {
-  background: center / cover no-repeat url("https://placedog.net/400?id=9");
+ul.link-list li a img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
-ul.link-list li:nth-child(2) {
-  background: center / cover no-repeat url("https://placedog.net/400?id=2");
-}
-ul.link-list li:nth-child(3) {
-  background: center / cover no-repeat url("https://placedog.net/400?id=3");
-}
-ul.link-list li:nth-child(4) {
-  background: center / cover no-repeat url("https://placedog.net/400?id=6");
-}
-ul.link-list li:nth-child(5) {
-  background: center / cover no-repeat url("https://placedog.net/400?id=10");
-}
-ul.link-list li:nth-child(6) {
-  background: center / cover no-repeat url("https://placedog.net/400?id=13");
+
+ul.link-list li a:hover img {
+  display: none;
 }
 
 ul.link-list li a:link,
