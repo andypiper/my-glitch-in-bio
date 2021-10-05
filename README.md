@@ -15,7 +15,7 @@ To help you make the site your own we've included some themes:
     * If you're using the `gallery` theme, the images you include in `settings.json` as the `img` value will display with each link.
 * Choose any theme you want, add a new one, or start with one and edit it to make it your own. _If you don't have a valid theme selected, the site will default to the styles outlined in `style.css`._
 
-In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).
+In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. **For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).**
 
 
 ## What's in this project?
@@ -28,7 +28,7 @@ In `index.html` you'll see where the theme is applied to the page at the first c
 
 ← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here.
 
-← `public/styles/`: Stylesheets for Hello Links, including alternate themes. Change your theme in `index.html`.
+← `public/styles/`: Stylesheets for Hello Links, including alternate themes. Change your theme in `settings.json`.
 
 ← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA).
 
