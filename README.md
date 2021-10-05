@@ -9,9 +9,9 @@ Your links, your way. A link-in-bio app you can customize any way you want.
 
 To get started, open `settings.json` and add your name, avatar, social accounts, and links. Your changes will all be reflected instantly. 
 
-To help you make the site your own we've included multiple themes. In `settings.json` you can choose `glitch` or `gallery`. In `index.html` the first comment, which starts with `<!--- THEMES:` shows you where the theme is added to the page. Choose any theme you want, add a new one, or start with one and edit it to make it your own. _If you don't have a valid theme selected the site will default to the styles outlined in `style.css`._
+To help you make the site your own we've included some themes. In `settings.json` you can choose `glitch` or `gallery`. Choose any theme you want, add a new one, or start with one and edit it to make it your own. _If you don't have a valid theme selected the site will default to the styles outlined in `style.css`._
 
-We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. 
+In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).
 
 
 ## What's in this project?
@@ -28,7 +28,7 @@ We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show th
 
 ← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA).
 
-← `assets`
+← `assets`: Add an avatar image here and copy the link into `settings.json` to show it in your site.
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
