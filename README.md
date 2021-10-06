@@ -13,7 +13,7 @@ To help you make the site your own we've included some themes. In `settings.json
 
 In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. **For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).**
 
-The images in the default settings.json file are from [Generative Placeholders](https://glitch.com/~generative-placeholders) by []
+___The images in the default settings.json file are from [Generative Placeholders](https://glitch.com/~generative-placeholders) by [@stefan](https://glitch.com/@stefan).___ 🖼️🪅✨
 
 
 ## What's in this project?
