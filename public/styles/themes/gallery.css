@@ -1,5 +1,5 @@
 /******************************************************************************
-TBD: theme docs
+Gallery theme displays your links with background images from settings.json
 ******************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
@@ -37,6 +37,7 @@ h1 {
   color: var(--glitch-gray-3);
 }
 
+/* Link list content from settings.json links array */
 ul.link-list {
   width: 100%; 
   display: grid;
@@ -85,7 +86,7 @@ ul.link-list li a span {
   z-index: 10;
 }
 
-/* Background colors for each of the big links */
+/* Add urls for any images you want to display in settings.json for each link */
 ul.link-list li a img {
   display: block;
   position: absolute;

@@ -209,6 +209,7 @@ START Glitch in Bio default styles
 .content {
   max-width: 550px;
 }
+/* Image specified in settings.json avatarImage property */
 .avatar-container {
   display: flex;
   justify-content: center;
@@ -222,6 +223,7 @@ START Glitch in Bio default styles
   margin: 1rem 0 1.5rem;
   border-radius: 50%;
 }
+/* Link list content specified in settings.json links array */
 ul.link-list {
   margin: 0.5em 0 2.5rem;
   padding-left: 0px;
@@ -249,6 +251,7 @@ ul.link-list li * img {
   display: none;
 }
 
+/* Page will display all icons with a value in settings.json social object */
 .social-icons a:link {
   border-bottom: none;
   background: transparent;
@@ -263,6 +266,7 @@ ul.link-list li * img {
   display: inline-flex;
 }
 
+/* Image paths specified in layout/social.html */
 .social-profile-icon path {
   fill: var(--color-bg-alt);
 }
