@@ -8,12 +8,12 @@
     {
       "url": "https://www.glitch.com/",
       "text": "Glitch: The easiest way to build the web",
-      "img":"https://placedog.net/400?id=9"
+      "img":"https://generative-placeholders.glitch.me/image?width=500&height=500&style=cellular-automata&cells=20&colors=22"
     },
     {
       "url": "https://blog.glitch.com/",
       "text": "Glitch blog: Say “hi” to Glitch in Bio",
-      "img":"https://placedog.net/400?id=2"
+      "img":"https://generative-placeholders.glitch.me/image?width=500&height=500&style=cellular-automata&cells=20&colors=81"
     },
     {
       "url": "https://anildash.com/2019/12/10/link-in-bio-is-how-they-tried-to-kill-the-web/",
@@ -23,7 +23,7 @@
     {
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
       "text": "Learn more about JSON",
-      "img":"https://placedog.net/400?id=6"
+      "img":"https://generative-placeholders.glitch.me/image?width=500&height=500&style=cellular-automata&cells=20&colors=96"
     }
   ],
   "social": {
