@@ -1,11 +1,11 @@
-# Hello Links!
+# Glitch in Bio!
 
 Your links, your way. A link-in-bio app you can customize any way you want.
 
 🚀 **TL;DR Remix and edit `settings.json` to add your own links!** 🚀
 
 
-### Working with Hello Links
+### Working with Glitch in Bio
 
 To get started, open `settings.json` and add your name, avatar, social accounts, and links. Your changes will all be reflected instantly. 
 
@@ -28,7 +28,7 @@ In `index.html` you'll see where the theme is applied to the page at the first c
 
 ← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here.
 
-← `public/styles/`: Stylesheets for Hello Links, including alternate themes. Change your theme in `settings.json`.
+← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`.
 
 ← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA).
 

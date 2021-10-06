@@ -8,7 +8,7 @@
 self.addEventListener("install", e => {
   e.waitUntil(
     // Give the cache a name
-    caches.open("hello-links-pwa").then(cache => {
+    caches.open("glitch-in-bio-pwa").then(cache => {
       // Add the homepage and stylesheet
       return cache.addAll([
         "/", 
