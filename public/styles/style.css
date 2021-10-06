@@ -205,6 +205,9 @@ a:hover {
 
 /******************************************************************************
 START Glitch in Bio default styles
+
+You can create your own CSS file in public/styles/themes
+Select your chosen CSS by adding the theme name (e.g. glitch) in settings.json
 ******************************************************************************/
 .content {
   max-width: 550px;

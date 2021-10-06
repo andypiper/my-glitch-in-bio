@@ -13,6 +13,8 @@ To help you make the site your own we've included some themes. In `settings.json
 
 In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. **For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).**
 
+The images in the default settings.json file are from [Generative Placeholders](https://glitch.com/~generative-placeholders) by []
+
 
 ## What's in this project?
 
@@ -22,9 +24,9 @@ In `index.html` you'll see where the theme is applied to the page at the first c
 
 ← `settings.json`: Settings for your name, image, and links. The `index.html` page includes the data in the structures defined in `layout/`.
 
-← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here.
+← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here using handlebars syntax (e.g. `{{settings.name}}`).
 
-← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`.
+← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`. You can create a new theme by adding a CSS file to this folder and selecting it using its name in the settings (e.g. `glitch`, `gallery`, or whatever yours is called!)
 
 ← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA).
 

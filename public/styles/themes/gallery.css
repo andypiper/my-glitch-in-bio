@@ -1,5 +1,8 @@
 /******************************************************************************
 Gallery theme displays your links with background images from settings.json
+
+Edit / copy or create your own CSS file in public/styles/themes
+Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 ******************************************************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');

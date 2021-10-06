@@ -1,5 +1,8 @@
 /******************************************************************************
 Glitch theme displays list of links from settings.json links array
+
+Edit / copy or create your own CSS file in public/styles/themes
+Select your chosen CSS by adding the theme name (e.g. glitch) in settings.json
 ******************************************************************************/
 
 :root {
