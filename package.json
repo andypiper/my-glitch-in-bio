@@ -1,5 +1,5 @@
 {
-  "name": "glitch-hello-links",
+  "name": "glitch-in-bio",
   "version": "0.0.1",
   "description": "Your very own link-in-bio app.",
   "main": "server.js",
@@ -20,7 +20,7 @@
     "node": "14.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-links"
+    "url": "https://glitch.com/edit/#!/glitch-in-bio"
   },
   "glitch": {
     "projectType": "generated_static"

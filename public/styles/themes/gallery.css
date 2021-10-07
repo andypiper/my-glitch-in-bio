@@ -110,6 +110,10 @@ ul.link-list li a:visited {
   border: none;
 }
 
+img + span {
+  background: none;
+}
+
 .social-profile-icon path {
   fill: var(--glitch-gray-3);
 }
