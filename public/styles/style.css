@@ -249,11 +249,25 @@ ul.link-list li a:visited {
   display: block;
   text-align: center;
   border: 2px solid var(--color-primary);
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1.5rem;
+  position:relative;
 }
 
-ul.link-list li * img {
-  display: none;
+ul.link-list li a img {
+  z-index:-1;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+  opacity:0.8;
+}
+
+img + span {
+  background: var(--color-primary);
+  padding: 0 .5em;
 }
 
 /* Page will display all icons with a value in settings.json social object */
