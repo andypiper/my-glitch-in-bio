@@ -83,9 +83,7 @@ ul.link-list li a:hover {
 ul.link-list li a span {
   position: relative;
   display: inline-block;
-  width:85%;
-  height: 60%;
-  padding-top: 40%;
+  margin-top: 40%;
   z-index: 10;
 }
 
@@ -108,10 +106,6 @@ ul.link-list li a:hover img {
 ul.link-list li a:link,
 ul.link-list li a:visited {
   border: none;
-}
-
-img + span {
-  background: none;
 }
 
 .social-profile-icon path {
