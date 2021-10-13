@@ -235,13 +235,17 @@ ul.link-list {
 }
 
 ul.link-list li {
-  font-size: 1rem;
-  font-weight: 400;
+  font-family: Menlo,Consolas,Monaco,"Lucida Console",monospace;
+  font-weight: 100;
   list-style: none;
   clear: both;
   width: 100%;
   text-align: center;
   margin: 1rem auto;
+}
+
+ul.link-list li a {
+  font-size: 0.8em;
 }
 
 ul.link-list li a:link,
@@ -254,20 +258,15 @@ ul.link-list li a:visited {
 }
 
 ul.link-list li a img {
-  z-index:-1;
+  z-index:1;
   position:absolute;
   top:0;
   left:0;
-  width:100%;
+  aspect-ratio: 1 / 1;
   height:100%;
   object-fit: cover;
   overflow: hidden;
-  opacity:0.8;
-}
-
-img + span {
-  background: var(--color-primary);
-  padding: 0 .5em;
+  display: none;
 }
 
 /* Page will display all icons with a value in settings.json social object */
