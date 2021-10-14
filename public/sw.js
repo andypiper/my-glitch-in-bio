@@ -9,7 +9,7 @@ self.addEventListener("install", e => {
   e.waitUntil(
     // Give the cache a name
     caches.open("glitch-in-bio-pwa").then(cache => {
-      // Add the homepage and stylesheet
+      // Cache the homepage and stylesheets - add any assets you want to cache
       return cache.addAll([
         "/", 
         "/styles/style.css",
