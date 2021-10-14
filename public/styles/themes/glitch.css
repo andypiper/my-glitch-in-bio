@@ -42,3 +42,7 @@ ul.link-list li a:hover {
 h1 {
   color: var(--theme-color-title);
 }
+
+ul.link-list li a img {
+  display: none;
+}

@@ -266,7 +266,6 @@ ul.link-list li a img {
   height:100%;
   object-fit: cover;
   overflow: hidden;
-  display: none;
 }
 
 /* Page will display all icons with a value in settings.json social object */
