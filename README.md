@@ -9,9 +9,9 @@ Your links, your way. A link-in-bio app you can customize any way you want.
 
 To get started, open `settings.json` and add your name, avatar, social accounts, and links. Your changes will all be reflected instantly. 
 
-To help you make the site your own we've included some themes. In `settings.json` you can choose `glitch` or `gallery`. Choose any theme you want, add a new one, or start with one and edit it to make it your own. _If you don't have a valid theme selected, the site will default to the styles outlined in `style.css`._
+To help you make the site your own we've included some themes. In `settings.json` you can choose `glitch`, `gallery`, or `menu`. Choose any theme you want, add a new one, or start with one and edit it to make it your own. _If you don't have a valid theme selected, the site will default to the styles outlined in `style.css`._
 
-* The images you add in `settings.json` as the `img` property for each link will display if you select the `gallery` theme. Upload yours in `assets` and copy the link from there if they aren't already online.
+* The images you add in `settings.json` as the `img` property for each link will display if you select the `gallery` or `menu` themes. Upload yours in `assets` and copy the link from there if they aren't already online.
 
 In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. **For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).**
 
@@ -28,7 +28,7 @@ ___The images in the default settings.json file are from a remix of [Generative 
 
 ← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here using handlebars syntax (e.g. `{{settings.name}}`).
 
-← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`. You can create a new theme by adding a CSS file to this folder and selecting it using its name in the settings (e.g. `glitch`, `gallery`, or whatever yours is called!)
+← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`. You can create a new theme by adding a CSS file to this folder and selecting it using its name in the settings (e.g. `glitch`, `gallery`, `menu`, or whatever yours is called!)
 
 ← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA).
 
