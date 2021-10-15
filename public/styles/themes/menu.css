@@ -10,6 +10,10 @@ Select your chosen CSS by adding the theme name (e.g. menu) in settings.json
   --color-text-main: var(--glitch-blue-light);
 }
 
+body {
+  background-image:url("https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Fbgmenu.png?v=1634314325046");
+}
+
 ul.link-list li a:link,
 ul.link-list li a:visited {
   justify-content:flex-start;
@@ -37,5 +41,5 @@ ul.link-list li a img {
   overflow:visible;
 }
 .social-profile-icon path:hover {
-  fill: var(--glitch-pink-light);
+  fill: var(--color-bg);
 }
