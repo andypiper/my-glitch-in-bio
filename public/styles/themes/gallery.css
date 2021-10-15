@@ -5,7 +5,7 @@ Edit / copy or create your own CSS file in public/styles/themes
 Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 ******************************************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
 
 :root {
   --image-max-width: 50px;
@@ -23,7 +23,7 @@ Select your chosen CSS by adding the theme name (e.g. gallery) in settings.json
 }
 
 .avatar {
-  border-radius: 8px;
+  border-radius: 0;
 }
 
 body {
@@ -31,13 +31,14 @@ body {
 }
 
 h1 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2.8rem;
   position: absolute;
-  top:15px;
+  top:6px;
   left: 68px;
   font-weight: normal;
-  color: var(--glitch-gray-3);
+  color: var(--glitch-gray-5);
+  text-transform: uppercase;
 }
 
 /* Link list content from settings.json links array */
@@ -59,8 +60,8 @@ ul.link-list li {
   position: relative;
   aspect-ratio: 1;
   min-height: 200px;
-  background-color: var(--color-primary);
-  border-radius: 8%;
+  background-color: #9480FF;
+  border-radius: 0;
   overflow: hidden;  
   margin: 0;
 }
@@ -76,15 +77,25 @@ a:not(.btn--remix):visited {
   font-weight: bold;
   color: var(--color-bg);
 }
-ul.link-list li a:hover {
-  background: var(--color-primary);
-}
 
 ul.link-list li a span {
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.5em;
+  padding-top: 1.5em;
+  width: 100%;
+  min-height: 25%;
   display: inline-block;
   margin-top: 40%;
   z-index: 10;
+  background-color: rgba(0,0,0,0.75);
+  transition: min-height 100ms, padding-top 100ms;
+}
+
+ul.link-list li a:hover span {
+  min-height: 100%;
+  padding-top: 48%;
 }
 
 /* Add urls for any images you want to display in settings.json for each link */
