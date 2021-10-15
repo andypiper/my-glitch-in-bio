@@ -22,9 +22,9 @@ ___The images in the default settings.json file are from a remix of [Generative 
 
 ← `README.md`: That’s this file. You can delete it, or keep it handy so you don't lose the instructions.
 
-← `index.html`: This is the main page template vite uses to build your site. You'll find the handlebars syntax for importing the data you specify in `settings.json` using the structures in `layout/` in here. You'll also find some tips on configuring the page in the HTML comments.
+← `index.html`: This is the main page template vite uses to build your site. You'll see the handlebars syntax for importing the data you specify in `settings.json` (built into the structures in `layout/`). You'll also find some tips on configuring the page in the HTML comments.
 
-← `settings.json`: Settings for your name, image, and links. The `index.html` page includes the data in the structures defined in `layout/`.
+← `settings.json`: Settings for your name, links, images, and social media. The `index.html` page includes the data using the structures defined in `layout/`.
 
 ← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here using handlebars syntax (e.g. `{{settings.name}}`).
 
