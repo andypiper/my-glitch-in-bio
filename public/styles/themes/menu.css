@@ -23,6 +23,9 @@ ul.link-list li a:visited {
 }
 ul.link-list li a span {
   padding-left:1rem;
+  text-align:justify;
+  padding-right:1rem;
+  line-height:1.2em;
 }
 ul.link-list li a:hover {
   background-color:var(--color-bg);
@@ -30,6 +33,8 @@ ul.link-list li a:hover {
 }
 ul.link-list li a img {
   border-radius:0.2rem;
+  width:3rem;
+  overflow:visible;
 }
 .social-profile-icon path:hover {
   fill: var(--glitch-pink-light);
