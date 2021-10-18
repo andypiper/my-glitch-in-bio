@@ -1,39 +1,34 @@
 /******************************************************************************
-This is the default style sheet for the site
+TIP: This is the default style sheet for the site
+
 - Your selected theme will also affect how the page appears
 - Themes are in the /themes folder
 - Select a theme in settings.json as the `theme` property
 ******************************************************************************/
 
 /******************************************************************************
-START Glitch hello-app default styles
-
-The styles in this section do some minimal CSS resets, set default fonts and 
-colors, and handle the layout for our footer and "Remix on Glitch" button. If
-you're new to CSS they may seem a little complicated, but you can scroll down
-to this section's matching END comment to see page-specific styles.
+START Page structure and element resets
 ******************************************************************************/
 
-/* Our default values set as CSS variables */
+/* A set of default style */
 :root {
-  
   /* Generic sizing for the page */
   --wrapper-height: 80vh;
-  --image-max-width: 140px;
-  
+  --avatar-max-width: 140px;
+
   /* Fonts for different elements */
   --font-family: sans-serif;
   --font-family-header: sans-serif;
   --font-family-list: monospace;
-  
+
   /* Colors you'll see cascade through the elements */
-  
+
   /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
   --color-bg: #BDBDBD; /* Used for the page body background */
   --color-bg-alt: #FFFFFF; /* Used for social icons on hover */
   --color-text-main: #000000; /* List text ann social icons on hover */
   --color-primary: #FFFFFF; /* Headers and borders */
-  
+
   /* These are some Glitch colors you are welcome to use! */
   --glitch-blue: #2800FF;
   --glitch-blue-light: #5A78FF;
@@ -53,10 +48,45 @@ to this section's matching END comment to see page-specific styles.
   display: none !important;
 }
 
-/* Our remix on glitch button */
+/* Page structure */
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  text-align: center;
+}
+.wrapper {
+  min-height: var(--wrapper-height);
+  place-items: center;
+  margin: 3rem 2rem 0;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+/* The footer and our remix on glitch button */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: 4px solid #fff;
+}
+.footer a:hover {
+  background: var(--color-primary);
+}
+.footer .tagline {
+  padding: 0.25rem 1rem 1rem;
+  text-align: left;
+  white-space: nowrap;
+}
 .btn--remix {
-  font-family: Menlo,Consolas,Monaco,"Lucida Console",monospace;
-  padding: 0.80rem 1.75rem;
+  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+  padding: 0.8rem 1.75rem;
   font-size: 0.95rem;
   line-height: 1rem;
   font-weight: 500;
@@ -74,67 +104,12 @@ to this section's matching END comment to see page-specific styles.
   margin-right: 1rem;
 }
 .btn--remix img {
-  position:relative;
-  top: 1px;  
+  position: relative;
+  top: 1px;
   margin-right: 0.25rem;
 }
 .btn--remix:hover {
   background-color: #D0FFF1;
-}
-
-/* Navigation grid */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem auto 0;
-  padding: 1rem 0 0.75rem 0;
-  width: 100%;
-  flex-wrap: wrap;
-  border-top: 4px solid #fff;
-}
-
-.footer a:not(.btn--remix):link,
-a:not(.btn--remix):visited {
-  font-family: var(--font-family);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.1rem;
-  color: #000;
-  text-decoration: none;
-  border-style: none;
-}
-.footer a:hover {
-  background: var(--color-primary);
-}
-
-.footer .glitch-links {
-  padding: 0.5rem 1rem 1.5rem;
-  white-space: nowrap;
-}
-
-.divider {
-  padding: 0 1rem;
-}
-/******************************************************************************
-END Glitch hello-app default styles
-******************************************************************************/
-
-/* Page structure */
-body {
-  font-family: var(--font-family);
-  background-color: var(--color-bg);
-  text-align: center;
-}
-.wrapper {
-  min-height: var(--wrapper-height);
-  place-items: center;
-  margin: 3rem 2rem 0;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 /* Typography */
@@ -148,7 +123,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 2rem 0 .8rem;
+  margin: 2rem 0 0.8rem;
   font-family: var(--font-family-header);
   font-weight: bold;
   line-height: 1.1;
@@ -162,22 +137,6 @@ h1 {
   color: var(--color-primary);
   justify-content: center;
 }
-h2 {
-  font-size: 2.5rem;
-}
-h3 {
-  font-size: 2rem;
-}
-h4 {
-  font-size: 1.5rem;
-}
-h5 {
-  font-size: 1.25rem;
-}
-small,
-.text_small {
-  font-size: 0.8rem;
-}
 ul > li,
 ol > li {
   margin-bottom: 0.75rem;
@@ -187,9 +146,6 @@ ol > li {
 ul {
   padding: 0 0 0 18px;
   margin: 0;
-}
-ul.no-bullet {
-  list-style-type: none;
 }
 
 /* Link styles */
@@ -203,41 +159,34 @@ a:not(.btn--remix):visited {
 a:hover {
   background: var(--color-primary);
 }
-
-.footer .glitch-links {
-  padding: 0.25rem 1rem 1rem;
-  text-align: left;
-}
+/******************************************************************************
+END Page structure and element resets
+******************************************************************************/
 
 /******************************************************************************
-START Glitch in Bio default styles
+START Glitch in Bio default theme
 
 You can create your own CSS file in public/styles/themes
 Select your chosen CSS by adding the theme name (e.g. glitch) in settings.json
 ******************************************************************************/
-.content {
-  max-width: 550px;
-}
+
 /* Image specified in settings.json avatarImage property */
 .avatar-container {
   display: flex;
   justify-content: center;
 }
-.social-icons {
-  justify-content: center;
-}
 .avatar {
-  max-width: var(--image-max-width);
-  max-height: var(--image-max-width);
+  max-width: var(--avatar-max-width);
+  max-height: var(--avatar-max-width);
   margin: 1rem 0 1.5rem;
   border-radius: 50%;
 }
+
 /* Link list content specified in settings.json links array */
 ul.link-list {
   margin: 0.5em 0 2.5rem;
   padding-left: 0px;
 }
-
 ul.link-list li {
   font-family: var(--font-family-list);
   font-weight: 100;
@@ -247,40 +196,41 @@ ul.link-list li {
   min-width: 100%;
   text-align: center;
   margin: 1rem auto;
-  font-size:0.9em;
+  font-size: 0.9em;
 }
-
 ul.link-list li a {
   min-height: 5.5em;
   min-width: 100%;
   display: flex;
   align-content: center;
   justify-content: flex-start;
-  align-items:center;
+  align-items: center;
 }
-
 ul.link-list li a:link,
 ul.link-list li a:visited {
   text-align: center;
   border: 2px solid var(--color-primary);
   padding: 1.5rem;
-  position:relative;
+  position: relative;
 }
-
 ul.link-list li a img {
-  z-index:1;
+  z-index: 1;
   aspect-ratio: 1 / 1;
-  height:3em;
+  height: 3em;
   object-fit: cover;
   overflow: hidden;
 }
 ul.link-list li a span {
-  z-index:2;
-  padding-left:1rem;
-  padding-right:1rem;
+  z-index: 2;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-/* Page will display all icons with a value in settings.json social object */
+/* Social media icons */
+/* Page will display all icons that have a value in settings.json social object */
+.social-icons {
+  justify-content: center;
+}
 .social-icons a:link {
   border-bottom: none;
   background: transparent;
@@ -288,34 +238,24 @@ ul.link-list li a span {
   height: 3rem;
   margin: 0 0.5rem 1.5rem;
 }
-
-.social-profile-icon  {
+.social-profile-icon {
   width: 1.75rem;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
   display: inline-flex;
 }
-
 /* Image paths specified in layout/social.html */
 .social-profile-icon path {
   fill: var(--color-bg-alt);
 }
-
 .social-profile-icon path:hover {
   fill: var(--color-text-main);
 }
 
-.video-wrapper__16-9 {
-  position: relative;
+/* Video aspect ratio helper */
+.video-wrapper__16-9 iframe {
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
-}
-.video-wrapper__16-9 iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  aspect-ratio: 16 / 9;
 }
 /******************************************************************************
-END Glitch in Bio default styles
+END Glitch in Bio default theme
 ******************************************************************************/
