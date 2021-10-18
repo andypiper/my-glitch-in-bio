@@ -1,4 +1,9 @@
-/* Scroll down for Glitch in Bio styling */
+/******************************************************************************
+This is the default style sheet for the site
+- Your selected theme will also affect how the page appears
+- Themes are in the /themes folder
+- Select a theme in settings.json as the `theme` property
+******************************************************************************/
 
 /******************************************************************************
 START Glitch hello-app default styles
@@ -8,16 +13,28 @@ colors, and handle the layout for our footer and "Remix on Glitch" button. If
 you're new to CSS they may seem a little complicated, but you can scroll down
 to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
+
 /* Our default values set as CSS variables */
 :root {
+  
+  /* Generic sizing for the page */
   --wrapper-height: 80vh;
   --image-max-width: 140px;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
-  --color-bg: #BDBDBD;
-  --color-bg-alt: #FFFFFF;
-  --color-text-main: #000000;
-  --color-primary: #FFFFFF;
+  
+  /* Fonts for different elements */
+  --font-family: sans-serif;
+  --font-family-header: sans-serif;
+  --font-family-list: monospace;
+  
+  /* Colors you'll see cascade through the elements */
+  
+  /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
+  --color-bg: #BDBDBD; /* Used for the page body background */
+  --color-bg-alt: #FFFFFF; /* Used for social icons on hover */
+  --color-text-main: #000000; /* List text ann social icons on hover */
+  --color-primary: #FFFFFF; /* Headers and borders */
+  
+  /* These are some Glitch colors you are welcome to use! */
   --glitch-blue: #2800FF;
   --glitch-blue-light: #5A78FF;
   --glitch-pink: #FF7698;
@@ -34,19 +51,6 @@ to this section's matching END comment to see page-specific styles.
 }
 [hidden] {
   display: none !important;
-}
-
-/* Import fonts */
-@font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-    format("opentype");
-}
-@font-face {
-  font-family: HK Grotesk;
-  font-weight: bold;
-  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
-    format("opentype");
 }
 
 /* Our remix on glitch button */
@@ -91,7 +95,7 @@ to this section's matching END comment to see page-specific styles.
 
 .footer a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
-  font-family: HK Grotesk;
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: normal;
   font-size: 1.1rem;
@@ -103,7 +107,7 @@ a:not(.btn--remix):visited {
   background: var(--color-primary);
 }
 
-.footer .links {
+.footer .glitch-links {
   padding: 0.5rem 1rem 1.5rem;
   white-space: nowrap;
 }
@@ -146,7 +150,7 @@ h4,
 h5 {
   margin: 2rem 0 .8rem;
   font-family: var(--font-family-header);
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1.1;
   color: var(--color-text-main);
 }
@@ -200,7 +204,7 @@ a:hover {
   background: var(--color-primary);
 }
 
-.footer .links {
+.footer .glitch-links {
   padding: 0.25rem 1rem 1rem;
   text-align: left;
 }
@@ -235,7 +239,7 @@ ul.link-list {
 }
 
 ul.link-list li {
-  font-family: Menlo,Consolas,Monaco,"Lucida Console",monospace;
+  font-family: var(--font-family-list);
   font-weight: 100;
   list-style: none;
   clear: both;
@@ -243,15 +247,15 @@ ul.link-list li {
   min-width: 100%;
   text-align: center;
   margin: 1rem auto;
+  font-size:0.9em;
 }
 
 ul.link-list li a {
-  font-size: 0.8em;
   min-height: 5.5em;
   min-width: 100%;
   display: flex;
   align-content: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items:center;
 }
 
@@ -272,6 +276,8 @@ ul.link-list li a img {
 }
 ul.link-list li a span {
   z-index:2;
+  padding-left:1rem;
+  padding-right:1rem;
 }
 
 /* Page will display all icons with a value in settings.json social object */

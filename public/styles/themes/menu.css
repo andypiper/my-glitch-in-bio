@@ -16,7 +16,6 @@ body {
 
 ul.link-list li a:link,
 ul.link-list li a:visited {
-  justify-content:flex-start;
   background-color:var(--color-primary);
   border-radius:0.5rem;
   padding:0.5rem;
@@ -26,9 +25,7 @@ ul.link-list li a:visited {
   min-height:4.5rem;
 }
 ul.link-list li a span {
-  padding-left:1rem;
   text-align:justify;
-  padding-right:1rem;
   line-height:1.2em;
 }
 ul.link-list li a:hover {

@@ -64,6 +64,8 @@ ul.link-list li {
   border-radius: 0;
   overflow: hidden;  
   margin: 0;
+  font-family: Menlo,Consolas,Monaco,"Lucida Console",monospace;
+  font-size:0.8em;
 }
 
 ul.link-list li a {

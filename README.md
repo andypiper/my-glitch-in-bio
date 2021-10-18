@@ -13,6 +13,8 @@ To help you make the site your own we've included some themes. In `settings.json
 
 * The images you add in `settings.json` as the `img` property for each link will display if you select the `gallery` or `menu` themes. Upload yours in `assets` and copy the link from there if they aren't already online.
 
+__To get started adding your own theme, use `custom-theme.css` to set global variables like colors and fonts, and add any rules you like. Make sure you select your theme using its name in `settings.json` as the `theme` property (you can also change the filename if you like, just remember to update it in your settings JSON.__
+
 In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. **For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).**
 
 ___The images in the default settings.json file are from a remix of [Generative Placeholders](https://glitch.com/~generative-placeholders) by [@stefan](https://glitch.com/@stefan).___ 🖼️🪅✨
