@@ -150,7 +150,7 @@ h4,
 h5 {
   margin: 2rem 0 .8rem;
   font-family: var(--font-family-header);
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.1;
   color: var(--color-text-main);
 }
