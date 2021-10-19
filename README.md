@@ -32,7 +32,7 @@ ___The images in the default settings.json file are from a remix of [Generative 
 
 ← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`. You can create a new theme by adding a CSS file to this folder and selecting it using its name in the settings (e.g. `glitch`, `gallery`, `menu`, or whatever yours is called!)
 
-← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA)–if you add new assets e.g. a stylesheet you can include them in the list in `sw.js` to cache your site for offline viewing.
+← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA)–if you add new assets (e.g. stylesheets) you can include them in the list in `sw.js` to cache your site for offline viewing.
 
 ← `assets`: Add images here and copy the links into `settings.json` to show them in your site.
 
