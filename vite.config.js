@@ -26,6 +26,12 @@ export default defineConfig({
     strictPort: true,
     hmr: {
       port: 443 // Run the websocket server on the SSL port - [Do we need this server object? -Jenn]
+    },
+    watch: {
+      awaitWriteFinish: {
+        stabilityThreshold: 2000,
+        pollInterval: 100
+      }
     }
   }
 });
