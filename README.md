@@ -14,7 +14,7 @@ To help you make the site your own we've included some themes. In `settings.json
 * The images you add in `settings.json` as the `img` property for each link will display if you use the `gallery` or `menu` themes. Upload yours in `assets` and copy the link from there if they aren't already online.
 * If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
 
-__To get started changing the appearance of your site, or adding your own theme, use `custom-theme.css` to set global variables like colors and fonts, and add any rules you like. Make sure you enter your theme by name in `settings.json` as the `theme` property (you can also change the filename if you like, just remember to update it in your settings JSON.__
+__To get started changing the appearance of your site, or building your own theme, use `custom-theme.css` to set global variables like colors and fonts, and add any rules you like. Make sure you enter your theme by name in `settings.json` as the `theme` property (`custom-theme` or change the filename if you like, just remember to update it in your settings JSON).__
 
 In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. **For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).**
 
