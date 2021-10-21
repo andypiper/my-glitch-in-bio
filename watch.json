@@ -11,7 +11,9 @@
       "^backend/"
     ],
     "exclude": [
-      "src/" 
+      "public/",
+      "vite.config.js",
+      "settings.json"
     ]
   },
   "noSavedEvents": true

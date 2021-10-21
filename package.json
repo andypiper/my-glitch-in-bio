@@ -2,14 +2,14 @@
   "name": "glitch-in-bio",
   "version": "0.0.1",
   "description": "Your very own link-in-bio app.",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
-    "vite-plugin-handlebars": "^1.6.0",
+    "handlebars": "^4.7.6",
     "vite": "^2.5.0"
   },
   "browserslist": [
@@ -24,5 +24,6 @@
   },
   "glitch": {
     "projectType": "generated_static"
-  }
+  },
+  "dependencies": {}
 }

@@ -12,6 +12,7 @@ To get started, open `settings.json` and add your name, avatar, social accounts,
 To help you make the site your own we've included some themes. In `settings.json` you can enter `glitch`, `gallery`, or `menu` as the value for `theme`. Use any theme you want, add a new one, or start with one and edit it to make it your own. _If you don't have a valid theme entered, the site will default to the styles outlined in `style.css`._
 
 * The images you add in `settings.json` as the `img` property for each link will display if you use the `gallery` or `menu` themes. Upload yours in `assets` and copy the link from there if they aren't already online.
+* If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
 
 __To get started changing the appearance of your site, or adding your own theme, use `custom-theme.css` to set global variables like colors and fonts, and add any rules you like. Make sure you enter your theme by name in `settings.json` as the `theme` property (you can also change the filename if you like, just remember to update it in your settings JSON.__
 
@@ -35,6 +36,8 @@ ___The images in the default settings.json file are from a remix of [Generative 
 ← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA)–if you add new assets (e.g. stylesheets) you can include them in the list in `sw.js` to cache your site for offline viewing.
 
 ← `assets`: Add images here and copy the links into `settings.json` to show them in your site.
+
+← `vite-plugin-glitch-handlebars/`: This folder contains a modified version of [vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) we use to improve the preview experience while you work on your app–you shouldn't need to change anything in here!
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 

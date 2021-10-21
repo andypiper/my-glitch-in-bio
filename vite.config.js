@@ -1,37 +1,33 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
-import handlebars from "vite-plugin-handlebars";
-
-// import json of links and meta in /config
-import settings from "./settings.json";
+// Slightly modified from https://github.com/alexlafroscia/vite-plugin-handlebars
+import handlebars from "./vite-plugin-glitch-handlebars/index";
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [
-    handlebars({
-      partialDirectory: resolve(__dirname, 'layout'),
-      helpers: {
-        hostasclass: (value) => new URL(value).hostname.replace(/\./g,'_'),
-      },
-      context: {
-        settings
-      }
-    })
-  ],
-  build: {
-    cssCodeSplit: false,
-    outDir: "build"
-  },
-  server: {
-    strictPort: true,
-    hmr: {
-      port: 443
+export default defineConfig(async ({ command, mode }) => {
+  return {
+    plugins: [
+      handlebars({
+        partialDirectory: resolve(__dirname, "layout"),
+        settingsFile: 'settings.json',
+        helpers: {
+          hostasclass: value => new URL(value).hostname.replace(/\./g, "_")
+        },
+        reloadOnPartialChange: true
+      })
+    ],
+    build: {
+      cssCodeSplit: false,
+      outDir: "build"
     },
-    watch: {
-      awaitWriteFinish: {
-        stabilityThreshold: 2000,
-        pollInterval: 100
+    optimizeDeps: {
+      exclude: ['./settings.json']
+    },
+    server: {
+      strictPort: true,
+      hmr: {
+        port: 443
       }
     }
-  }
+  };
 });
