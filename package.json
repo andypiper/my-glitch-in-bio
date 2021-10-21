@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "handlebars": "^4.7.6",
+    "@glitchdotcom/vite-plugin-handlebars": "^1.6.2",
     "vite": "^2.5.0"
   },
   "browserslist": [

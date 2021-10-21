@@ -37,8 +37,6 @@ ___The images in the default settings.json file are from a remix of [Generative 
 
 ← `assets`: Add images here and copy the links into `settings.json` to show them in your site.
 
-← `vite-plugin-glitch-handlebars/`: This folder contains a modified version of [vite-plugin-handlebars](https://github.com/alexlafroscia/vite-plugin-handlebars) we use to improve the preview experience while you work on your app–you shouldn't need to change anything in here!
-
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
 ## You built this with Glitch!
