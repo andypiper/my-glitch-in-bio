@@ -2,24 +2,41 @@
 
 Your links, your way. A link-in-bio app you can customize any way you want.
 
-🚀 **TL;DR Remix and edit `settings.json` to add your own links!** 🚀
+![screen gif showing the header of the glitch-in-bio remix being updated to say "hello, world!"](https://cdn.glitch.me/8fa3e636-2989-4bb4-87e5-c44e7ffde070%2F2021-10-26%2016.43.43.gif?v=1635281123481)
+
+## Direct traffic to your own Glitch-in-bio app in 3 steps:
+
+### 1. Remix this app for your own, live version in seconds
+
+Then click **Show** on the top right of this window and then **Open in new window** to see the live app in its own window, with a free `glitch.me` domain ready to share. 
+
+📝 _Make sure to log into Glitch to save your new app or else it will expire in 5 days._
 
 
-### Working with Glitch in Bio
+### 2. Edit `settings.json` to add your own info and links
 
-To get started, open `settings.json` and add your name, avatar, social accounts, and links. Your changes will all be reflected instantly. 
+Replace the meta info, links and social sites we added for you in `settings.json` and you'll see your changes instantly updated in real time! 
 
-To help you make the site your own we've included some themes. In `settings.json` you can enter `glitch`, `gallery`, or `menu` as the value for `theme`. Use any theme you want, add a new one, or start with one and edit it to make it your own. _If you don't have a valid theme entered, the site will default to the styles outlined in `style.css`._
+If you want to include images, upload them in `assets` and copy the URLs into your settings JSON too–_make sure you have a theme selected that shows images like `gallery` or `menu`_.
 
-* The images you add in `settings.json` as the `img` property for each link will display if you use the `gallery` or `menu` themes. Upload yours in `assets` and copy the link from there if they aren't already online.
+
+### 3. Choose a theme
+
+To help you make the site your own we've included some themes. In `settings.json` you can enter `glitch`, `gallery`, or `menu` as the value for `theme`. 
+
+📝  _If you want to see how these themes are made, look in the `public/styles/themes` directory! If you don't have a valid theme entered, the site will default to the styles outlined in `style.css`._
+
+### ...or create your own!
+
+Customize your site by updating `custom-theme.css` inside the `public/styles/themes` folder with CSS to update colors, fonts, or any other style rules. Update your `theme` in `settings.json` to `custom-theme` to have the app use those new rules.
+
+📝 _You can rename `custom-theme.css`, just make sure you use the new file name as your theme value in `settings.json`._
+
+
+## Other Tips & tricks
 * If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
 
-__To get started changing the appearance of your site, or building your own theme, use `custom-theme.css` to set global variables like colors and fonts, and add any rules you like. Make sure you enter your theme by name in `settings.json` as the `theme` property (`custom-theme` or change the filename if you like, just remember to update it in your settings JSON).__
-
-In `index.html` you'll see where the theme is applied to the page at the first comment, which starts with `<!--- THEMES:`. We've also included a few `<!--- NEXT STEPS: ` comments in the HTML that show things like adding a bio paragraph or embedding a YouTube video. **For more HTML learning try out [Hello Website](https://glitch.com/~glitch-hello-website).**
-
-___The images in the default settings.json file are from a remix of [Generative Placeholders](https://glitch.com/~generative-placeholders) by [@stefan](https://glitch.com/@stefan).___ 🖼️🪅✨
-
+__Coming soon__: Help resources and community inspiration for extending your app.
 
 ## What's in this project?
 
