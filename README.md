@@ -32,11 +32,12 @@ Customize your site by updating `custom-theme.css` inside the `public/styles/the
 
 📝 _You can rename `custom-theme.css`, just make sure you use the new file name as your theme value in `settings.json`._
 
+🖼️ Check out examples of other themes the community has created in [this Playlist](https://glitch.com/@glitch/featured-glitch-in-bio-remixes) and [submit your own](https://forms.gle/9WFWjSmhdiEoRgVs5) to share!
 
 ## Other Tips & tricks
-* If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
 
-__Coming soon__: Help resources and community inspiration for extending your app.
+* If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
+* Looking for ways to extend your app, or for inspiration? Check out the official [Glitch-in-bio page](https://glitch.com/glitch-in-bio).
 
 ## What's in this project?
 
