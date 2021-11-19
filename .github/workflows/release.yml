@@ -1,0 +1,34 @@
+name: Create Release
+
+on: [push]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
+
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: npm-deps-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            npm-deps-${{ hashFiles('package-lock.json') }}
+
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          npm ci
+          npm run build
+          npx auto shipit

@@ -6,12 +6,16 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "release": "auto shipit"
   },
   "devDependencies": {
-    "handlebars": "^4.7.6",
-    "@glitchdotcom/vite-plugin-handlebars": "^1.6.2",
-    "vite": "^2.5.0"
+    "@auto-it/all-contributors": "^10.32.2",
+    "@auto-it/first-time-contributor": "^10.32.2",
+    "@auto-it/released": "^10.32.2",
+    "auto": "^10.32.2",
+    "vite": "^2.5.0",
+    "@glitchdotcom/vite-plugin-handlebars": "^1.6.2"
   },
   "browserslist": [
     ">0.2%",
@@ -26,5 +30,13 @@
   "glitch": {
     "projectType": "generated_static"
   },
-  "dependencies": {}
+  "author": "Keith Kurson <keith@glitch.com>",
+  "auto": {
+    "plugins": [
+      "all-contributors",
+      "first-time-contributor",
+      "released"
+    ],
+    "onlyPublishWithReleaseLabel": true
+  }
 }

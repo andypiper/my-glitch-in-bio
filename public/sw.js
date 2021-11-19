@@ -22,8 +22,7 @@ self.addEventListener("install", e => {
   );
 });
 
-// Network falling back to cache approach 
-// https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker
+// Network falling back to cache approach
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     fetch(event.request).catch(function() {
