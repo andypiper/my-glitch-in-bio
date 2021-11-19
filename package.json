@@ -6,16 +6,12 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "release": "auto shipit"
+    "serve": "vite preview"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "^10.32.2",
-    "@auto-it/first-time-contributor": "^10.32.2",
-    "@auto-it/released": "^10.32.2",
-    "auto": "^10.32.2",
-    "vite": "^2.5.0",
-    "vite-plugin-handlebars": "^1.6.0"
+    "handlebars": "^4.7.6",
+    "@glitchdotcom/vite-plugin-handlebars": "^1.6.2",
+    "vite": "^2.5.0"
   },
   "browserslist": [
     ">0.2%",
