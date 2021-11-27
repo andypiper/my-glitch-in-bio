@@ -8,14 +8,14 @@
 ></script>
 <!-- render emojis as Twemoji -->
 <script>
-  window.onload = function() {
-    // Parses the document body and
-    // inserts <img> tags in place of Unicode Emojis
-    twemoji.parse(
-      document.body,
-      { folder: "svg", ext: ".svg" } // This is to specify to Twemoji to use SVGs and not PNGs
-    );
-  };
+  
+        window.onload = function() {    
+            // Parses the document body and    
+            // inserts <img> tags in place of Unicode Emojis
+          twemoji.size = '72x72';
+            twemoji.parse(document.body);
+
+        }
 </script>
 
 <!-- CSS configurations to tweak how the Twemojis are displayed -->
@@ -24,8 +24,8 @@ img.emoji {
    height: 0.5em;
    width: 0.5em;
    margin: 0 .05em 0 .1em;
-   vertical-align: -1.1em;
-  pointer-events: none;
+   vertical-align: -0.1em;
+   pointer-events: none;
   }
 </style>
 
