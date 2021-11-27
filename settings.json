@@ -2,6 +2,7 @@
   "metaTitle": "Andy Piper's links",
   "metaDescription": "Links to interesting things Andy Piper is doing",
   "name": "Andy Piper's links",
+  "bio": "Twitter | MQTT | LEGO | Pi | DevRel",
   "theme": "dusky-lory",
   "avatarImage": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=200",
   "links": [
@@ -26,6 +27,7 @@
     "spotify": "",
     "substack": "",
     "dev": "https://dev.to/andypiper",
+    "stackoverflow": "https://stackoverflow.com/users/262478/andy-piper",
     "facebook": "",
     "github": "https://github.com/andypiper",
     "instagram": "",
