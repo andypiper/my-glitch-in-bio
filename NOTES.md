@@ -4,7 +4,8 @@
   - used coolors.co to make a palette
   - imported a Google Fonts resource
 - using Gravatar for personal image
-- added a short bio link to `settings.json` with para markup in `index.html`
+- fixed `head.html` to correctly include `og` and `twitter` meta tags
+- added a short bio link to `settings.json` -> para markup in `index.html`
 - added Stack Overflow and Ko-fi icons to `social.html` footer
   - used SVGs from Iconify
 - borrowed [Tweet links](https://glitch.com/~tweet-links) template, updated to use timelines as well as Tweets and customised params to match theme
