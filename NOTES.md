@@ -33,6 +33,8 @@
 - podcast / audio player plugin to unfold from the Podcast button? listed in page?
   - could point to latest episode, using the podcast RSS
 - ~~make the `avatarImageAlt` a mouseover effect?~~
+- I'd quite like some stats of some kind to gauge vists / what content gets attention
+
 
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
 
