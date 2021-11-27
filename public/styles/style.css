@@ -259,3 +259,10 @@ ul.link-list li a span {
 /******************************************************************************
 END Glitch in Bio default theme
 ******************************************************************************/
+/* Tweets */
+
+ul.tweets {
+  list-style-type: none;
+  padding-left:0;
+  padding-bottom:1rem;
+}

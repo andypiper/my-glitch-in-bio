@@ -1,3 +1,12 @@
+{{#if settings.social.twitter}}
+    <blockquote><a class="twitter-timeline" data-theme="dark" data-tweet-limit="3" data-dnt=true href="{{ settings.social.twitter }}"></a></blockquote>
+<script
+  async
+  src="https://platform.twitter.com/widgets.js"
+  charset="utf-8"
+></script>
+{{/if}}
+
 {{#if settings.tweets}}
 <ul class="tweets">
   {{#each settings.tweets}}
