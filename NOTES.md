@@ -27,7 +27,7 @@
 - twemoji plugin (scratchpad below, but as this is, it messes with alignment)
   - nice to have because it means you have the same emoji on all platforms
   - could also just put them in as images in the list items _shrug_
-  - also twemoji are CC BY-4.0 -> attribution req'd if used
+  - also twemoji are CC-BY-4.0 -> attribution req'd if used
 - podcast / audio player plugin to unfold from the Podcast button? listed in page?
   - could point to latest episode, using the podcast RSS
 - ~~make the `avatarImageAlt` a mouseover effect?~~
@@ -37,6 +37,8 @@
 I was thinking about embedding YT content etc but want to keep it simple
 
 Digging around in Vite, looks like Vite 2.7 will enable `server.fs.deny` so that the markdown and other files can avoid being served.
+
+^^^ this is probably my mistake in thinking they are available in 2.5/6, seems to only let me hit the index page now.
 
 ## Code scratchpad
 
