@@ -3,7 +3,7 @@ TIP: a customised theme
 
 - Make sure you have `dusky-lory` in settings.json theme property
 ******************************************************************************/
-@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Space+Mono&display=swap");
 
 :root {
   /* CSS HEX palette (from coolors.co) */
@@ -12,7 +12,7 @@ TIP: a customised theme
   --steel-teal: #55868cff;
   --thistle: #d4c1ecff;
   --french-lilac: #89608eff;
-  /* my preferred fonts, from Google Fonts */ 
+  /* my preferred fonts, from Google Fonts */
   --font-family: "Space Mono", sans-serif;
   --font-family-header: "Space Mono", sans-serif;
   --font-family-list: "Space Mono", sans-serif;
@@ -64,7 +64,6 @@ ul.link-list li a img {
   fill: var(--color-bg-alt);
 }
 
-
 /* The footer and remix on glitch button */
 .footer {
   display: flex;
@@ -81,7 +80,7 @@ ul.link-list li a img {
 }
 .footer .tagline {
   padding: 0.25rem 1rem 1rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   text-align: left;
   white-space: nowrap;
 }
