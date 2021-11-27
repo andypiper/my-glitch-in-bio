@@ -1,4 +1,6 @@
-# Changes from the default template
+# Working notes
+
+## Changes from the default Glitch in Bio template
 
 - custom style (`dusky-lory.css`)
   - used [coolors.co](https://coolors.co) to make a palette
@@ -13,7 +15,7 @@
 - I decided I wanted a different image for the favicon/homescreen icon than on the page itself, so I added `avatarImageAlt` to settings
 - excluded `.md` files from restart/install in `watch.json`
 
-# TODO / ideas
+## TODO / ideas
 
 - ~~add Tweet timeline~~
   - make this fold up?
@@ -21,10 +23,17 @@
 - refactor the SVGs out from the `social` template to make it cleaner
 - twemoji plugin (scratchpad below, but as this is, it messes with alignment)
   - nice to have because it means you have the same emoji on all platforms
-  - could also just put them in as images in the list items *shrug*
+  - could also just put them in as images in the list items _shrug_
   - also twemoji are CC BY-4.0 -> attribution req'd if used
+- podcast / audio player plugin to unfold from the Podcast button? listed in page?
+  - could point to latest episode in podcast RSS
+- make the `avatarImageAlt` a mouseover effect?
 
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
+
+I was thinking about embedding YT content etc but want to keep it simple
+
+## Code scratchpad
 
 ```
 <!-- twemoji -->
@@ -57,4 +66,6 @@ img.emoji {
 </style>
 ```
 
-## 
+## Original ideas
+
+![Sketchnotes](https://cdn.glitch.me/844643de-894b-49ce-8757-32fad8afa3c9%2Fideas-sketch.jpeg?v=1638029223822)

@@ -266,3 +266,19 @@ ul.tweets {
   padding-left:0;
   padding-bottom:1rem;
 }
+
+/* hover effect for avatar */
+
+.avatar-container {
+  position: relative;
+}
+.avatar-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+.avatar-hover:hover {
+  opacity: 1;
+}
