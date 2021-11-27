@@ -35,6 +35,7 @@
 - ~~make the `avatarImageAlt` a mouseover effect?~~
 - I'd quite like some stats of some kind to gauge vists / what content gets attention
 - check WCAG stuff for a11y
+- Gravatar improvement: if the user adds an email address to settings, generate the Gravatar URL (it is the MD5 hash of an email address)
 
 ### docs
 
