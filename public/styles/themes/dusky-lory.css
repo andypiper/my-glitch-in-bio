@@ -1,11 +1,7 @@
 /******************************************************************************
-TIP: Get started creating your own theme here
-
-- Set values for the main site variables for properties like fonts and colors
-- You can also add any style rules you like
+TIP: a customised theme
 
 - Make sure you have `dusky-lory` in settings.json theme property
-- (Update it if you changed the CSS file name)
 ******************************************************************************/
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
@@ -16,23 +12,22 @@ TIP: Get started creating your own theme here
   --steel-teal: #55868cff;
   --thistle: #d4c1ecff;
   --french-lilac: #89608eff;
+  /* my preferred fonts, from Google Fonts */ 
   --font-family: "Space Mono", sans-serif;
   --font-family-header: "Space Mono", sans-serif;
   --font-family-list: "Space Mono", sans-serif;
+  /* set up colors for the theme */
   --color-bg: var(--oxford-blue);
   --color-bg-alt: var(--thistle);
   --color-text-main: var(--gold-crayola);
   --color-primary: var(--steel-teal);
 }
 
-/* Add your style rules! */
-
 body {
   color: var(--color-text-main);
 }
 
-p
-{
+p {
   padding: 10px;
 }
 
@@ -78,6 +73,7 @@ ul.link-list li a img {
   padding: 1rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
+  border-top: none;
 }
 
 .footer a:hover {
@@ -85,6 +81,7 @@ ul.link-list li a img {
 }
 .footer .tagline {
   padding: 0.25rem 1rem 1rem;
+  font-size: .75rem;
   text-align: left;
   white-space: nowrap;
 }
