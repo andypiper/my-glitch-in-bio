@@ -17,5 +17,39 @@
   - make this fold up?
 - add Revue social link (edit social template)
 - refactor the SVGs out from the `social` template to make it cleaner
+- twemoji plugin (scratchpad below, but messes with alignment)
+  - could also just put them in as images in the list items *shrug*
+  - also these are CC BY-4.0 / attribution req'd if used
 
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
+
+```
+<!-- twemoji -->
+<script
+  src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+  crossorigin="anonymous"
+></script>
+<!-- render emojis as Twemoji -->
+<script>
+  window.onload = function() {
+    // Parses the document body and
+    // inserts <img> tags in place of Unicode Emojis
+    twemoji.parse(
+      document.body,
+      { folder: "svg", ext: ".svg" } // This is to specify to Twemoji to use SVGs and not PNGs
+    );
+  };
+</script>
+
+<!-- CSS configurations to tweak how the Twemojis are displayed -->
+<style>
+img.emoji {
+   transform: scale(0.5);
+   height: 0.5em;
+   width: 0.5em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.5em;
+   pointer-events: none;
+  }
+</style>
+```
