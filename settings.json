@@ -2,23 +2,28 @@
   "metaTitle": "Andy Piper's links",
   "metaDescription": "Links to interesting things Andy Piper is doing",
   "name": "Andy Piper's links",
-  "bio": "Twitter | MQTT | LEGO | Pi | DevRel",
+  "bio": "Twitter | Open Source | Community | LEGO",
   "theme": "dusky-lory",
   "avatarImage": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=200",
   "links": [
     {
       "url": "https://gamesatwork.biz/",
-      "text": "Podcast: Games at Work",
+      "text": "🎧 Podcast: Games at Work",
       "img":""
     },
     {
       "url": "https://andypiper.co.uk",
-      "text": "Website",
+      "text": "🌐 Website",
+      "img": ""
+    },
+    {
+      "url": "https://last.fm/user/andypiper",
+      "text": "🎵 What I'm listening to",
       "img": ""
     },
     {
       "url": "https://www.amazon.co.uk/hz/wishlist/ls/2T42T5FUJ1OBF?ref_=wl_share",
-      "text": "Wishlist",
+      "text": "✨ Wishlist",
       "img":""
     }
   ],

@@ -7,6 +7,7 @@ TIP: Get started creating your own theme here
 - Make sure you have `dusky-lory` in settings.json theme property
 - (Update it if you changed the CSS file name)
 ******************************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 :root {
   /* CSS HEX palette (from coolors.co) */
