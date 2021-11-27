@@ -16,7 +16,7 @@
 - borrowed [Tweet links](https://glitch.com/~tweet-links) template, updated to use timelines as well as Tweets and customised params to match theme
 - I decided I wanted a different image for the favicon/homescreen icon than on the page itself, so I added `avatarImageAlt` to settings
   - and, then added a CSS opacity mouseover effect to fade between them (in `avatar.html` and `style.css` so this is independent of theme)
-- excluded `.md` files from restart/install in `watch.json`
+- excluded `.md` files from restart in `watch.json`
 
 ## TODO / ideas
 
@@ -35,6 +35,8 @@
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
 
 I was thinking about embedding YT content etc but want to keep it simple
+
+Digging around in Vite, looks like Vite 2.7 will enable `server.fs.deny` so that the markdown and other files can avoid being served.
 
 ## Code scratchpad
 

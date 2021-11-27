@@ -2,9 +2,6 @@
   "install": {
     "include": [
       "^package\\.json$"
-    ],
-    "exclude": [
-      "^\\.md$"
     ]
   },
   "restart": {

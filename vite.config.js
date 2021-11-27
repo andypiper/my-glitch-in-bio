@@ -25,10 +25,6 @@ export default defineConfig(async ({ command, mode }) => {
     },
     server: {
       strictPort: true,
-      fs: {
-        strict: true,
-        deny: ['^\\.md$']
-      },
       hmr: {
         port: 443
       }
