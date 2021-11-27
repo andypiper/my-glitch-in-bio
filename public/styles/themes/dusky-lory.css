@@ -8,23 +8,52 @@ TIP: Get started creating your own theme here
 - (Update it if you changed the CSS file name)
 ******************************************************************************/
 
-/* CSS HEX palette (from coolors.co) */
-{
---oxford-blue: #00072dff;
---gold-crayola: #edcb96ff;
---steel-teal: #55868cff;
---thistle: #d4c1ecff;
---french-lilac: #89608eff;
-}
-
 :root {
+  /* CSS HEX palette (from coolors.co) */
+  --oxford-blue: #00072dff;
+  --gold-crayola: #edcb96ff;
+  --steel-teal: #55868cff;
+  --thistle: #d4c1ecff;
+  --french-lilac: #89608eff;
   --font-family: "Space Mono", sans-serif;
   --font-family-header: "Space Mono", sans-serif;
   --font-family-list: "Space Mono", sans-serif;
-  --color-bg: #00072dff;
-  --color-bg-alt: #d4c1ecff;
-  --color-text-main: #edcb96ff;
-  --color-primary: #55868cff;
+  --color-bg: var(--oxford-blue);
+  --color-bg-alt: var(--thistle);
+  --color-text-main: var(--gold-crayola);
+  --color-primary: var(--steel-teal);
 }
 
 /* Add your style rules! */
+
+ul.link-list li a {
+  display: flex;
+}
+ul.link-list li a:link,
+ul.link-list li a:visited {
+  background-color: var(--color-primary);
+  border-radius: 0.75em;
+  padding: 0.5rem;
+  font-size: 1em;
+  min-height: 4.5rem;
+}
+ul.link-list li a span {
+  text-align: justify;
+  line-height: 1.2em;
+  flex-grow: 1;
+  text-align: center;
+}
+ul.link-list li a:hover {
+  background-color: var(--color-bg);
+}
+ul.link-list li a img {
+  border-radius: 0.2rem;
+  width: 3rem;
+  overflow: visible;
+}
+.social-profile-icon path {
+  fill: var(--color-primary);
+}
+.social-profile-icon path:hover {
+  fill: var(--color-bg-alt);
+}
