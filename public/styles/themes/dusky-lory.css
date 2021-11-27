@@ -26,6 +26,15 @@ TIP: Get started creating your own theme here
 
 /* Add your style rules! */
 
+body {
+  color: var(--color-text-main);
+}
+
+p
+{
+  padding: 10px;
+}
+
 ul.link-list li a {
   display: flex;
 }
@@ -51,9 +60,11 @@ ul.link-list li a img {
   width: 3rem;
   overflow: visible;
 }
+
 .social-profile-icon path {
   fill: var(--color-primary);
 }
 .social-profile-icon path:hover {
   fill: var(--color-bg-alt);
 }
+
