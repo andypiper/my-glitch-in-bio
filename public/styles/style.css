@@ -269,6 +269,8 @@ ul.tweets {
 }
 
 /* hover effect for avatar */
+/* fades between two images on hover */
+/* you have to hold to see it on touch device */
 
 .avatar-container {
   position: relative;
@@ -277,7 +279,7 @@ ul.tweets {
 .avatar-hover {
   position: absolute;
   opacity: 0;
-  transition: opacity 1s ease-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .avatar-hover:hover {
