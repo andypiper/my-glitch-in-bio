@@ -6,9 +6,9 @@
   "avatarImage": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=200",
   "links": [
     {
-      "url": "https://glitch.new/links",
-      "text": "Something",
-      "img":"https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Fglitchmidblues.png?v=1634289872484"
+      "url": "https://gamesatwork.biz/",
+      "text": "Podcast: Games at Work",
+      "img":""
     },
     {
       "url": "https://glitch.com/edit/#!/glitch-in-bio?path=README.md",
@@ -32,6 +32,7 @@
     "linkedin": "https://www.linkedin.com/in/andypiperuk/",
     "medium": "",
     "patreon": "",
+    "kofi": "",
     "pinterest": "",
     "twitter": "https://twitter.com/andypiper",
     "youtube": "https://www.youtube.com/andypiperuk",
