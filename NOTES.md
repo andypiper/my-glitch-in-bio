@@ -13,6 +13,7 @@
   - used SVGs from [Iconify](https://iconify.design/)
 - borrowed [Tweet links](https://glitch.com/~tweet-links) template, updated to use timelines as well as Tweets and customised params to match theme
 - I decided I wanted a different image for the favicon/homescreen icon than on the page itself, so I added `avatarImageAlt` to settings
+  - ... and then added a mouseover effect to fade between them (in `avatar.html` and `style.css` so this is independent of theme)
 - excluded `.md` files from restart/install in `watch.json`
 
 ## TODO / ideas
@@ -27,7 +28,7 @@
   - also twemoji are CC BY-4.0 -> attribution req'd if used
 - podcast / audio player plugin to unfold from the Podcast button? listed in page?
   - could point to latest episode in podcast RSS
-- make the `avatarImageAlt` a mouseover effect?
+- ~~make the `avatarImageAlt` a mouseover effect?~~
 
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
 

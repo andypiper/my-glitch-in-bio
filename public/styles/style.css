@@ -259,6 +259,7 @@ ul.link-list li a span {
 /******************************************************************************
 END Glitch in Bio default theme
 ******************************************************************************/
+
 /* Tweets */
 
 ul.tweets {
@@ -272,13 +273,13 @@ ul.tweets {
 .avatar-container {
   position: relative;
 }
+
 .avatar-hover {
   position: absolute;
-  top: 0;
-  left: 0;
   opacity: 0;
   transition: opacity 1s ease-out;
 }
+
 .avatar-hover:hover {
   opacity: 1;
 }
