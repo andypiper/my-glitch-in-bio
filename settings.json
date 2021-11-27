@@ -32,6 +32,11 @@
       "img":""
     }
   ],
+  "tweets": [
+    {
+      "url": "https://twitter.com/andypiper"
+    }
+  ],
   "social": {
     "glitch": "https://glitch.com/@andypiper",
     "spotify": "",

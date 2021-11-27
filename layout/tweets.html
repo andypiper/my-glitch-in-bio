@@ -1,0 +1,14 @@
+{{#if settings.tweets}}
+<ul class="tweets">
+  {{#each settings.tweets}}
+  <li>
+    <blockquote class="twitter-tweet"><a href="{{ this.url }}"></a></blockquote>
+  </li>
+  {{/each}}
+</ul>
+<script
+  async
+  src="https://platform.twitter.com/widgets.js"
+  charset="utf-8"
+></script>
+{{/if}}
