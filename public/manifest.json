@@ -6,13 +6,13 @@
     {
       "sizes": "800x800",
       "type": "image/png",
-      "src": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=800",
+      "src": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=800",
       "purpose": "any"
     },
     {
       "sizes": "180x180",
       "type": "image/png",
-      "src": "hhttps://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=180",
+      "src": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=180",
       "purpose": "maskable"
     }
   ],

@@ -10,6 +10,7 @@
 - added Stack Overflow and Ko-fi icons to `social.html` footer
   - used SVGs from [Iconify](https://iconify.design/)
 - borrowed [Tweet links](https://glitch.com/~tweet-links) template, updated to use timelines as well as Tweets and customised params to match theme
+- I decided I wanted a different image for the favicon/homescreen icon than on the page itself, so I added `avatarImageAlt` to settings
 
 # TODO / ideas
 
@@ -17,9 +18,10 @@
   - make this fold up?
 - add Revue social link (edit social template)
 - refactor the SVGs out from the `social` template to make it cleaner
-- twemoji plugin (scratchpad below, but messes with alignment)
+- twemoji plugin (scratchpad below, but as this is, it messes with alignment)
+  - nice to have because it means you have the same emoji on all platforms
   - could also just put them in as images in the list items *shrug*
-  - also these are CC BY-4.0 / attribution req'd if used
+  - also twemoji are CC BY-4.0 -> attribution req'd if used
 
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
 
