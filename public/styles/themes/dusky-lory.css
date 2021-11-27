@@ -8,23 +8,23 @@ TIP: Get started creating your own theme here
 - (Update it if you changed the CSS file name)
 ******************************************************************************/
 
-/* CSS HEX palette (from coolors.io) */
+/* CSS HEX palette (from coolors.co) */
 {
---prussian-blue: #003459ff;
---beau-blue: #c5d5e4ff;
---cool-grey: #8896abff;
---earth-yellow: #e0a458ff;
---antique-bronze: #73683bff;
+--oxford-blue: #00072dff;
+--gold-crayola: #edcb96ff;
+--steel-teal: #55868cff;
+--thistle: #d4c1ecff;
+--french-lilac: #89608eff;
 }
 
 :root {
   --font-family: "Space Mono", sans-serif;
   --font-family-header: "Space Mono", sans-serif;
   --font-family-list: "Space Mono", sans-serif;
-  --color-bg: #c5d5e4ff;
-  --color-bg-alt: #8896abff;
-  --color-text-main: #003459ff;
-  --color-primary: #73683bff;
+  --color-bg: #00072dff;
+  --color-bg-alt: #d4c1ecff;
+  --color-text-main: #edcb96ff;
+  --color-primary: #55868cff;
 }
 
 /* Add your style rules! */
