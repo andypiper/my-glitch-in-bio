@@ -1,6 +1,34 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+<!-- twemoji -->
+<script
+  src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"
+  crossorigin="anonymous"
+></script>
+<!-- render emojis as Twemoji -->
+<script>
+  window.onload = function() {
+    // Parses the document body and
+    // inserts <img> tags in place of Unicode Emojis
+    twemoji.parse(
+      document.body,
+      { folder: "svg", ext: ".svg" } // This is to specify to Twemoji to use SVGs and not PNGs
+    );
+  };
+</script>
+
+<!-- CSS configurations to tweak how the Twemojis are displayed -->
+<style>
+img.emoji {
+   height: 0.5em;
+   width: 0.5em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -1.1em;
+  pointer-events: none;
+  }
+</style>
+
 <!-- OpenGraph/Social sharing -->
 <meta name="og:description" content="{{ settings.metaDescription }}" />
 <meta property="og:image" content="{{ settings.avatarImage }}" />
@@ -9,19 +37,19 @@
 <link rel="icon" href="https://glitch.com/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="/styles/style.css" />
 <!--PWA requirements-->
-<meta name="theme-color" content="#9480FF"/>
-<link rel="apple-touch-icon" href="{{ settings.avatarImage }}">
+<meta name="theme-color" content="#9480FF" />
+<link rel="apple-touch-icon" href="{{ settings.avatarImage }}" />
 
 <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="manifest.json" />
 <script>
-if(location.protocol == 'http:') location.protocol = 'https:';
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js')
-    .then(reg => console.log('Service Worker registered', reg))
-    .catch(err => console.error('Service Worker **not** registered', err));
-}
-else {
-  console.warn('Service Worker not supported in this browser');
-}    
+  if (location.protocol == "http:") location.protocol = "https:";
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("sw.js")
+      .then(reg => console.log("Service Worker registered", reg))
+      .catch(err => console.error("Service Worker **not** registered", err));
+  } else {
+    console.warn("Service Worker not supported in this browser");
+  }
 </script>

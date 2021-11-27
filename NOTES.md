@@ -17,3 +17,5 @@
   - make this fold up?
 - add Revue social link (edit social template)
 - refactor the SVGs out from the `social` template to make it cleaner
+
+(thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
