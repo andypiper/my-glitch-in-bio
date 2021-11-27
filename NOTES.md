@@ -24,6 +24,7 @@
 
 - ~~add Tweet timeline~~
   - make it collapsible?
+- change favicon to match site
 - add Revue social link (edit social template)
 - refactor the SVGs out from the `social` template to make it cleaner
 - twemoji plugin (scratchpad below, but as this is, it messes with alignment)
