@@ -1,5 +1,7 @@
 # Working notes
 
+- [Blog post on DEV.to](https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a)
+
 ## Changes from the default Glitch in Bio template
 
 - custom style (`dusky-lory.css`)
@@ -7,7 +9,7 @@
   - imported a Google Fonts resource
 - using [Gravatar](https://gravatar.com) to get my profile image
   - convenient, as it also lets me get resized versions with `?s=` URL params
-- fixed `head.html` to *correctly* include `og` and `twitter` meta tags
+- fixed `head.html` to _correctly_ include `og` and `twitter` meta tags
   - Twitter Card Validator fails on the default template as-is
   - NOTE: need a minimum of (either `og:` or `twitter:`) `title` and `image` to work; looks best with `description` as well
 - added a short bio link to `settings.json` -> para markup in `index.html`
