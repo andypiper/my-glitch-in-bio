@@ -10,21 +10,21 @@ TIP: Get started creating your own theme here
 
 /* CSS HEX palette (from coolors.io) */
 {
-  --timberwolf: #cfdbd5ff;
-  --alabaster: #e8eddfff;
-  --oxford-blue: #031d44ff;
-  --indigo-dye: #04395eff;
-  --blue-jeans: #00a6fbff;
+--prussian-blue: #003459ff;
+--beau-blue: #c5d5e4ff;
+--cool-grey: #8896abff;
+--earth-yellow: #e0a458ff;
+--antique-bronze: #73683bff;
 }
 
 :root {
   --font-family: "Space Mono", sans-serif;
   --font-family-header: "Space Mono", sans-serif;
   --font-family-list: "Space Mono", sans-serif;
-  --color-bg: #cfdbd5ff;
-  --color-bg-alt: #cfdbd5ff;
-  --color-text-main: #031d44ff;
-  --color-primary: #00a6fbff;
+  --color-bg: #c5d5e4ff;
+  --color-bg-alt: #8896abff;
+  --color-text-main: #003459ff;
+  --color-primary: #73683bff;
 }
 
 /* Add your style rules! */

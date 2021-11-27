@@ -8,7 +8,7 @@
 self.addEventListener("install", e => {
   e.waitUntil(
     // Give the cache a name
-    caches.open("glitch-in-bio-pwa").then(cache => {
+    caches.open("andy-links-pwa").then(cache => {
       // Cache the homepage and stylesheets - add any assets you want to cache!
       return cache.addAll([
         "/", 
@@ -16,7 +16,8 @@ self.addEventListener("install", e => {
         "/styles/themes/glitch.css",
         "/styles/themes/gallery.css",
         "/styles/themes/menu.css",
-        "/styles/themes/custom-theme.css"
+        "/styles/themes/custom-theme.css",
+        "/styles/themes/dusky-lory.css"
       ]);
     })
   );
