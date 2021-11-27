@@ -11,6 +11,7 @@
   - used SVGs from [Iconify](https://iconify.design/)
 - borrowed [Tweet links](https://glitch.com/~tweet-links) template, updated to use timelines as well as Tweets and customised params to match theme
 - I decided I wanted a different image for the favicon/homescreen icon than on the page itself, so I added `avatarImageAlt` to settings
+- excluded `.md` files from restart/install in `watch.json`
 
 # TODO / ideas
 
@@ -55,3 +56,5 @@ img.emoji {
   }
 </style>
 ```
+
+## 
