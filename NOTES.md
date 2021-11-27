@@ -1,4 +1,4 @@
-# Working notes
+# Working notes / dev diary
 
 - [Blog post on DEV.to](https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a)
 
@@ -23,7 +23,7 @@
 ## TODO / ideas
 
 - ~~add Tweet timeline~~
-  - make this fold up?
+  - make it collapsible?
 - add Revue social link (edit social template)
 - refactor the SVGs out from the `social` template to make it cleaner
 - twemoji plugin (scratchpad below, but as this is, it messes with alignment)
@@ -34,15 +34,22 @@
   - could point to latest episode, using the podcast RSS
 - ~~make the `avatarImageAlt` a mouseover effect?~~
 - I'd quite like some stats of some kind to gauge vists / what content gets attention
+- check WCAG stuff for a11y
 
+### docs
+
+- update the `README.md` file so it reflects this project, not just the general Glitch in Bio template
+- don't really need that `CHANGELOG.md` since it seems to be from pre-remix
+- the `LICENSE` looks like it is specific to vite-plugin-react...
+- Glitch "Add CoC" button in editor does not seem to add a useful (to my project) CoC, but I would like to apply something relevant
 
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
 
 I was thinking about embedding YT content etc but want to keep it simple
 
-Digging around in Vite, looks like Vite 2.7 will enable `server.fs.deny` so that the markdown and other files can avoid being served.
+~~Digging around in Vite, looks like Vite 2.7 will enable `server.fs.deny` so that the markdown and other files can avoid being served.~~
 
-^^^ this is probably my mistake in thinking they are available in 2.5/6, seems to only let me hit the index page now.
+^^^ this was probably my mistake in thinking they were being served from the app in 2.5/2.6, seems to only let me hit the index page now, which is what I want.
 
 ## Code scratchpad
 
