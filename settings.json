@@ -7,6 +7,11 @@
   "avatarImage": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=200",
   "links": [
     {
+      "url": "https://glitch.com/@andypiper/twitter-examples",
+      "text": "💻 Some Twitter API examples on Glitch",
+      "img": ""
+    },
+    {
       "url": "https://gamesatwork.biz/",
       "text": "🎧 Podcast: Games at Work",
       "img": ""
