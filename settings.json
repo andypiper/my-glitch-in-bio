@@ -2,8 +2,8 @@
   "metaTitle": "Andy Piper's links",
   "metaDescription": "My meta description.",
   "name": "Andy Piper's links",
-  "theme": "glitch",
-  "avatarImage": "https://cdn.glitch.com/560ed5ed-9d00-433a-9ff9-7750d79d13da%2FGlitch_TeamAvatar.png?v=1624643105812",
+  "theme": "dusky-lory",
+  "avatarImage": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=200",
   "links": [
     {
       "url": "https://glitch.new/links",
@@ -22,20 +22,20 @@
     }
   ],
   "social": {
-    "glitch": "https://glitch.com/",
+    "glitch": "https://glitch.com/@andypiper",
     "spotify": "",
     "substack": "",
-    "dev": "https://dev.to/glitch",
+    "dev": "https://dev.to/andypiper",
     "facebook": "",
-    "github": "https://github.com/glitchdotcom",
+    "github": "https://github.com/andypiper",
     "instagram": "",
-    "linkedin": "https://www.linkedin.com/company/fog-creek-software",
+    "linkedin": "https://www.linkedin.com/in/andypiperuk/",
     "medium": "",
     "patreon": "",
     "pinterest": "",
-    "twitter": "https://twitter.com/glitch",
-    "youtube": "https://www.youtube.com/c/GlitchDotCom",
+    "twitter": "https://twitter.com/andypiper",
+    "youtube": "https://www.youtube.com/andypiperuk",
     "twitch": "",
-    "email": "support@glitch.com"
+    "email": ""
   }
 }

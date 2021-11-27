@@ -1,0 +1,21 @@
+/******************************************************************************
+TIP: Get started creating your own theme here
+
+- Set values for the main site variables for properties like fonts and colors
+- You can also add any style rules you like
+
+- Make sure you have `dusky-lory` in settings.json theme property
+- (Update it if you changed the CSS file name)
+******************************************************************************/
+
+:root {
+  --font-family: "Space Mono", sans-serif;
+  --font-family-header: "Space Mono", sans-serif;
+  --font-family-list: "Space Mono", sans-serif;
+  --color-bg: violet;
+  --color-bg-alt: aqua;
+  --color-text-main: yellow;
+  --color-primary: blue;
+}
+
+/* Add your style rules! */
