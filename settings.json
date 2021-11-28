@@ -38,8 +38,13 @@
       "img": ""
     },
     {
-      "url": "https://www.amazon.co.uk/hz/wishlist/ls/2T42T5FUJ1OBF?ref_=wl_share",
+      "url": "https://www.amazon.co.uk/hz/wishlist/ls/2T42T5FUJ1OBF",
       "text": "🎁 My wishlist",
+      "img": ""
+    },
+    {
+      "url": "https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a",
+      "text": "❔ How I made this...",
       "img": ""
     }
   ],
