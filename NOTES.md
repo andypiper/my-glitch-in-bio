@@ -4,7 +4,7 @@
 
 ## Changes from the default Glitch in Bio template
 
-- custom style (`dusky-lory.css`)
+- custom theme/style (`dusky-lory.css`)
   - used [coolors.co](https://coolors.co) to make a palette
   - imported a Google Fonts resource
 - using [Gravatar](https://gravatar.com) to get my profile image
@@ -19,6 +19,8 @@
 - I decided I wanted a different image for the favicon/homescreen icon than on the page itself, so I added `avatarImageAlt` to settings
   - and, then added a CSS opacity mouseover effect to fade between them (in `avatar.html` and `style.css` so this is independent of theme)
 - excluded `.md` files from restart in `watch.json`
+- added a custom domain (andypiper.me) using the [support article](https://help.glitch.com/kb/article/9-how-do-i-add-a-custom-domain-to-my-glitch-project/)
+  - also, took the opportunity to update the security on my registrar login with 2FA, and to let some old/unneeded domains expire! #cleanup
 
 ## TODO / ideas
 
