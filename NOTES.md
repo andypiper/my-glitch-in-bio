@@ -22,8 +22,13 @@
 - added a custom domain (andypiper.me) using the [support article](https://help.glitch.com/kb/article/9-how-do-i-add-a-custom-domain-to-my-glitch-project/)
   - also, took the opportunity to update the security on my registrar login with 2FA, and to let some old/unneeded domains expire! #cleanup
   - nice thing, Hover includes Glitch on the dashboard for connecting domains, so this was super easy.
+    - Glitch docs do not reference Hover as a registrar with direct integration
 - added a new settings value, `favicon`, and updated the `head.html` to use this
   - again used the Gravatar URL for this
+- changed the Remix in Glitch button in `footer.html` so that it remixes this project, rather than the `glitch-in-bio` template
+  - wondering, is this "the done thing?"
+    - on one hand, the end developer actually gets to inherit the changes I made
+    - on the other hand, I've based this on a template, so maybe that's the best starting point
 
 ## TODO / ideas
 
