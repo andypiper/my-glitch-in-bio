@@ -22,6 +22,8 @@
 - added a custom domain (andypiper.me) using the [support article](https://help.glitch.com/kb/article/9-how-do-i-add-a-custom-domain-to-my-glitch-project/)
   - also, took the opportunity to update the security on my registrar login with 2FA, and to let some old/unneeded domains expire! #cleanup
   - nice thing, Hover includes Glitch on the dashboard for connecting domains, so this was super easy.
+- added a new settings value, `favicon`, and updated the `head.html` to use this
+  - again used the Gravatar URL for this
 
 ## TODO / ideas
 
