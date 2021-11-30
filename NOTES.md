@@ -29,13 +29,17 @@
   - wondering, is this "the done thing?"
     - on one hand, the end developer actually gets to inherit the changes I made
     - on the other hand, I've based this on a template, so maybe that's the best starting point
+- Glitch "Add CoC" button in editor does not add a useful (to my project) CoC, but I would like to apply something relevant
+  - turns out that it is the [Citizen CoC](https://web.archive.org/web/20200330154000/http://citizencodeofconduct.org/) which is OK, but refers to e.g. events, and needs manual customisation
+  - -> _added Contributor Covenant as CoC for this project_
 
 ## TODO / ideas
 
 - ~~add Tweet timeline~~
   - make it collapsible?
-- change favicon to match site
+- ~~change favicon to match site~~
 - add Revue social link (edit social template)
+- consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
 - refactor the SVGs out from the `social` template to make it cleaner
 - twemoji plugin (scratchpad below, but as this is, it messes with alignment)
   - nice to have because it means you have the same emoji on all platforms
@@ -47,13 +51,14 @@
 - I'd quite like some stats of some kind to gauge vists / what content gets attention
 - check WCAG stuff for a11y
 - Gravatar improvement: if the user adds an email address to settings, generate the Gravatar URL (it is the MD5 hash of an email address)
+- a corner "(i)" icon with a popover to explain what this is / how it was made
 
 ### docs
 
 - update the `README.md` file so it reflects this remix project, not only the general Glitch in Bio template
-- I don't really need that `CHANGELOG.md` file since it is from pre-remix
+- ~~I don't really need that `CHANGELOG.md` file since it is from pre-remix~~
+  - deleted it
 - the `LICENSE` looks like it is specific to vite-plugin-react... (hmm, wonder how best to handle licenses in the context of remixes etc)
-- Glitch "Add CoC" button in editor does not add a useful (to my project) CoC, but I would like to apply something relevant
 
 (thought, as I continue to poke... this is addictive... need to think about curating a list like this to keep it fresh, relevant, and useful)
 
