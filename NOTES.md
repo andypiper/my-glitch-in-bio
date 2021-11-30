@@ -47,6 +47,7 @@
 - add Revue social link (edit social template)
 - consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
 - refactor the SVGs out from the `social` template to make it cleaner
+- social icon for GitLab
 - twemoji plugin (scratchpad below, but as this is, it messes with alignment)
   - nice to have because it means you have the same emoji on all platforms
   - could also just put them in as images in the list items _shrug_
@@ -56,6 +57,7 @@
 - ~~make the `avatarImageAlt` a mouseover effect?~~
 - I'd quite like some stats of some kind to gauge vists / what content gets attention
 - ~~check WCAG stuff for a11y~~ changed contrast of palette
+- build more themes
 - Gravatar improvement: if the user adds an email address to settings, generate the Gravatar URL (it is the MD5 hash of an email address)
 - a corner "(i)" icon with a popover to explain what this is / how it was made
 
