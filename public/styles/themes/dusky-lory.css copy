@@ -8,8 +8,8 @@ TIP: a customised theme
 :root {
   /* CSS HEX palette (from coolors.co) */
   --oxford-blue: #00072dff;
-  --gold-crayola: #f5e1c7;
-  --steel-teal: #304d4f;
+  --gold-crayola: #edcb96ff;
+  --steel-teal: #55868cff;
   --thistle: #d4c1ecff;
   --french-lilac: #89608eff;
   /* my preferred fonts, from Google Fonts */
