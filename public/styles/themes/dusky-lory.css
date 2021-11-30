@@ -7,6 +7,7 @@ TIP: a customised theme
 
 :root {
   /* CSS HEX palette (from coolors.co) */
+  /* tweaked for contrast */
   --oxford-blue: #00072dff;
   --gold-crayola: #f5e1c7;
   --steel-teal: #304d4f;
@@ -25,12 +26,13 @@ TIP: a customised theme
 
 body {
   color: var(--color-text-main);
+  font-size: clamp(1rem, 0.2500rem + 2.5vw, 2rem);
 }
 
 h1 {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
-  font-size: clamp(2.0rem, -0.875rem + 8.333vw, 4.0rem);
+  font-size: clamp(1.5rem, -0.875rem + 4.333vw, 3.0rem);
   display: inline-flex;
   justify-content: center;
   color: var(--color-text-main);
