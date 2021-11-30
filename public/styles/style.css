@@ -76,7 +76,7 @@ body {
   flex-wrap: wrap;
   border-top: 4px solid #fff;
 }
-.footer a:hover {
+.footer a:hover, .footer a:focus {
   background: var(--color-primary);
 }
 .footer .tagline {
@@ -87,7 +87,8 @@ body {
 .btn--remix {
   font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
   padding: 0.8rem 1.75rem;
-  font-size: 0.95rem;
+  /*font sizes scaled by viewport https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/*/
+  font-size: clamp(0.9rem, 0.8250rem + 0.3333vw, 1rem);
   line-height: 1rem;
   font-weight: 500;
   height: 3rem;
@@ -108,15 +109,18 @@ body {
   top: 1px;
   margin-right: 0.25rem;
 }
-.btn--remix:hover {
+.btn--remix:hover, .btn--remix:focus {
   background-color: #D0FFF1;
+}
+.tagline {
+  font-size: clamp(1rem, 0.9250rem + 0.3333vw, 1.1rem);
 }
 
 /* Typography */
 p {
   margin: 0 0 1rem 0;
   line-height: 1.5 !important;
-  font-size: 1rem;
+  font-size: clamp(1rem, 0.2500rem + 3.3333vw, 2rem);
 }
 h1,
 h2,
@@ -132,7 +136,7 @@ h5 {
 h1 {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
-  font-size: 1.5rem;
+  font-size: clamp(2.0rem, -0.875rem + 8.333vw, 4.0rem);
   display: inline-flex;
   color: var(--color-primary);
   justify-content: center;
@@ -141,7 +145,7 @@ ul > li,
 ol > li {
   margin-bottom: 0.75rem;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: clamp(1rem, 0.6250rem + 1.6667vw, 1.5rem);
 }
 ul {
   padding: 0 0 0 18px;
@@ -156,7 +160,7 @@ a:not(.btn--remix):visited {
   color: var(--color-text-main);
   transition: background 0.2s linear;
 }
-a:hover {
+a:hover, a:active, a:focus {
   background: var(--color-primary);
 }
 /******************************************************************************
@@ -196,7 +200,7 @@ ul.link-list li {
   min-width: 100%;
   text-align: center;
   margin: 1rem auto;
-  font-size: 0.9em;
+  font-size: clamp(0.7rem, 0.3250rem + 1.6667vw, 1.2rem);
 }
 ul.link-list li a {
   min-height: 5.5em;
@@ -247,7 +251,7 @@ ul.link-list li a span {
 .social-profile-icon path {
   fill: var(--color-bg-alt);
 }
-.social-profile-icon path:hover {
+.social-profile-icon:hover path, .social-profile-icon:focus path {
   fill: var(--color-text-main);
 }
 

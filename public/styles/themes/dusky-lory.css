@@ -60,7 +60,7 @@ ul.link-list li a img {
 .social-profile-icon path {
   fill: var(--color-primary);
 }
-.social-profile-icon path:hover {
+.social-profile-icon:hover path {
   fill: var(--color-bg-alt);
 }
 
