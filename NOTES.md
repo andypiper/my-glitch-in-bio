@@ -32,6 +32,12 @@
 - Glitch "Add CoC" button in editor does not add a useful (to my project) CoC, but I would like to apply something relevant
   - turns out that it is the [Citizen CoC](https://web.archive.org/web/20200330154000/http://citizencodeofconduct.org/) which is OK, but refers to e.g. events, and needs manual customisation
   - -> _added Contributor Covenant as CoC for this project_
+- merged updates to the core template 2021-11-30
+  - `description` meta in header
+  - new social icons
+  - alt text for image links (a11y++, nice)
+  - fixed CSS social icons hover
+  - added `CONTRIBUTORS.md` file
 
 ## TODO / ideas
 

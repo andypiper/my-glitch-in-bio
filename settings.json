@@ -11,42 +11,50 @@
     {
       "url": "https://glitch.com/@andypiper/twitter-examples",
       "text": "💻 Some Twitter API examples on Glitch",
-      "img": ""
+      "img": "",
+      "altText": ""
     },
     {
       "url": "https://gamesatwork.biz/",
       "text": "🎧 Podcast: Games at Work",
-      "img": ""
+      "img": "",
+      "altText": ""
     },
     {
       "url": "https://pipr.co/devrel",
       "text": "📚 Resources for getting started in Developer Relations",
-      "img": ""
+      "img": "",
+      "altText": ""
     },
     {
       "url": "https://andypiper.medium.com/on-living-with-the-feelings-in-my-head-2e28afdd5c29",
       "text": "👤 Medium post: On living with the feelings in my head",
-      "img": ""
+      "img": "",
+      "altText": ""
     },
     {
       "url": "https://andypiper.co.uk",
       "text": "🌐 My personal website",
-      "img": ""
+      "img": "",
+      "altText": ""
     },
     {
       "url": "https://last.fm/user/andypiper",
       "text": "🎵 What I'm listening to",
-      "img": ""
+      "img": "",
+      "altText": ""
     },
     {
       "url": "https://www.amazon.co.uk/hz/wishlist/ls/2T42T5FUJ1OBF",
       "text": "🎁 My wishlist",
-      "img": ""
+      "img": "",
+      "altText": ""
     },
     {
       "url": "https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a",
       "text": "❔ How I made this...",
-      "img": ""
+      "img": "",
+      "altText": ""
     }
   ],
   "tweets": [
@@ -71,6 +79,11 @@
     "twitter": "https://twitter.com/andypiper",
     "youtube": "https://www.youtube.com/andypiperuk",
     "twitch": "",
+    "tiktok": "",
+    "podcast": "",
+    "soundcloud": "",
+    "bandcamp": "",
+    "mastodon": "",
     "email": ""
   }
 }
