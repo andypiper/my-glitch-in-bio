@@ -27,6 +27,15 @@ body {
   color: var(--color-text-main);
 }
 
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  font-size: clamp(2.0rem, -0.875rem + 8.333vw, 4.0rem);
+  display: inline-flex;
+  justify-content: center;
+  color: var(--color-text-main);
+}
+
 p {
   padding: 10px;
 }
@@ -58,7 +67,7 @@ ul.link-list li a img {
 }
 
 .social-profile-icon path {
-  fill: var(--color-primary);
+  fill: var(--color-text-main);
 }
 .social-profile-icon:hover path {
   fill: var(--color-bg-alt);

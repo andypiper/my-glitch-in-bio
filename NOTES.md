@@ -55,7 +55,7 @@
   - could point to latest episode, using the podcast RSS
 - ~~make the `avatarImageAlt` a mouseover effect?~~
 - I'd quite like some stats of some kind to gauge vists / what content gets attention
-- check WCAG stuff for a11y
+- ~~check WCAG stuff for a11y~~ changed contrast of palette
 - Gravatar improvement: if the user adds an email address to settings, generate the Gravatar URL (it is the MD5 hash of an email address)
 - a corner "(i)" icon with a popover to explain what this is / how it was made
 
