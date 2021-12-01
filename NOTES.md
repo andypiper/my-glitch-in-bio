@@ -76,6 +76,9 @@ I was thinking about embedding YT content etc but want to keep it simple
 
 ^^^ this was probably my mistake in thinking those files were being served from the app in 2.5/2.6, seems to only let me hit the index page now, which is what I want.
 
+... I finally cracked, and added more social links to the footer; but, now I'm wondering whether I should limit that list?
+
+
 ## Code scratchpad
 
 ```text
