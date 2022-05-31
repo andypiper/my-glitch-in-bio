@@ -9,6 +9,12 @@
   "favicon": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=32",
   "links": [
     {
+      "url": "https://mastodon.social/@andypiper/108237453365199182",
+      "text": "👋 By way of introduction",
+      "img": "",
+      "altText": ""
+    },
+    {
       "url": "https://glitch.com/@andypiper/twitter-examples",
       "text": "💻 Some Twitter API examples on Glitch",
       "img": "",
@@ -41,6 +47,12 @@
     {
       "url": "https://last.fm/user/andypiper",
       "text": "🎵 What I'm listening to",
+      "img": "",
+      "altText": ""
+    },
+    {
+      "url": "https://ko-fi.com/T6T11M0HS",
+      "text": "☕ Buy me a coffee",
       "img": "",
       "altText": ""
     },
@@ -81,9 +93,9 @@
     "youtube": "https://www.youtube.com/andypiperuk",
     "twitch": "https://twitch.tv/andypiper",
     "tiktok": "",
-    "podcast": "",
-    "soundcloud": "",
-    "bandcamp": "",
+    "podcast": "https://gamesatwork.biz",
+    "soundcloud": "https://soundcloud.com/andypiper",
+    "bandcamp": "https://bandcamp.com/andypiper",
     "mastodon": "https://mastodon.social/@andypiper",
     "email": ""
   }
