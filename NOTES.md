@@ -45,6 +45,7 @@
   - make it collapsible?
 - ~~change favicon to match site~~
 - add Revue and BitBucket social links (edit social template)
+- add IRC/Libera Chat social link
 - consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
 - refactor the SVGs out from the `social` template to make it cleaner
 - ~~social icon for GitLab~~
@@ -61,6 +62,8 @@
   - check contrast when choosing palette
 - Gravatar improvement: if the user adds an email address to settings, generate the Gravatar URL (it is the MD5 hash of an email address)
 - a corner "(i)" icon with a popover to explain what this is / how it was made
+- make the "by way of introduction" a collapsible embedded Toot
+- highlighted code projects
 
 ### docs
 
@@ -111,6 +114,11 @@ img.emoji {
   }
 </style>
 ```
+
+```
+<iframe src="https://mastodon.social/@andypiper/108237453365199182/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.social/embed.js" async="async"></script>
+```
+
 
 ## Original ideas
 
