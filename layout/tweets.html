@@ -1,16 +1,15 @@
-{{! Use this to include a Twitter Timeline,or individual Tweets }} {{! see
-https://developer.twitter.com/en/docs/twitter-for-websites for parameters }}
-
+{{! Use this to include a Twitter Timeline,or individual Tweets }} 
+{{! see https://developer.twitter.com/en/docs/twitter-for-websites for parameters }} 
 {{! Timeline }} 
 {{#if settings.social.twitter}}
 <blockquote>
   <a
     class="twitter-timeline"
     data-theme="dark"
-    data-tweet-limit="3"
+    data-tweet-limit="4"
     data-dnt="true"
     data-chrome-nofooter="true"
-    data-height="300"
+    data-height="400"
     href="{{ settings.social.twitter }}"
   ></a>
 </blockquote>
@@ -19,14 +18,13 @@ https://developer.twitter.com/en/docs/twitter-for-websites for parameters }}
   src="https://platform.twitter.com/widgets.js"
   charset="utf-8"
 ></script>
-{{/if}} 
-
-{{! individual Tweets }} 
-{{#if settings.tweets}}
+{{/if}} {{! individual Tweets }} {{#if settings.tweets}}
 <ul class="tweets">
   {{#each settings.tweets}}
   <li>
-    <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"><a href="{{ this.url }}"></a></blockquote>
+    <blockquote class="twitter-tweet" data-theme="dark" data-dnt="true">
+      <a href="{{ this.url }}"></a>
+    </blockquote>
   </li>
   {{/each}}
 </ul>
