@@ -12,6 +12,8 @@
 - fixed `head.html` to _correctly_ include `og` and `twitter` meta tags
   - Twitter Card Validator fails on the default template as-is
   - NOTE: need a minimum of (either `og:` or `twitter:`) `title` and `image` to work; looks best with `description` as well
+  - also added `og:type` so that other site embeds should work, not just Twitter
+- added ld+json Person data to the page (see `layout/json-ld`)
 - added a short bio blurb to `settings.json` -> para markup in `index.html`
 - added Stack Overflow, Ko-fi, GitLab icons to `social.html` footer
   - used SVGs from [Iconify](https://iconify.design/)
@@ -41,9 +43,12 @@
 
 ## TODO / ideas
 
+- move away from Google Fonts (EU law issue)
 - ~~add Tweet timeline~~
   - make it collapsible?
 - ~~change favicon to match site~~
+- add Mastodon embed support
+- add PixelFed and Diode and Bookwyrm social links
 - add Revue and BitBucket social links (edit social template)
 - add IRC/Libera Chat social link
 - consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
@@ -64,6 +69,7 @@
 - a corner "(i)" icon with a popover to explain what this is / how it was made
 - make the "by way of introduction" a collapsible embedded Toot
 - highlighted code projects
+
 
 ### docs
 

@@ -2,7 +2,7 @@
   "metaTitle": "Andy Piper's links",
   "metaDescription": "Links to interesting things Andy Piper is doing",
   "name": "Andy Piper's links",
-  "bio": "Twitter | Open Source | Community | LEGO",
+  "bio": "Open Source | MicroPython | Community | LEGO",
   "theme": "dusky-lory",
   "avatarImage": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=200",
   "avatarImageAlt": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=200",
@@ -15,20 +15,15 @@
       "altText": ""
     },
     {
-      "url": "https://glitch.com/@andypiper/twitter-examples",
-      "text": "💻 Some Twitter API examples on Glitch",
+      "url": "https://mastodon.social/@andypiper/",
+      "text": "🕸️ In the Fediverse",
       "img": "",
       "altText": ""
     },
+
     {
-      "url": "https://gamesatwork.biz/",
-      "text": "🎧 Podcast: Games at Work",
-      "img": "",
-      "altText": ""
-    },
-    {
-      "url": "https://pipr.co/devrel",
-      "text": "📚 Resources for getting started in Developer Relations",
+      "url": "https://andypiper.co.uk",
+      "text": "🌐 My personal website",
       "img": "",
       "altText": ""
     },
@@ -39,8 +34,20 @@
       "altText": ""
     },
     {
-      "url": "https://andypiper.co.uk",
-      "text": "🌐 My personal website",
+      "url": "https://gamesatwork.biz/",
+      "text": "🎧 Weekly podcast: Games at Work dot Biz",
+      "img": "",
+      "altText": ""
+    },
+    {
+      "url": "https://pipr.co/devrel",
+      "text": "📚 Resources for Getting Started in Developer Relations",
+      "img": "",
+      "altText": ""
+    },
+    {
+      "url": "https://glitch.com/@andypiper/twitter-examples",
+      "text": "💻 Some Twitter API examples on Glitch",
       "img": "",
       "altText": ""
     },
@@ -83,6 +90,8 @@
     "facebook": "",
     "github": "https://github.com/andypiper",
     "gitlab": "https://gitlab.com/andypiper",
+    "replit": "https://replit.com/@andypiper",
+    "hashnode": "",
     "instagram": "",
     "linkedin": "https://www.linkedin.com/in/andypiperuk/",
     "medium": "https://andypiper.medium.com",
@@ -90,7 +99,7 @@
     "kofi": "https://ko-fi.com/andypiper",
     "pinterest": "",
     "twitter": "https://twitter.com/andypiper",
-    "youtube": "https://www.youtube.com/andypiperuk",
+    "youtube": "https://www.youtube.com/andypiper",
     "twitch": "https://twitch.tv/andypiper",
     "tiktok": "",
     "podcast": "https://gamesatwork.biz",

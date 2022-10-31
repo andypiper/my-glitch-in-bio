@@ -1,6 +1,6 @@
 {
   "name": "glitch-in-bio",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Your very own link-in-bio app.",
   "main": "index.html",
   "scripts": {
@@ -12,6 +12,7 @@
   "devDependencies": {
     "@auto-it/all-contributors": "^10.32.2",
     "@auto-it/first-time-contributor": "^10.32.2",
+    "@auto-it/git-tag": "^10.32.3",
     "@auto-it/released": "^10.32.2",
     "auto": "^10.32.2",
     "vite": "^2.5.0",
@@ -22,7 +23,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-in-bio"
@@ -35,7 +36,8 @@
     "plugins": [
       "all-contributors",
       "first-time-contributor",
-      "released"
+      "released",
+      "git-tag"
     ],
     "onlyPublishWithReleaseLabel": true
   }
