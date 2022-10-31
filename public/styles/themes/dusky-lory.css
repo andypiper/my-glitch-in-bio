@@ -24,15 +24,35 @@ TIP: a customised theme
   --color-primary: var(--steel-teal);
 }
 
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 3em 0 1em;
+}
+
+p,ul,ol {
+  margin-bottom: 2em;
+  /* color: #1d1d1d;
+   font-family: sans-serif; */
+}
+
+
 body {
+  text-rendering: optimizeLegibility;
   color: var(--color-text-main);
-  font-size: clamp(1rem, 0.2500rem + 2.5vw, 2rem);
+  font-size: clamp(1rem, 0.25rem + 2.5vw, 2rem);
 }
 
 h1 {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
-  font-size: clamp(1.5rem, -0.875rem + 4.333vw, 3.0rem);
+  font-size: clamp(1.5rem, -0.875rem + 4.333vw, 3rem);
   display: inline-flex;
   justify-content: center;
   color: var(--color-text-main);
@@ -104,7 +124,7 @@ ul.link-list li a img {
   height: 3rem;
   align-items: center;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -120,5 +140,5 @@ ul.link-list li a img {
   margin-right: 0.25rem;
 }
 .btn--remix:hover {
-  background-color: #D0FFF1;
+  background-color: #d0fff1;
 }
