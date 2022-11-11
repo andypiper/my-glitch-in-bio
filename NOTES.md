@@ -43,13 +43,13 @@
 
 ## TODO / ideas
 
-- move away from Google Fonts (EU law issue)
+- ~~move away from Google Fonts (EU law issue)~~ -> https://fonts.coollabs.io/
 - ~~add Tweet timeline~~
   - make it collapsible?
 - ~~change favicon to match site~~
 - add Mastodon embed support
 - add PixelFed and Diode and Bookwyrm social links
-- add Revue and BitBucket social links (edit social template)
+- add ~~Revue~~ and BitBucket social links (edit social template)
 - add IRC/Libera Chat social link
 - consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
 - refactor the SVGs out from the `social` template to make it cleaner
