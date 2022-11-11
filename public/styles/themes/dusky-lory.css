@@ -3,7 +3,9 @@ TIP: a customised theme
 
 - Make sure you have `dusky-lory` in settings.json theme property
 ******************************************************************************/
-@import url("https://fonts.googleapis.com/css?family=Space+Mono&display=swap");
+@import url("https://api.fonts.coollabs.io/css?family=Space+Mono&display=swap");
+
+
 
 :root {
   /* CSS HEX palette (from coolors.co) */
@@ -13,7 +15,7 @@ TIP: a customised theme
   --steel-teal: #304d4f;
   --thistle: #d4c1ecff;
   --french-lilac: #89608eff;
-  /* my preferred fonts, from Google Fonts */
+  /* my preferred fonts */
   --font-family: "Space Mono", sans-serif;
   --font-family-header: "Space Mono", sans-serif;
   --font-family-list: "Space Mono", sans-serif;
