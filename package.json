@@ -10,11 +10,11 @@
     "release": "auto shipit"
   },
   "devDependencies": {
-    "@auto-it/all-contributors": "^10.32.2",
-    "@auto-it/first-time-contributor": "^10.32.2",
+    "@auto-it/all-contributors": "^10.37.6",
+    "@auto-it/first-time-contributor": "^10.37.6",
     "@auto-it/git-tag": "^10.32.3",
-    "@auto-it/released": "^10.32.2",
-    "auto": "^10.32.2",
+    "@auto-it/released": "^10.37.6",
+    "auto": "^10.37.6",
     "vite": "^2.9.13",
     "@glitchdotcom/vite-plugin-handlebars": "^1.6.2"
   },
