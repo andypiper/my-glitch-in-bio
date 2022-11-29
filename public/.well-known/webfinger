@@ -1,0 +1,23 @@
+{
+  "subject": "acct:andypiper@macaw.social",
+  "aliases": [
+    "https://macaw.social/@andypiper",
+    "https://macaw.social/users/andypiper"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://macaw.social/@andypiper"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://macaw.social/users/andypiper"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://macaw.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
