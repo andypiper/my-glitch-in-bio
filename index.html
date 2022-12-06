@@ -35,6 +35,23 @@
 
           {{> links }} 
           <!-- {{> tweets }} --> 
+
+          <!-- newsletter section -->
+          <p style="font-size: 0.75em;">
+            I also share an occasional newsletter. If you would like to receive it, enter your details below, or you can <a href="https://buttondown.email/andypiper/archive" target="_blank">browse the archives</a>.
+            <form
+  action="https://buttondown.email/api/emails/embed-subscribe/andypiper"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/andypiper', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email to join</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="hidden" name="tag" value="me-page" />
+  <input type="submit" value="Subscribe" />
+</form>
+          </p>
           
           <p style="font-size: 0.5em;">
             Want to check out the other places I live online? Click through the logos in the list of sites below...
