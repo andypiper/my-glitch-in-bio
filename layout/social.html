@@ -87,7 +87,7 @@
       </svg>
     </a>
     {{/if}}
-    
+
     <!-- ==================== -->
     <!-- DEV -->
     {{#if settings.social.dev}}
@@ -207,7 +207,6 @@
         viewbox="0 0 24 24"
         class="social-profile-icon"
         fill="none"
-
       >
         <path
           fill="currentColor"
@@ -525,8 +524,39 @@
       </svg>
     </a>
     {{/if}}
-    
+
     <!-- ==================== -->
+    <!-- Letterboxd -->
+    {{#if settings.social.letterboxd}}
+    <a
+      aria-label="Check out {{settings.name}}'s movie list"
+      href="{{settings.social.letterboxd}}"
+    >
+      <svg
+        class="social-profile-icon"
+        viewbox="0 0 48 48"
+        fill="currentColor"
+        preserveaspectratio="xMidYMid meet"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill="none"
+          stroke="black"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M17.55 20a7.59 7.59 0 1 0 0 8a7.59 7.59 0 0 1 0-8Z"
+        />
+        <path
+          fill="none"
+          stroke="black"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M30.45 20a7.59 7.59 0 0 0-12.9 0a7.64 7.64 0 0 1 0 8a7.59 7.59 0 0 0 12.9 0a7.64 7.64 0 0 1 0-8Zm6.46-3.59A7.6 7.6 0 0 0 30.45 20a7.59 7.59 0 0 1 0 8a7.59 7.59 0 1 0 6.46-11.59Z"
+        />
+      </svg>
+    </a>
+    {{/if}}
+        <!-- ==================== -->
     <!-- Newsletter -->
     {{#if settings.social.buttondown}}
     <a
@@ -540,21 +570,28 @@
         preserveaspectratio="xMidYMid meet"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g transform="translate(0, 300) scale(0.1,-0.1)"
-fill="#0069FF" stroke="none">
-          <path d="M1188 2995 c-3 -3 -57 -10 -120 -15 -536 -44 -907 -357 -1023 -864
+        <g
+          transform="translate(0, 300) scale(0.1,-0.1)"
+          fill="#0069FF"
+          stroke="none"
+        >
+          <path
+            d="M1188 2995 c-3 -3 -57 -10 -120 -15 -536 -44 -907 -357 -1023 -864
 -28 -126 -39 -297 -39 -616 0 -418 16 -570 81 -760 105 -309 344 -548 653
 -653 190 -65 342 -81 760 -81 418 0 570 16 760 81 309 105 548 344 653 653 65
 190 81 342 81 760 0 492 -29 684 -139 900 -171 335 -489 538 -915 582 -114 12
 -742 23 -752 13z m1010 -653 c58 -31 117 -92 144 -149 l23 -48 0 -645 0 -645
 -23 -48 c-28 -60 -89 -121 -149 -149 l-48 -23 -640 0 -640 0 -41 22 c-90 48
 -140 108 -168 203 -24 80 -24 1200 0 1280 33 110 108 188 214 221 14 4 309 7
-655 6 l630 -2 43 -23z"/>
-          <path d="M873 1715 c-51 -51 -93 -98 -93 -103 0 -17 274 -276 333 -315 71 -48
+655 6 l630 -2 43 -23z"
+          />
+          <path
+            d="M873 1715 c-51 -51 -93 -98 -93 -103 0 -17 274 -276 333 -315 71 -48
 173 -94 235 -108 76 -18 229 -22 281 -9 183 47 275 104 464 289 l148 145 -98
 98 c-54 54 -101 98 -104 98 -4 0 -54 -47 -112 -104 -176 -174 -237 -216 -354
 -240 -58 -13 -78 -13 -133 -1 -109 23 -162 58 -316 208 -78 75 -145 137 -150
-137 -5 -1 -51 -43 -101 -95z"/>
+137 -5 -1 -51 -43 -101 -95z"
+          />
         </g>
       </svg>
     </a>
@@ -562,3 +599,76 @@ fill="#0069FF" stroke="none">
     
   </div>
 </div>
+        <defs>
+          <rect
+            id="path-1"
+            x="0"
+            y="0"
+            width="129.847328"
+            height="141.443299"
+          ></rect>
+          <rect
+            id="path-3"
+            x="0"
+            y="0"
+            width="129.847328"
+            height="141.443299"
+          ></rect>
+        </defs>
+        <g
+          id="letterboxd-decal-dots-neg-mono"
+          stroke="none"
+          stroke-width="1"
+          fill="none"
+          fill-rule="evenodd"
+        >
+          <circle id="Circle" fill="#FFFFFF" cx="250" cy="250" r="250"></circle>
+          <g id="Dots" transform="translate(61.000000, 180.000000)">
+            <ellipse
+              id="Green"
+              fill="#202830"
+              cx="189"
+              cy="70"
+              rx="70.0786517"
+              ry="70"
+            ></ellipse>
+            <g id="Blue" transform="translate(248.152672, 0.000000)">
+              <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+              </mask>
+              <g id="Mask"></g>
+              <ellipse
+                fill="#202830"
+                mask="url(#mask-2)"
+                cx="59.7686766"
+                cy="70"
+                rx="70.0786517"
+                ry="70"
+              ></ellipse>
+            </g>
+            <g id="Orange">
+              <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+              </mask>
+              <g id="Mask2"></g>
+              <ellipse
+                fill="#202830"
+                mask="url(#mask-4)"
+                cx="70.0786517"
+                cy="70"
+                rx="70.0786517"
+                ry="70"
+              ></ellipse>
+            </g>
+            <path
+              d="M129.539326,107.063108 C122.810493,96.3149291 118.921348,83.611134 118.921348,70 C118.921348,56.388866 122.810493,43.6850709 129.539326,32.9368922 C136.268159,43.6850709 140.157303,56.388866 140.157303,70 C140.157303,83.611134 136.268159,96.3149291 129.539326,107.063108 L129.539326,107.063108 Z"
+              id="Overlap"
+              fill="#FFFFFF"
+            ></path>
+            <path
+              d="M248.460674,32.9368922 C255.189507,43.6850709 259.078652,56.388866 259.078652,70 C259.078652,83.611134 255.189507,96.3149291 248.460674,107.063108 C241.731841,96.3149291 237.842697,83.611134 237.842697,70 C237.842697,56.388866 241.731841,43.6850709 248.460674,32.9368922 L248.460674,32.9368922 Z"
+              id="Overlap2"
+              fill="#FFFFFF"
+            ></path>
+          </g>
+        </g>

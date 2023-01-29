@@ -49,8 +49,9 @@
 - ~~change favicon to match site~~
 - add Mastodon embed support
 - add PixelFed and Diode and Bookwyrm social links
+- add lastFM and Traktv social links
 - add ~~Revue~~ and BitBucket social links (edit social template)
-- add IRC/Libera Chat social link
+- add IRC/Libera Chat/Matrix/Discord social link
 - consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
 - refactor the SVGs out from the `social` template to make it cleaner
 - ~~social icon for GitLab~~

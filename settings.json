@@ -9,7 +9,7 @@
   "favicon": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=32",
   "links": [
     {
-      "url": "https://mastodon.social/@andypiper/108237453365199182",
+      "url": "https://macaw.social/@andypiper/109349688112355529",
       "text": "👋🏻 By way of introduction",
       "img": "",
       "altText": ""
@@ -75,11 +75,6 @@
       "altText": ""
     }
   ],
-  "tweets": [
-    {
-      "url": ""
-    }
-  ],
   "social": {
     "glitch": "https://glitch.com/@andypiper",
     "spotify": "",
@@ -107,6 +102,7 @@
     "mastodon": "https://macaw.social/@andypiper",
     "email": "",
     "buttondown": "https://buttondown.email/andypiper",
-    "polywork": "https://polywork.com/andypiper"
+    "polywork": "https://polywork.com/andypiper",
+    "letterboxd": "https://letterboxd.com/andypiper/"
   }
 }

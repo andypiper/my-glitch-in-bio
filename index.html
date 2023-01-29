@@ -34,11 +34,11 @@
           --->
 
           {{> links }} 
-          <!-- {{> tweets }} --> 
+          <!-- {{> tweets }} --> <!-- removed, may replace with toots -->
 
           <!-- newsletter section -->
           <p style="font-size: 0.75em;">
-            I also share an occasional newsletter. If you would like to receive it, enter your details below, or you can <a href="https://buttondown.email/andypiper/archive" target="_blank">browse the archives</a>.
+            I also share an occasional newsletter. If you would like to receive it, enter your details below (or, you can <a href="https://buttondown.email/andypiper/archive" target="_blank">browse the archives</a>)
             <form
   action="https://buttondown.email/api/emails/embed-subscribe/andypiper"
   method="post"
@@ -46,7 +46,7 @@
   onsubmit="window.open('https://buttondown.email/andypiper', 'popupwindow')"
   class="embeddable-buttondown-form"
 >
-  <label for="bd-email">Enter your email to join</label>
+  <label for="bd-email">Enter your email to subscribe</label>
   <input type="email" name="email" id="bd-email" />
   <input type="hidden" name="tag" value="me-page" />
   <input type="submit" value="Subscribe" />
@@ -54,7 +54,7 @@
           </p>
           
           <p style="font-size: 0.5em;">
-            Want to check out the other places I live online? Click through the logos in the list of sites below...
+            Want to check out some other places I live online? Click through the logos in the list below...
           </p>
           
           {{> social }}
