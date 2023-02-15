@@ -21,7 +21,7 @@
       "altText": ""
     },
     {
-      "url": "https://gamesatwork.biz/",
+      "url": "https://andypiper.omg.lol/podcast",
       "text": "🎧 Weekly podcast: Games at Work dot Biz",
       "img": "",
       "altText": ""
@@ -33,7 +33,7 @@
       "altText": ""
     },
     {
-      "url": "https://poly.me/andypiper",
+      "url": "https://andypiper.omg.lol/collab",
       "text": "🏗️ Things I'm working on",
       "img": "",
       "altText": ""
@@ -45,7 +45,7 @@
       "altText": ""
     },
     {
-      "url": "https://pipr.co/devrel",
+      "url": "https://andypiper.omg.lol/devrel",
       "text": "📚 Resources for Getting Started in Developer Relations",
       "img": "",
       "altText": ""
@@ -103,6 +103,7 @@
     "email": "",
     "buttondown": "https://buttondown.email/andypiper",
     "polywork": "https://polywork.com/andypiper",
-    "letterboxd": "https://letterboxd.com/andypiper/"
+    "letterboxd": "https://letterboxd.com/andypiper/",
+    "status-lol": "https://status.lol/andypiper"
   }
 }
