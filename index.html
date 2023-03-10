@@ -5,7 +5,7 @@
 
     {{> head }}
 
-    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
+    <!-- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder -->
 <!--     <link rel="preload" href="https://cdn.glitch.global/844643de-894b-49ce-8757-32fad8afa3c9/Hubot-Sans.woff2?v=1668163565882" as="font" type="font/woff2" crossorigin> -->
     <link
       rel="stylesheet"
@@ -20,18 +20,18 @@
         <div class="content">
           {{> avatar }} {{> name }}
 
-          <!--- NEXT STEPS: Want to add a bio or some text? Just add a <p> here: --->
+          <!-- NEXT STEPS: Want to add a bio or some text? Just add a <p> here: -->
           {{#if settings.bio}}
           <p>
             {{ settings.bio }}
           </p>
           {{/if }}
 
-          <!--- NEXT STEPS: Easy, responsive YouTube/iframe embeds? We've got a helper for that:
+          <!-- NEXT STEPS: Easy, responsive YouTube/iframe embeds? We've got a helper for that:
           <div class="video-wrapper__16-9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/GSP0b85BKmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          --->
+          -->
 
           {{> links }} 
 
@@ -42,7 +42,7 @@
             &nbsp;
           </div>
           <p style="font-size: 0.75em;">
-            I also share an occasional newsletter. If you would like to receive it, enter your details below (or, you can <a href="https://buttondown.email/andypiper/archive" target="_blank">browse the archives</a>)
+            I also share an occasional newsletter. If you would like to receive it, enter your details below (or, you can <a href="https://buttondown.email/andypiper/archive" target="_blank">browse the archives</a>)</p>
             <form
   action="https://buttondown.email/api/emails/embed-subscribe/andypiper"
   method="post"
@@ -55,7 +55,7 @@
   <input type="hidden" name="tag" value="me-page" />
   <input type="submit" value="Subscribe" />
 </form>
-          </p>
+          
           
           <p style="font-size: 0.5em;">
             Want to check out some other places I live online? Click through the logos in the list below...
@@ -65,10 +65,11 @@
         </div>
       </div>
       
-      <!-- added to validate with Mastodon, hidden since the link is already in the social section -->
+      <div style="visibility: hidden;">
       <a rel="me" href="https://macaw.social/@andypiper" style="visibility: hidden;">.</a>
       <a rel="me" href="https://social.lol/@andypiper" style="visibility: hidden;">.</a>
-      <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
+    </div>
+      <!-- FOOTER: You can safely remove the Glitch footer (but tell your friends!) -->
       {{> glitch-footer }}
     </main>
   </body>

@@ -2,7 +2,8 @@
   "install": {
     "include": [
       "^package\\.json$"
-    ]
+    ],
+    "exclude": []
   },
   "restart": {
     "include": [
@@ -12,8 +13,7 @@
     "exclude": [
       "public/",
       "vite.config.js",
-      "settings.json",
-      "^\\.md$"
+      "settings.json"
     ]
   },
   "noSavedEvents": true

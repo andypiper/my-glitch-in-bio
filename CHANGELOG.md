@@ -1,3 +1,16 @@
+## Version 0.0.3
+
+**Released 22nd November 2022**
+
+* New social icons
+    * Cohost
+    * Arena
+    * Letterboxd
+    * Pinboard
+    * Keybase
+* Verified link instructions in README
+* Social icons in alphabetical order in settings JSON and social HTML
+
 ## Version 0.0.2 
 
 **Released 30th November 2021**

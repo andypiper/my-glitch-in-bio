@@ -8,27 +8,29 @@
 
 Your links, your way. A link-in-bio app you can customize any way you want.
 
-![screen gif showing the header of the glitch-in-bio remix being updated to say "hello, world!"](https://cdn.glitch.me/8fa3e636-2989-4bb4-87e5-c44e7ffde070%2F2021-10-26%2016.43.43.gif?v=1635281123481)
+![screen gif showing the header of the glitch-in-bio remix being updated to say "hello, world!"](https://cdn.glitch.global/d70d071e-fd72-4991-a194-b09993a9b465/gib.gif?v=1641381379577)
 
 ## Direct traffic to your own Glitch-in-bio app in 3 steps:
 
 ### 1. Remix this app for your own, live version in seconds
 
-Then click **Show** on the top right of this window and then **Open in new window** to see the live app in its own window, with a free `glitch.me` domain ready to share.
+Then click **Preview** at the bottom of this window and then **Preview in new window** to see the live app in its own window, with a free `glitch.me` domain ready to share. 
 
 📝 _Make sure to log into Glitch to save your new app or else it will expire in 5 days._
 
+
 ### 2. Edit `settings.json` to add your own info and links
 
-Replace the meta info, links and social sites we added for you in `settings.json` and you'll see your changes instantly updated in real time!
+Replace the meta info, links and social sites we added for you in `settings.json` and you'll see your changes instantly updated in real time! 
 
 If you want to include images, upload them in `assets` and copy the URLs into your settings JSON too–_make sure you have a theme selected that shows images like `gallery` or `menu`_.
 
+
 ### 3. Choose a theme
 
-To help you make the site your own we've included some themes. In `settings.json` you can enter `glitch`, `gallery`, or `menu` as the value for `theme`.
+To help you make the site your own we've included some themes. In `settings.json` you can enter `glitch`, `gallery`, or `menu` as the value for `theme`. 
 
-📝 _If you want to see how these themes are made, look in the `public/styles/themes` directory! If you don't have a valid theme entered, the site will default to the styles outlined in `style.css`._
+📝  _If you want to see how these themes are made, look in the `public/styles/themes` directory! If you don't have a valid theme entered, the site will default to the styles outlined in `style.css`._
 
 ### ...or create your own!
 
@@ -40,9 +42,22 @@ Customize your site by updating `custom-theme.css` inside the `public/styles/the
 
 ## Other Tips & tricks
 
-- Check out the [Glitch-in-bio section of our Help Center](https://help.glitch.com/kb/section/13/) for more documentation on how to customize or troubleshoot your new app!
-- If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
-- Looking for ways to extend your app, or for inspiration? Check out the official [Glitch-in-bio page](https://glitch.com/glitch-in-bio).
+Get **verified** links by adding `rel="me"` to your anchor tags in `layout/social.html` like this for Mastodon:
+
+```
+<!-- Mastodon -->
+{{#if settings.social.mastodon}}
+<a
+  aria-label="{{settings.name}} on Mastodon"
+  href="{{settings.social.mastodon}}"
+  tabindex="-1"
+  rel="me"
+>
+```
+
+* Check out the [Glitch-in-bio section of our Help Center](https://help.glitch.com/kb/section/13/) for more documentation on how to customize or troubleshoot your new app!
+* If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
+* Looking for ways to extend your app, or for inspiration? Check out the official [Glitch-in-bio page](https://glitch.com/glitch-in-bio).
 
 ## What's in this project?
 
@@ -59,6 +74,8 @@ Customize your site by updating `custom-theme.css` inside the `public/styles/the
 ← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA)–if you add new assets (e.g. stylesheets) you can include them in the list in `sw.js` to cache your site for offline viewing.
 
 ← `assets`: Add images here and copy the links into `settings.json` to show them in your site.
+
+_Last updated: 4 Jan 2023_
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
