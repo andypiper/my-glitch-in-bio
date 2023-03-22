@@ -40,13 +40,13 @@
     },
     {
       "url": "https://andypiper.co.uk",
-      "text": "🌐 My personal website",
+      "text": "🌐 My personal blog",
       "img": "",
       "altText": ""
     },
     {
       "url": "https://andypiper.omg.lol/devrel",
-      "text": "📚 Resources for Getting Started in Developer Relations",
+      "text": "📚 Curated resources for Developer Relations",
       "img": "",
       "altText": ""
     },
@@ -71,6 +71,12 @@
     {
       "url": "https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a",
       "text": "❔ How I made this...",
+      "img": "",
+      "altText": ""
+    },
+    {
+      "url": "https://andypiper.omg.lol",
+      "text": "🩷️ OMG LOL",
       "img": "",
       "altText": ""
     }
