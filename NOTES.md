@@ -40,6 +40,7 @@
   - alt text for image links (a11y++, nice)
   - fixed CSS social icons hover
   - added `CONTRIBUTORS.md` file
+- added social.lol status as a separate embed
 
 ## TODO / ideas
 
@@ -48,17 +49,17 @@
   - make it collapsible?
 - ~~change favicon to match site~~
 - add Mastodon embed support
-- add PixelFed and Diode and Bookwyrm social links
-- add lastFM and Traktv social links
+- [X] add PixelFed and Diode and Bookwyrm social links 
+- [X] add lastFM and Traktv social links
 - add ~~Revue~~ and BitBucket social links (edit social template)
 - add IRC/Libera Chat/Matrix/Discord social link
 - consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
 - refactor the SVGs out from the `social` template to make it cleaner
 - ~~social icon for GitLab~~
-- twemoji plugin (scratchpad below, but as this is, it messes with alignment)
-  - nice to have because it means you have the same emoji on all platforms
-  - could also just put them in as images in the list items _shrug_
-  - also twemoji are CC-BY-4.0 -> attribution req'd if used
+- ~~twemoji plugin (scratchpad below, but as this is, it messes with alignment)~~
+  - ~~nice to have because it means you have the same emoji on all platforms~~
+  - ~~could also just put them in as images in the list items _shrug_~~
+  - ~~also twemoji are CC-BY-4.0 -> attribution req'd if used~~
 - podcast / audio player plugin to unfold from the Podcast button? listed in page?
   - could point to latest episode, using the podcast RSS
 - ~~make the `avatarImageAlt` a mouseover effect?~~
@@ -88,6 +89,8 @@ I was thinking about embedding YT content etc but want to keep it simple
 ^^^ this was probably my mistake in thinking those files were being served from the app in 2.5/2.6, seems to only let me hit the index page now, which is what I want.
 
 ... I finally cracked, and added more social links to the footer; but, now I'm wondering whether I should limit that list?
+
+- page was constantly reloading. Checked the logs and found: a vite error with websocket connection on 443, so disabled that option in vite config; a node version error, downgraded to 14.x
 
 ## Code scratchpad
 

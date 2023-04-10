@@ -23,7 +23,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "16.x"
+    "node": "14.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/glitch-in-bio"

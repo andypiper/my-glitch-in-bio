@@ -24,12 +24,13 @@ export default defineConfig(async ({ command, mode }) => {
       exclude: ['./settings.json']
     },
     server: {
-      host:"0.0.0.0",
-      port:3000,
-      strictPort: true,
-      hmr: {
-        port: 443
-      }
+      host: "0.0.0.0",
+      port: 3000,
+      strictPort: true
+// turn this off to avoid a websocket connection error and reloads
+      // hmr: { 
+      //   port: 443
+      // } 
     }
   };
 });

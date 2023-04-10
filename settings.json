@@ -33,6 +33,12 @@
       "altText": ""
     },
     {
+      "url": "https://andypiper.omg.lol",
+      "text": "🩷️ OMG LOL",
+      "img": "",
+      "altText": ""
+    },
+    {
       "url": "https://andypiper.omg.lol/collab",
       "text": "🏗️ Things I'm working on",
       "img": "",
@@ -73,12 +79,6 @@
       "text": "❔ How I made this...",
       "img": "",
       "altText": ""
-    },
-    {
-      "url": "https://andypiper.omg.lol",
-      "text": "🩷️ OMG LOL",
-      "img": "",
-      "altText": ""
     }
   ],
   "social": {
@@ -115,6 +115,7 @@
     "buttondown": "https://buttondown.email/andypiper",
     "polywork": "https://polywork.com/andypiper",
     "letterboxd": "https://letterboxd.com/andypiper/",
-    "status-lol": "https://status.lol/andypiper"
+    "status-lol": "https://status.lol/andypiper",
+    "lobsters": "https://lobste.rs/u/andypiper"
   }
 }

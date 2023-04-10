@@ -61,7 +61,11 @@ h1 {
 }
 
 p {
-  padding: 10px;
+  padding: 7.5px;
+}
+
+.statuslol {
+  font-size: 70%;
 }
 
 ul.link-list li a {
