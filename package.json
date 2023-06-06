@@ -15,7 +15,7 @@
     "@auto-it/git-tag": "^10.32.3",
     "@auto-it/released": "^10.37.6",
     "auto": "^10.37.6",
-    "vite": "^4.0.0",
+    "vite": "^4.1.5",
     "@glitchdotcom/vite-plugin-handlebars": "^1.6.2"
   },
   "browserslist": [
