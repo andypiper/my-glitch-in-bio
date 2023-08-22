@@ -9,31 +9,31 @@
   "favicon": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=32",
   "links": [
     {
-      "url": "https://macaw.social/@andypiper/109349688112355529",
+      "url": "https://andypiper.url.lol/fediintro",
       "text": "👋🏻 By way of introduction",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://macaw.social/@andypiper/",
+      "url": "https://andypiper.url.lol/macaw",
       "text": "🕸️ In the Fediverse",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://andypiper.omg.lol/podcast",
+      "url": "https://andypiper.url.lol/podcast",
       "text": "🎧 Weekly podcast: Games at Work dot Biz",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://forgeandcraft.co.uk",
+      "url": "https://andypiper.url.lol/studio",
       "text": "🧑🏻‍🏭️ My studio: Forge & Craft",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://andypiper.medium.com/on-living-with-the-feelings-in-my-head-2e28afdd5c29",
+      "url": "https://andypiper.url.lol/mhealth",
       "text": "🧠️ Medium post: On living with the feelings in my head",
       "img": "",
       "altText": ""
@@ -45,7 +45,7 @@
       "altText": ""
     },
     {
-      "url": "https://andypiper.omg.lol/collab",
+      "url": "https://andypiper.url.lol/collab",
       "text": "🏗️ Things I'm working on",
       "img": "",
       "altText": ""
@@ -57,25 +57,25 @@
       "altText": ""
     },
     {
-      "url": "https://andypiper.omg.lol/devrel",
+      "url": "https://andypiper.url.lol/devrel",
       "text": "📚 Curated resources for Developer Relations",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://ko-fi.com/T6T11M0HS",
+      "url": "https://andypiper.url.lol/kofi",
       "text": "☕ Buy me a coffee",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://www.amazon.co.uk/hz/wishlist/ls/2T42T5FUJ1OBF",
+      "url": "https://andypiper.url.lol/amazonwl",
       "text": "🎁 My wishlist",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a",
+      "url": "https://andypiper.url.lol/glitchbio",
       "text": "❔ How I made this...",
       "img": "",
       "altText": ""
@@ -83,8 +83,7 @@
   ],
   "social": {
     "glitch": "https://glitch.com/@andypiper",
-    "arena":"",
-    "cohost": "",
+    "cohost": "https://cohost.org/andypiper",
     "spotify": "",
     "substack": "",
     "dev": "https://dev.to/andypiper",
@@ -103,7 +102,6 @@
     "patreon": "",
     "kofi": "https://ko-fi.com/andypiper",
     "pinterest": "",
-    "twitter": "",
     "youtube": "https://www.youtube.com/andypiper",
     "twitch": "https://twitch.tv/andypiper",
     "tiktok": "",
