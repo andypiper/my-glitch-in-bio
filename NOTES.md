@@ -1,3 +1,48 @@
+# v2
+
+## Migration notes
+
+[![my jotted restructure notes](https://cdn.glitch.global/844643de-894b-49ce-8757-32fad8afa3c9/pre-to-1-mapping.pdf?v=1713563020880)]
+
+- move json-ld to separate imported file
+- additional preconnects
+- defer status lol 
+- update theme for readabilty / match to business cards
+  - MOO design fonts
+    - Notec
+    - Grotesque
+    - Metro Nova
+- add accessibility aria-labels
+  - [x] set role main and contentinfo
+- check on header tag order
+- new social icons
+  - Bluesky
+  - Bookwyrm
+  - Peertube
+  - Pixelfed
+  - Codeberg
+  - Threads
+  - Lemmy
+- add CoC
+- match theme settings in PWA settings
+- migrate fonts to be part of the project locally (avoids CORS issues, massive speed boost)
+- swap domain to new project
+  
+## TODO
+
+- migrate other nice things from wita project
+- add indieweb markup - use indiewebify.me
+  - figure out where to add h-card (possibly in header)
+- possibly add membership badges / credentials e.g. EFF, bcs, etc.
+
+### Checks
+
+- https://pagespeed.web.dev/
+- wcag
+- html and css validation
+
+---
+
 # Working notes / dev diary
 
 - [Blog post on DEV.to](https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a)
@@ -40,24 +85,26 @@
   - alt text for image links (a11y++, nice)
   - fixed CSS social icons hover
   - added `CONTRIBUTORS.md` file
+- added social.lol status as a separate embed
 
 ## TODO / ideas
 
-- move away from Google Fonts (EU law issue)
+- ~~move away from Google Fonts (EU law issue)~~ -> https://fonts.coollabs.io/
 - ~~add Tweet timeline~~
   - make it collapsible?
 - ~~change favicon to match site~~
 - add Mastodon embed support
-- add PixelFed and Diode and Bookwyrm social links
-- add Revue and BitBucket social links (edit social template)
-- add IRC/Libera Chat social link
+- [X] add PixelFed and Diode and Bookwyrm social links 
+- [X] add lastFM and Traktv social links
+- add ~~Revue~~ and BitBucket social links (edit social template)
+- add IRC/Libera Chat/Matrix/Discord social link
 - consider a full [Ko-fi button or widget](https://ko-fi.com/Manage/donation-widget-setup)
 - refactor the SVGs out from the `social` template to make it cleaner
 - ~~social icon for GitLab~~
-- twemoji plugin (scratchpad below, but as this is, it messes with alignment)
-  - nice to have because it means you have the same emoji on all platforms
-  - could also just put them in as images in the list items _shrug_
-  - also twemoji are CC-BY-4.0 -> attribution req'd if used
+- ~~twemoji plugin (scratchpad below, but as this is, it messes with alignment)~~
+  - ~~nice to have because it means you have the same emoji on all platforms~~
+  - ~~could also just put them in as images in the list items _shrug_~~
+  - ~~also twemoji are CC-BY-4.0 -> attribution req'd if used~~
 - podcast / audio player plugin to unfold from the Podcast button? listed in page?
   - could point to latest episode, using the podcast RSS
 - ~~make the `avatarImageAlt` a mouseover effect?~~
@@ -87,6 +134,8 @@ I was thinking about embedding YT content etc but want to keep it simple
 ^^^ this was probably my mistake in thinking those files were being served from the app in 2.5/2.6, seems to only let me hit the index page now, which is what I want.
 
 ... I finally cracked, and added more social links to the footer; but, now I'm wondering whether I should limit that list?
+
+- page was constantly reloading. Checked the logs and found: a vite error with websocket connection on 443, so disabled that option in vite config; a node version error, downgraded to 14.x
 
 ## Code scratchpad
 

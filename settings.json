@@ -1,90 +1,92 @@
 {
   "metaTitle": "Andy Piper's links",
   "metaDescription": "Links to interesting things Andy Piper is doing",
-  "name": "Andy Piper's links",
-  "bio": "Open Source | MicroPython | Community | LEGO",
-  "theme": "dusky-lory",
+  "name": "Andy Piper",
+  "bio": "⬩ Plotter Art ⬩ Open Source ⬩ Fediverse ⬩ Community ⬩",
+  "theme": "dusky-lory-2",
   "avatarImage": "https://www.gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?s=200",
   "avatarImageAlt": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=200",
   "favicon": "https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=32",
   "links": [
     {
-      "url": "https://mastodon.social/@andypiper/108237453365199182",
-      "text": "👋 By way of introduction",
+      "url": "https://andypiper.url.lol/fediintro",
+      "text": "👋🏻 By way of introduction",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://mastodon.social/@andypiper/",
-      "text": "🕸️ In the Fediverse",
+      "url": "https://andypiper.url.lol/macaw",
+      "text": "🌀 In the Fediverse",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://andypiper.co.uk",
-      "text": "🌐 My personal website",
+      "url": "https://andypiper.url.lol/studio",
+      "text": "🧑🏻‍🏭️ Our studio: Forge & Craft",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://andypiper.medium.com/on-living-with-the-feelings-in-my-head-2e28afdd5c29",
-      "text": "👤 Medium post: On living with the feelings in my head",
-      "img": "",
-      "altText": ""
-    },
-    {
-      "url": "https://gamesatwork.biz/",
+      "url": "https://andypiper.url.lol/podcast",
       "text": "🎧 Weekly podcast: Games at Work dot Biz",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://pipr.co/devrel",
-      "text": "📚 Resources for Getting Started in Developer Relations",
+      "url": "https://andypiper.url.lol/mhealth",
+      "text": "🧠️ [Medium] On living with the feelings in my head",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://glitch.com/@andypiper/twitter-examples",
-      "text": "💻 Some Twitter API examples on Glitch",
+      "url": "https://andypiper.omg.lol",
+      "text": "🩷️ OMG LOL (my other landing page)",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://last.fm/user/andypiper",
-      "text": "🎵 What I'm listening to",
+      "url": "https://andypiper.co.uk",
+      "text": "🌐 My personal blog",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://ko-fi.com/T6T11M0HS",
+      "url": "https://andypiper.url.lol/devrel",
+      "text": "📚 Curated resources for Developer Relations",
+      "img": "",
+      "altText": ""
+    },
+    {
+      "url": "https://calendly.com/andypiper/andy-piper-consultation",
+      "text": "📅 Book time on my calendar",
+      "img": "",
+      "altText": ""
+    },
+    {
+      "url": "https://andypiper.url.lol/kofi",
       "text": "☕ Buy me a coffee",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://www.amazon.co.uk/hz/wishlist/ls/2T42T5FUJ1OBF",
+      "url": "https://andypiper.url.lol/amazonwl",
       "text": "🎁 My wishlist",
       "img": "",
       "altText": ""
     },
     {
-      "url": "https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a",
+      "url": "https://andypiper.url.lol/glitchbio",
       "text": "❔ How I made this...",
       "img": "",
       "altText": ""
     }
   ],
-  "tweets": [
-    {
-      "url": ""
-    }
-  ],
   "social": {
     "glitch": "https://glitch.com/@andypiper",
+    "cohost": "https://cohost.org/andypiper",
     "spotify": "",
     "substack": "",
-    "dev": "https://dev.to/andypiper",
+    "devTo": "https://dev.to/andypiper",
     "stackoverflow": "https://stackoverflow.com/users/262478/andy-piper",
     "facebook": "",
     "github": "https://github.com/andypiper",
@@ -92,19 +94,31 @@
     "replit": "https://replit.com/@andypiper",
     "hashnode": "",
     "instagram": "",
-    "linkedin": "https://www.linkedin.com/in/andypiperuk/",
+    "keybase": "",
+    "pinboard": "",
+    "tumblr": "",
+    "linkedin": "https://linkedin.com/in/andypiperuk/",
     "medium": "https://andypiper.medium.com",
     "patreon": "",
     "kofi": "https://ko-fi.com/andypiper",
     "pinterest": "",
-    "twitter": "https://twitter.com/andypiper",
-    "youtube": "https://www.youtube.com/andypiper",
+    "youtube": "https://youtube.com/@andypiper",
     "twitch": "https://twitch.tv/andypiper",
     "tiktok": "",
     "podcast": "https://gamesatwork.biz",
     "soundcloud": "https://soundcloud.com/andypiper",
     "bandcamp": "https://bandcamp.com/andypiper",
-    "mastodon": "https://mastodon.social/@andypiper",
-    "email": ""
+    "mastodon": "https://macaw.social/@andypiper",
+    "email": "",
+    "buttondown": "https://buttondown.email/andypiper",
+    "letterboxd": "https://letterboxd.com/andypiper/",
+    "status-lol": "https://status.lol/andypiper",
+    "bluesky": "https://bsky.app/profile/andypiper.me",
+    "threads": "https://threads.net/@andypiper",
+    "pixelfed": "https://pixelfed.social/@andypiper",
+    "bookwyrm": "https://bookrastinating.com/@andypiper",
+    "peertube": "https://diode.zone/@andypiper",
+    "codeberg": "https://codeberg.org/andypiper",
+    "lemmy": "https://lemmy.world/u/andypiper"
   }
 }

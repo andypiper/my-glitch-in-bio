@@ -1,20 +1,24 @@
 # Glitch in Bio!
 
+
+> [!IMPORTANT]
+> the live code on Glitch is on the `glitch` branch.
 ---
 
-**I wrote about this remix -->**  [A quick Glitch bio break](https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a)
+> [!TIP]
+> I wrote about my *original* remix -->  [A quick Glitch bio break](https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a)
 
 ---
 
 Your links, your way. A link-in-bio app you can customize any way you want.
 
-![screen gif showing the header of the glitch-in-bio remix being updated to say "hello, world!"](https://cdn.glitch.me/8fa3e636-2989-4bb4-87e5-c44e7ffde070%2F2021-10-26%2016.43.43.gif?v=1635281123481)
+![screen gif showing the header of the glitch-in-bio remix being updated to say "hello, world!"](https://cdn.glitch.global/28f22022-c2c5-4372-93ec-be33834d37d9/gib.gif?v=1694020426922)
 
 ## Direct traffic to your own Glitch-in-bio app in 3 steps:
 
 ### 1. Remix this app for your own, live version in seconds
 
-Then click **Show** on the top right of this window and then **Open in new window** to see the live app in its own window, with a free `glitch.me` domain ready to share.
+Then click **Preview** at the bottom of this window and then **Preview in new window** to see the live app in its own window, with a free `glitch.me` domain ready to share.
 
 📝 _Make sure to log into Glitch to save your new app or else it will expire in 5 days._
 
@@ -40,7 +44,17 @@ Customize your site by updating `custom-theme.css` inside the `public/styles/the
 
 ## Other Tips & tricks
 
-- Check out the [Glitch-in-bio section of our Help Center](https://help.glitch.com/kb/section/13/) for more documentation on how to customize or troubleshoot your new app!
+Get **verified** links by adding `rel="me"` to your anchor tags in `templates/social.js` like this for Mastodon:
+
+```json
+{ "name": "mastodon", "altText": "Mastodon", "rel": "me" }
+```
+
+To use your Glitch in Bio site as a [Bluesky](https://bsky.app) handle, create a new file at `.well-known/atproto-did` and fill it in with the value provided by Bluesky in the [change handle flow](https://bsky.app/settings).
+
+![Screenshot of creating a new file](https://cdn.glitch.global/392b630f-7e63-4726-985e-4271b847758b/bluesky-did.png?v=1694808296064)
+
+- Check out the [Glitch-in-bio section of our Help Center](https://help.glitch.com/hc/en-us/sections/16285912923917) for more documentation on how to customize or troubleshoot your new app!
 - If you notice your preview is a little out of sync with your `settings.json`, hit the reload button in the preview window and it should update!
 - Looking for ways to extend your app, or for inspiration? Check out the official [Glitch-in-bio page](https://glitch.com/glitch-in-bio).
 
@@ -48,11 +62,11 @@ Customize your site by updating `custom-theme.css` inside the `public/styles/the
 
 ← `README.md`: That’s this file. You can delete it, or keep it handy so you don't lose the instructions.
 
-← `index.html`: This is the main page template vite uses to build your site. You'll see the handlebars syntax for importing the data you specify in `settings.json` (built into the structures in `layout/`). You'll also find some tips on configuring the page in the HTML comments.
+← `index.html`: This is the main page template vite uses to build your site. You'll see the template syntax for importing the data you specify in `settings.json` (built into the structures in `scripts/render.js`). You'll also find some tips on configuring the page in the HTML comments.
 
-← `settings.json`: Settings for your name, links, images, and social media. The `index.html` page includes the data using the structures defined in `layout/`.
+← `settings.json`: Settings for your name, links, images, and social media. The `index.html` page includes the data.
 
-← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here using handlebars syntax (e.g. `{{settings.name}}`).
+← `templates/`: HTML templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here using standard javascript templating wrapped in a `html` function.
 
 ← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`. You can create a new theme by adding a CSS file to this folder and specifying it using its name in the settings (e.g. `glitch`, `gallery`, `menu`, or whatever yours is called!)
 

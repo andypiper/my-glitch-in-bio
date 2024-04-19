@@ -1,51 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ settings.metaTitle }}</title>
-
-    {{> head }}
-
-    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s&#x3D;32" />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <!-- PWA requirements-->
+    <meta name="theme-color" content="#708090ff" />
     <link
-      rel="stylesheet"
-      type="text/css"
-      href="/styles/themes/{{settings.theme}}.css"
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305"
     />
-  
+
+    <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
+    <link rel="manifest" href="manifest.json" />
+    <script>
+      if (location.protocol == "http:") location.protocol = "https:";
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("sw.js")
+          .then((reg) => console.log("Service Worker registered", reg))
+          .catch((err) =>
+            console.error("Service Worker **not** registered", err)
+          );
+      } else {
+        console.warn("Service Worker not supported in this browser");
+      }
+    </script>
+    <script type="module" src="scripts/render.js"></script>
+    <!-- TODO: performance; pre-connects -->
+
+    <!-- templates/meta.js will fill in here -->
   </head>
   <body>
     <main>
       <div class="wrapper">
-        <div class="content">
-          {{> avatar }} {{> name }}
-
-          <!--- NEXT STEPS: Want to add a bio or some text? Just add a <p> here: --->
-          {{#if settings.bio}}
-          <p>
-            {{ settings.bio }}
-          </p>
-          {{/if }}
-
-          <!--- NEXT STEPS: Easy, responsive YouTube/iframe embeds? We've got a helper for that:
-          <div class="video-wrapper__16-9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GSP0b85BKmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          --->
-
-          {{> links }} {{> tweets }} 
-          
-          <p style="font-size: 0.5em;">
-            Want to check out the other places I live online? Click through the logos in the list of social sites below...
-          </p>
-          
-          {{> social }}
+        <div id="content" class="content" role="main">
+          <!-- scripts/render.js determines what fills in here -->
         </div>
       </div>
-      
-      <!-- added to validate with Mastodon, hidden since the link is already in the social section -->
-      <a rel="me" href="https://mastodon.social/@andypiper" style="visibility: hidden;">.</a>
-      <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
-      {{> glitch-footer }}
     </main>
   </body>
 </html>

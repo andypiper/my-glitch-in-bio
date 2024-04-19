@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "Linotype Notec";
+  src: url("/fonts/ln-notec.woff2") format("woff2"),
+    url("/fonts/ln-notec.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GrotesqueMT";
+  src: url("/fonts/grotesquemt.woff2") format("woff2"),
+    url("/fonts/grotesquemt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Metro Nova";
+  src: url("/fonts/metro-nova.woff2") format("woff2"),
+    url("/fonts/metro-nova.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("/fonts/open-sans.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("/fonts/open-sans.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("/fonts/open-sans.ttf") format('truetype');
+}
+
+:root {
+  /* CSS HEX palette */
+  --dark-slate-gray: #2f4f4f;
+  --slate-gray: #708090;
+  --light-steel-blue: #b0c4de;
+  --pale-lavender: #dbd0f0;
+  --white: #ffffff;
+
+  /* preferred fonts */
+  --font-family: "Open Sans", sans-serif;
+  --font-family-header: "Linotype Notec", sans-serif;
+  --font-family-main: "GrotesqueMT", sans-serif;
+  --font-family-list: "Metro Nova", sans-serif;
+
+  /* set up colors for the theme */
+  --color-bg: var(--pale-lavender); /* Used for the page body background */
+  --color-bg-alt: var(--light-steel-blue); /* Used for social icons on hover */
+  --color-text-main: var(--dark-slate-gray); /* List text and social icons on hover */
+  --color-primary: var(--slate-gray); /* Headers and borders */
+}
+
+html {
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 3em 0 1em;
+}
+
+p,
+ul,
+ol {
+  margin-bottom: 2em;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  color: var(--color-text-main);
+  font-variant-ligatures: no-common-ligatures;
+  font-size: clamp(1rem, 0.25rem + 2.5vw, 1rem);
+  font-family: var(--font-family-main);
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: clamp(3rem, 0.25rem + 2.5vw, 1rem);
+  display: inline-flex;
+  justify-content: center;
+  color: var(--color-text-main);
+}
+
+.name {
+  font-family: var(--font-family-header);
+}
+
+.subhead {
+  font-family: var(--font-family-main);
+  font-size: clamp(1.1rem, 0.25rem + 2.5vw, 1rem);
+}
+
+p {
+  padding: 7px;
+}
+
+.statuslol {
+  font-size: 90%;
+}
+
+.statuslol_emoji {
+  font-size: 2.5rem;
+}
+
+.statuslol_container {
+  border-width: 1px;
+}
+
+ul.link-list li a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: none;
+  font-family: var(--font-family-list);
+}
+
+ul.link-list li a:link,
+ul.link-list li a:visited {
+  background-color: var(--color-primary);
+  color: var(--white);
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  min-height: 3.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+ul.link-list li a span {
+  line-height: 1.5;
+  flex-grow: 1;
+  min-width: 100%;
+  padding: 0.45rem 0.5;
+}
+
+ul.link-list li a:hover {
+  background-color: var(--dark-slate-gray);
+}
+
+ul.link-list li a img {
+  border-radius: 0.2rem;
+  width: 3rem;
+  overflow: visible;
+  min-width: 100%;
+}
+
+.footer a:hover {
+  background: var(--color-primary);
+}
+
+.footer .tagline {
+  padding: 0.25rem 1rem 1rem;
+  font-size: 0.75rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.social-profile-icon path {
+  fill: var(--color-text-main);
+}
+
+.social-profile-icon:hover path {
+  fill: var(--color-primary);
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* The footer and remix on glitch button */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  border-top: none;
+}
+
+.btn--remix {
+  font-family: "Open Sans", sans-serif;
+  padding: 0.8rem 0.8rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  height: 3rem;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000000;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.btn--remix img {
+  position: relative;
+  top: 1px;
+  margin-right: 0.25rem;
+}
+
+.btn--remix:hover {
+  background-color: var(--light-steel-blue);
+}
+
+/* hover effect for avatar */
+/* fades between two images on hover */
+/* you have to hold to see it on touch device */
+.avatar-container {
+  position: relative;
+}
+
+.avatar-hover {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.avatar-hover:hover {
+  opacity: 1;
+}

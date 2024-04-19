@@ -32,7 +32,7 @@ ul.link-list li a span {
   flex-grow: 1;
   text-align: center;
 }
-ul.link-list li a:hover {
+ul.link-list li a:hover, ul.link-list li a:focus {
   background-color: var(--color-bg);
   color: white;
 }
@@ -41,6 +41,6 @@ ul.link-list li a img {
   width: 3rem;
   overflow: visible;
 }
-.social-profile-icon:hover path {
+.social-profile-icon path:hover, .social-profile-icon path:focus {
   fill: var(--color-bg);
 }

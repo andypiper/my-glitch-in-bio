@@ -1,21 +1,25 @@
-<footer class="footer">
+import { html } from "lighterhtml";
+import settings from "../settings.json";
+
+export const renderFooter = html.node`<footer class="footer" role="contentinfo">
   <div class="tagline">
-    <a
+  <a
       href="https://glitch.com/glitch-in-bio"
       style="border-bottom: none; text-decoration: underline"
-      ><strong>Glitch in Bio</strong></a
-    ><br />
+      >
+    <strong>Glitch in Bio</strong></a><br />
     Your links, your way.
   </div>
   <a
     class="btn--remix"
     target="_top"
-    href="https://glitch.com/edit/#!/remix/andypiper"
+    href="https://glitch.com/edit/#!/remix/glitch-in-bio"
   >
     <img
       src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-      alt="Remix on Glitch"
+      alt="Create a new Glitch project from the same template"
     />
     Remix on Glitch
   </a>
 </footer>
+`;

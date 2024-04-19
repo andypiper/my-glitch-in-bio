@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Andy Piper",
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "Games at Work dot Biz",
+      "sameAs": [
+        "https://botsin.space/@gamesatwork_biz",
+        "https://gamesatwork.biz"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "name": "Forge and Craft",
+      "sameAs": [
+        "https://forgeandcraft.co.uk",
+        "https://shop.forgeandcraft.co.uk",
+        "https://metapixl.com/forgeandcraft"
+      ]
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Brasenose College Oxford",
+      "sameAs": "https://en.wikipedia.org/wiki/Brasenose_College,_Oxford"
+    }
+  ],
+  "Description": "Technologist",
+  "jobTitle": "Freelance techology consultant & speaker",
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "The Lost Outpost"
+    }
+  ],
+  "email": "andypiper@omg.lol",
+  "url": "https://andypiper.me",
+  "image": "https://gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?size=256",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kingston upon Thames",
+    "addressRegion": "London",
+    "addressCountry": "United Kingdom"
+  },
+  "sameAs": [
+    "https://andypiper.omg.lol/",
+    "https://andypiper.me",
+    "https://instagram.com/andypiper",
+    "https://glitch.com/@andypiper",
+    "https://replit.com/@andypiper",
+    "https://dev.to/andypiper",
+    "https://stackoverflow.com/users/262478/andy-piper",
+    "https://github.com/andypiper",
+    "https://gitlab.com/andypiper",
+    "https://codeberg.org/andypiper",
+    "https://www.linkedin.com/in/andypiperuk/",
+    "https://ko-fi.com/andypiper",
+    "https://twitch.tv/andypiper",
+    "https://andypiper.medium.com/",
+    "https://soundcloud.com/andypiper",
+    "https://bandcamp.com/andypiper",
+    "https://macaw.social/@andypiper",
+    "https://youtube.com/andypiperuk",
+    "https://foursquare.com/andypiper",
+    "https://andypiper.co.uk/",
+    "https://pixelfed.social/@andypiper",
+    "https://diode.zone/@andypiper",
+    "https://poly.me/andypiper",
+    "https://lobste.rs/u/andypiper",
+    "https://venera.social/profile/andypiper",
+    "https://gravatar.com/andypiper",
+    "https://pipesmarks.glitch.me/u/andypiper",
+    "https://lemmy.world/u/andypiper",
+    "https://social.lol/@andypiper",
+    "https://bookrastinating.com/user/andypiper",
+    "https://www.printables.com/@AndyPiper",
+    "https://bsky.app/profile/andypiper.me",
+    "https://threads.net/@andypiper"
+  ]
+}

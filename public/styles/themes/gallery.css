@@ -86,7 +86,7 @@ ul.link-list li a span {
   background-color: rgba(0, 0, 0, 0.75);
   transition: min-height 100ms, padding-top 100ms;
 }
-ul.link-list li a:hover span {
+ul.link-list li a:hover span, ul.link-list li a:focus span {
   min-height: 100%;
   padding-top: 48%;
 }
@@ -101,7 +101,7 @@ ul.link-list li a img {
   object-fit: cover;
   z-index: 1;
 }
-ul.link-list li a:hover img {
+ul.link-list li a:hover img, ul.link-list li a:focus img {
   display: none;
 }
 ul.link-list li a:link,

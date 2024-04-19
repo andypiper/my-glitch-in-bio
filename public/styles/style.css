@@ -24,20 +24,20 @@ START Page structure and element resets
   /* Colors you'll see cascade through the elements */
 
   /* To set your own use custom-theme.css with `custom-theme` in settings.json `theme` property */
-  --color-bg: #BDBDBD; /* Used for the page body background */
-  --color-bg-alt: #FFFFFF; /* Used for social icons on hover */
-  --color-text-main: #000000; /* List text ann social icons on hover */
-  --color-primary: #FFFFFF; /* Headers and borders */
+  --color-bg: #bdbdbd; /* Used for the page body background */
+  --color-bg-alt: #ffffff; /* Used for social icons on hover */
+  --color-text-main: #000000; /* List text and social icons on hover */
+  --color-primary: #ffffff; /* Headers and borders */
 
   /* These are some Glitch colors you are welcome to use! */
-  --glitch-blue: #2800FF;
-  --glitch-blue-light: #5A78FF;
-  --glitch-pink: #FF7698;
-  --glitch-pink-light: #FEC1EE;
-  --glitch-green: #05F293;
-  --glitch-green-light: #9BE7D8;
-  --glitch-yellow: #FFFF60;
-  --glitch-purple: #9480FF;
+  --glitch-blue: #2800ff;
+  --glitch-blue-light: #5a78ff;
+  --glitch-pink: #ff7698;
+  --glitch-pink-light: #fec1ee;
+  --glitch-green: #05f293;
+  --glitch-green-light: #9be7d8;
+  --glitch-yellow: #ffff60;
+  --glitch-purple: #9480ff;
 }
 
 /* Basic page style resets */
@@ -76,7 +76,8 @@ body {
   flex-wrap: wrap;
   border-top: 4px solid #fff;
 }
-.footer a:hover, .footer a:focus {
+.footer a:hover,
+.footer a:focus {
   background: var(--color-primary);
 }
 .footer .tagline {
@@ -88,13 +89,13 @@ body {
   font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
   padding: 0.8rem 1.75rem;
   /*font sizes scaled by viewport https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/*/
-  font-size: clamp(0.9rem, 0.8250rem + 0.3333vw, 1rem);
+  font-size: clamp(0.9rem, 0.825rem + 0.3333vw, 1rem);
   line-height: 1rem;
   font-weight: 500;
   height: 3rem;
   align-items: center;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 2px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -109,18 +110,19 @@ body {
   top: 1px;
   margin-right: 0.25rem;
 }
-.btn--remix:hover, .btn--remix:focus {
-  background-color: #D0FFF1;
+.btn--remix:hover,
+.btn--remix:focus {
+  background-color: #d0fff1;
 }
 .tagline {
-  font-size: clamp(1rem, 0.9250rem + 0.3333vw, 1.1rem);
+  font-size: clamp(1rem, 0.925rem + 0.3333vw, 1.1rem);
 }
 
 /* Typography */
 p {
   margin: 0 0 1rem 0;
   line-height: 1.5 !important;
-  font-size: clamp(1rem, 0.2500rem + 3.3333vw, 2rem);
+  font-size: clamp(1rem, 0.25rem + 3.3333vw, 2rem);
 }
 h1,
 h2,
@@ -136,7 +138,7 @@ h5 {
 h1 {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
-  font-size: clamp(2.0rem, -0.875rem + 8.333vw, 4.0rem);
+  font-size: clamp(2rem, -0.875rem + 8.333vw, 4rem);
   display: inline-flex;
   color: var(--color-primary);
   justify-content: center;
@@ -145,7 +147,7 @@ ul > li,
 ol > li {
   margin-bottom: 0.75rem;
   line-height: 1.5;
-  font-size: clamp(1rem, 0.6250rem + 1.6667vw, 1.5rem);
+  font-size: clamp(1rem, 0.625rem + 1.6667vw, 1.5rem);
 }
 ul {
   padding: 0 0 0 18px;
@@ -160,7 +162,9 @@ a:not(.btn--remix):visited {
   color: var(--color-text-main);
   transition: background 0.2s linear;
 }
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   background: var(--color-primary);
 }
 /******************************************************************************
@@ -200,7 +204,7 @@ ul.link-list li {
   min-width: 100%;
   text-align: center;
   margin: 1rem auto;
-  font-size: clamp(0.7rem, 0.3250rem + 1.6667vw, 1.2rem);
+  font-size: clamp(0.7rem, 0.325rem + 1.6667vw, 1.2rem);
 }
 ul.link-list li a {
   min-height: 5.5em;
@@ -233,13 +237,15 @@ ul.link-list li a span {
 /* Social media icons */
 /* Page will display all icons that have a value in settings.json social object */
 .social-icons {
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
+
 .social-icons a:link {
   border-bottom: none;
   background: transparent;
   width: 3rem;
-  height: 3rem;
   margin: 0 0.5rem 1.5rem;
 }
 .social-profile-icon {
@@ -251,7 +257,8 @@ ul.link-list li a span {
 .social-profile-icon path {
   fill: var(--color-bg-alt);
 }
-.social-profile-icon:hover path, .social-profile-icon:focus path {
+.social-profile-icon:hover path,
+.social-profile-icon:focus path {
   fill: var(--color-text-main);
 }
 
@@ -263,29 +270,3 @@ ul.link-list li a span {
 /******************************************************************************
 END Glitch in Bio default theme
 ******************************************************************************/
-
-/* Tweets */
-
-ul.tweets {
-  list-style-type: none;
-  padding-left:0;
-  padding-bottom:1rem;
-}
-
-/* hover effect for avatar */
-/* fades between two images on hover */
-/* you have to hold to see it on touch device */
-
-.avatar-container {
-  position: relative;
-}
-
-.avatar-hover {
-  position: absolute;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.avatar-hover:hover {
-  opacity: 1;
-}

@@ -1,8 +1,0 @@
-{{#if settings.links}}
-<ul class="link-list">
-  {{#each settings.links}}
-  <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
-  <li class="{{hostasclass  this.url }}"><a href="{{ this.url }}">{{#if this.img }}<img src="{{ this.img }}" alt="{{this.altText}}" />{{/if }}<span>{{ this.text }}</span></a></li>
-  {{/each}}
-</ul>
-{{/if}}
