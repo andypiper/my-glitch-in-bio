@@ -2,18 +2,7 @@
 
 ---
 
-> [!IMPORTANT]
-> Not yet updated to the newest Glitch in Bio template! you should probably start [there](https://support.glitch.com/t/glitch-in-bio-1-0/64067).
-
----
-
-> [!IMPORTANT]
-> the live code on Glitch is on the `glitch` branch.
-
----
-
-> [!TIP]
-> I wrote about this remix -->  [A quick Glitch bio break](https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a)
+**I wrote about this remix -->**  [A quick Glitch bio break](https://dev.to/andypiper/a-quick-glitch-bio-break-1c6a)
 
 ---
 
