@@ -20,10 +20,7 @@ export const renderMeta = html.node`
   </script>
   
   <!-- OpenGraph/Social sharing -->
-  <meta name="description" content="${settings.metaDescription}" />
-  <meta name="og:description" content="${settings.metaDescription}" />
-  <meta property="og:image" content="${settings.avatarImageAlt}" />
-  <meta property="og:title" content="${settings.metaTitle}" />
+  <!-- moved into index for now -->
 
   <!-- Load our custom theme -->
   <link rel="stylesheet" type="text/css" href="/styles/themes/${settings.theme}.css" />

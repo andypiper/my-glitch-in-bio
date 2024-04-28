@@ -12,6 +12,7 @@ import jsonld from "../templates/json-ld.json";
 const head = document.getElementsByTagName("head")[0];
 
 // add in any JSON-LD metadata to the head
+// moved into index because of static ssr requirement
 const scriptNode = document.createElement('script');
 scriptNode.type = 'application/ld+json';
 scriptNode.textContent = JSON.stringify(jsonld);

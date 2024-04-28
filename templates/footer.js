@@ -21,5 +21,6 @@ export const renderFooter = html.node`<footer class="footer" role="contentinfo">
     />
     Remix on Glitch
   </a>
+  <a href="https://andypiper.org" rel="me"/>
 </footer>
 `;
