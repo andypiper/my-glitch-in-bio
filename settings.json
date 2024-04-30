@@ -87,7 +87,7 @@
     "spotify": "",
     "substack": "",
     "devTo": "https://dev.to/andypiper",
-    "stackoverflow": "https://stackoverflow.com/users/262478/andy-piper",
+    "stackOverflow": "https://stackoverflow.com/users/262478/andy-piper",
     "facebook": "",
     "github": "https://github.com/andypiper",
     "gitlab": "https://gitlab.com/andypiper",
@@ -112,13 +112,14 @@
     "email": "",
     "buttondown": "https://buttondown.email/andypiper",
     "letterboxd": "https://letterboxd.com/andypiper/",
-    "status-lol": "https://status.lol/andypiper",
+    "statuslol": "https://status.lol/andypiper",
     "bluesky": "https://bsky.app/profile/andypiper.me",
     "threads": "https://threads.net/@andypiper",
     "pixelfed": "https://pixelfed.social/@andypiper",
     "bookwyrm": "https://bookrastinating.com/@andypiper",
     "peertube": "https://diode.zone/@andypiper",
     "codeberg": "https://codeberg.org/andypiper",
-    "lemmy": "https://lemmy.world/u/andypiper"
+    "lemmy": "https://lemmy.world/u/andypiper",
+    "hackaday": "https://hackaday.io/andypiper"
   }
 }

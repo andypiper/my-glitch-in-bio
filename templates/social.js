@@ -46,6 +46,7 @@ const socials = [
   { name: "facebook", altText: "Facebook" },
   { name: "github", altText: "GitHub" },
   { name: "gitlab", altText: "GitLab" },
+  { name: "hackaday", altText: "Hackaday" },
   { name: "hashnode", altText: "Hashnode" },
   { name: "instagram", altText: "Instagram" },
   { name: "keybase", altText: "Keybase" },
