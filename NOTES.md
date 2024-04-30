@@ -23,6 +23,7 @@
   - Codeberg
   - Threads
   - Lemmy
+  - Hackaday
 - add CoC
 - match theme settings in PWA settings
 - migrate fonts to be part of the project locally (avoids CORS issues, massive speed boost)
@@ -34,6 +35,9 @@
 - add indieweb markup - use indiewebify.me
   - figure out where to add h-card (possibly in header)
 - possibly add membership badges / credentials e.g. EFF, bcs, etc.
+- randomise the order of social links
+- add Friendica venera.social
+- add postmarks
 
 ### Checks
 

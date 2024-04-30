@@ -34,9 +34,12 @@ function renderEmail() {
 // so if you want to re-arrange the icons, 
 // move the items around in the list
 const socials = [
+  { name: "mastodon", altText: "Mastodon", rel: "me" },
+  { name: "pixelfed", altText: "Pixelfed" },
+  { name: "podcast", altText: "Podcast" },
   { name: "glitch", altText: "Glitch" },
+  { name: "threads", altText: "Threads" },
   { name: "arena", altText: "Arena" },
-  { name: "bandcamp", altText: "Bandcamp" },
   { name: "bluesky", altTest: "Bluesky" },
   { name: "bookwyrm", altTest: "Bookwyrm" },
   { name: "buttondown", altText: "Buttondown" },
@@ -54,26 +57,23 @@ const socials = [
   { name: "lemmy", altText: "Lemmy" },
   { name: "letterboxd", altText: "Letterboxd" },
   { name: "linkedin", altText: "LinkedIn" },
-  { name: "mastodon", altText: "Mastodon", rel: "me" },
   { name: "medium", altText: "Medium" },
   { name: "onlyfans", altText: "OnlyFans" },
   { name: "patreon", altText: "Patreon" },
   { name: "peertube", altText: "Peertube" },
   { name: "pinboard", altText: "Pinboard" },
   { name: "pinterest", altText: "Pinterest" },
-  { name: "pixelfed", altText: "Pixelfed" },
-  { name: "podcast", altText: "Podcast" },
   { name: "replit", altText: "Replit" },
   { name: "spotify", altText: "Spotify" },
   { name: "soundcloud", altText: "Soundcloud" },
   { name: "stackOverflow", altText: "Stack Overflow" },
   { name: "substack", altText: "Substack" },
-  { name: "threads", altText: "Threads" },
   { name: "tiktok", altText: "TikTok" },
   { name: "twitch", altText: "Twitch" }, 
   { name: "tumblr", altText: "Tumblr" },
   { name: "X", altText: "X" },
-  { name: "youtube", altText: "YouTube" }
+  { name: "youtube", altText: "YouTube" },
+  { name: "bandcamp", altText: "Bandcamp" }
 ];
 
 // should move the styling here into a CSS class

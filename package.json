@@ -17,7 +17,7 @@
     "auto": "^10.32.2",
     "vite": "^4.5.3",
     "postcss": "^8.4.38",
-    "node-fetch": "^2.6.7",
+    "node-fetch": "^2.7.0",
     "minimist": "^1.2.6"
   },
   "browserslist": [
@@ -45,6 +45,8 @@
     "onlyPublishWithReleaseLabel": true
   },
   "dependencies": {
-    "lighterhtml": "^4.2.0"
+    "lighterhtml": "^4.2.0",
+    "node-fetch": "^2.7.0",
+    "minimist": "^1.2.6"
   }
 }
