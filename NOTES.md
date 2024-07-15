@@ -2,7 +2,7 @@
 
 ## Migration notes
 
-[![my jotted restructure notes](https://cdn.glitch.global/844643de-894b-49ce-8757-32fad8afa3c9/pre-to-1-mapping.pdf?v=1713563020880)]
+[my jotted restructure notes](https://cdn.glitch.global/844643de-894b-49ce-8757-32fad8afa3c9/pre-to-1-mapping.pdf?v=1713563020880)
 
 - move json-ld to separate imported file
 - additional preconnects
@@ -28,6 +28,8 @@
 - match theme settings in PWA settings
 - migrate fonts to be part of the project locally (avoids CORS issues, massive speed boost)
 - swap domain to new project
+- add x-headers in vite config for fun and function
+- randomise the order of social links
   
 ## TODO
 
@@ -35,7 +37,6 @@
 - add indieweb markup - use indiewebify.me
   - figure out where to add h-card (possibly in header)
 - possibly add membership badges / credentials e.g. EFF, bcs, etc.
-- randomise the order of social links
 - add Friendica venera.social
 - add postmarks
 

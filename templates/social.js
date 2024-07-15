@@ -30,9 +30,7 @@ function renderEmail() {
   }
 }
 
-// these will show up in the order listed
-// so if you want to re-arrange the icons, 
-// move the items around in the list
+// this array is shuffled before the items are displayed
 const socials = [
   { name: "mastodon", altText: "Mastodon", rel: "me" },
   { name: "pixelfed", altText: "Pixelfed" },
@@ -76,15 +74,23 @@ const socials = [
   { name: "bandcamp", altText: "Bandcamp" }
 ];
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 // should move the styling here into a CSS class
 export const renderSocialIcons = html.node`
-          <p style="font-size: 0.75rem;">
-            Visit my profiles on other platforms below
-          </p>
-    <div class="social-icons">
-      ${socials.map((platform) => {
-        return html.node`${renderSocial(platform)}`;
-      })}
-      ${renderEmail()}
-    </div>
-  `;
+  <p>
+    Visit my profiles on other platforms below
+  </p>
+  <div class="social-icons">
+    ${shuffleArray([...socials]).map((platform) => {
+      return html.node`${renderSocial(platform)}`;
+    })}
+    ${renderEmail()}
+  </div>
+`;
