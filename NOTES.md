@@ -30,6 +30,7 @@
 - swap domain to new project
 - add x-headers in vite config for fun and function
 - randomise the order of social links
+- add a webfinger redirect in vite config (points at Mastodon)
   
 ## TODO
 

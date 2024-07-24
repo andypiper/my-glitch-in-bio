@@ -1,7 +1,46 @@
 import { defineConfig } from "vite";
 
+function webFingerRedirectPlugin() {
+  return {
+    name: 'webfinger-redirect-route',
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const url = new URL(req.url, `http://${req.headers.host}`);
+        if (url.pathname === '/.well-known/webfinger' && 
+            url.searchParams.get('resource') === 'acct:andypiper@andypiper.me') {
+          res.writeHead(301, {
+            'Location': 'https://macaw.social/.well-known/webfinger?resource=andypiper@macaw.social',
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json+jrd'
+          });
+          res.end();
+        } else {
+          next();
+        }
+      });
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const url = new URL(req.url, `http://${req.headers.host}`);
+        if (url.pathname === '/.well-known/webfinger' && 
+            url.searchParams.get('resource') === 'acct:andypiper@andypiper.me') {
+          res.writeHead(301, {
+            'Location': 'https://macaw.social/.well-known/webfinger?resource=andypiper@macaw.social',
+            'Access-Control-Allow-Origin': '*',
+            'Content-Type': 'application/json+jrd'
+          });
+          res.end();
+        } else {
+          next();
+        }
+      });
+    },
+  };
+}
+
 export default defineConfig(async ({ command, mode }) => {
   return {
+    plugins: [webFingerRedirectPlugin()],
     build: {
       cssCodeSplit: false,
       outDir: "build"
