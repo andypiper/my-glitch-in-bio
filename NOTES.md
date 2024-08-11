@@ -30,6 +30,7 @@
   - Lexaloffle BBS/PICO-8
   - Itch.io
   - Flipboard
+  - Steam
 - add CoC
 - match theme settings in PWA settings
 - migrate fonts to be part of the project locally (avoids CORS issues, massive speed boost)
@@ -45,7 +46,8 @@
   - figure out where to add h-card (possibly in header)
 - possibly add membership badges / credentials e.g. EFF, bcs, etc.
 - add postmarks
-- consider creating sections for social icons (audio/video/text etc)
+- consider creating sections for social icons (audio/video/gaming/code/text etc)
+- add PSN and Xbox
 
 ### Checks
 

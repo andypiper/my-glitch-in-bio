@@ -88,7 +88,7 @@
     "applemusic": "https://music.apple.com/profile/andypiper",
     "substack": "",
     "devTo": "https://dev.to/andypiper",
-    "stackOverflow": "https://stackoverflow.com/users/262478/andy-piper",
+    "stackOverflow": "",
     "facebook": "",
     "github": "https://github.com/andypiper",
     "gitlab": "https://gitlab.com/andypiper",
@@ -128,6 +128,9 @@
     "wordpress": "https://andypiper.co.uk",
     "friendica": "https://venera.social/profile/andypiper",
     "applemusic": "https://music.apple.com/profile/andypiper",
-    "lastfm": "https://www.last.fm/user/andypiper"
+    "lastfm": "https://www.last.fm/user/andypiper",
+    "steam": "https://steamcommunity.com/id/andypiper",
+    "xbox": "",
+    "psn": ""
   }
 }
