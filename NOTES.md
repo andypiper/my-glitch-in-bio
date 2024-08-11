@@ -45,6 +45,7 @@
   - figure out where to add h-card (possibly in header)
 - possibly add membership badges / credentials e.g. EFF, bcs, etc.
 - add postmarks
+- consider creating sections for social icons (audio/video/text etc)
 
 ### Checks
 
