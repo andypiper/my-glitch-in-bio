@@ -84,7 +84,8 @@
   "social": {
     "glitch": "https://glitch.com/@andypiper",
     "cohost": "https://cohost.org/andypiper",
-    "spotify": "",
+    "spotify": "https://open.spotify.com/user/andypiper",
+    "applemusic": "https://music.apple.com/profile/andypiper",
     "substack": "",
     "devTo": "https://dev.to/andypiper",
     "stackOverflow": "https://stackoverflow.com/users/262478/andy-piper",
@@ -96,7 +97,7 @@
     "instagram": "https://instagram.com/andypiper",
     "keybase": "",
     "pinboard": "",
-    "tumblr": "",
+    "tumblr": "https://tumblr.andypiper.co.uk/",
     "linkedin": "https://linkedin.com/in/andypiperuk/",
     "medium": "https://andypiper.medium.com",
     "patreon": "",
@@ -120,6 +121,13 @@
     "peertube": "https://makertube.net/a/andypiper",
     "codeberg": "https://codeberg.org/andypiper",
     "lemmy": "https://lemmy.world/u/andypiper",
-    "hackaday": "https://hackaday.io/andypiper"
+    "hackaday": "https://hackaday.io/andypiper",
+    "flipboard": "https://flipboard.com/@andypiper",
+    "itchio": "https://andypiper.itch.io/",
+    "lexaloffle": "https://www.lexaloffle.com/bbs/?uid=52301",
+    "wordpress": "https://andypiper.co.uk",
+    "friendica": "https://venera.social/profile/andypiper",
+    "applemusic": "https://music.apple.com/profile/andypiper",
+    "lastfm": "https://www.last.fm/user/andypiper"
   }
 }

@@ -24,6 +24,12 @@
   - Threads
   - Lemmy
   - Hackaday
+  - Apple Music
+  - Last.FM
+  - Friendica
+  - Lexaloffle BBS/PICO-8
+  - Itch.io
+  - Flipboard
 - add CoC
 - match theme settings in PWA settings
 - migrate fonts to be part of the project locally (avoids CORS issues, massive speed boost)
@@ -38,7 +44,6 @@
 - add indieweb markup - use indiewebify.me
   - figure out where to add h-card (possibly in header)
 - possibly add membership badges / credentials e.g. EFF, bcs, etc.
-- add Friendica venera.social
 - add postmarks
 
 ### Checks
@@ -184,3 +189,4 @@ img.emoji {
 ## Original ideas
 
 ![Sketchnotes](https://cdn.glitch.me/844643de-894b-49ce-8757-32fad8afa3c9%2Fideas-sketch.jpeg?v=1638029223822)
+
