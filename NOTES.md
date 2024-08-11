@@ -47,7 +47,7 @@
 - possibly add membership badges / credentials e.g. EFF, bcs, etc.
 - add postmarks
 - consider creating sections for social icons (audio/video/gaming/code/text etc)
-- add PSN and Xbox
+- add PSN and Xbox and GOG https://www.gog.com/u/AndyPiper
 
 ### Checks
 
