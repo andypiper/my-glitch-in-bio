@@ -32,6 +32,7 @@
   - Flipboard
   - Steam
   - BoardGameGeek
+  - Flickr
 - add CoC
 - match theme settings in PWA settings
 - migrate fonts to be part of the project locally (avoids CORS issues, massive speed boost)

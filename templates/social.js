@@ -47,6 +47,7 @@ const socials = [
   { name: "cohost", altText: "Cohost" },
   { name: "devTo", altText: "DEV.to" },
   { name: "facebook", altText: "Facebook" },
+  { name: "flickr", altText: "Flickr" },
   { name: "flipboard", altText: "Flipboard" },
   { name: "friendica", altText: "Friendica" },
   { name: "github", altText: "GitHub" },
