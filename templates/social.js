@@ -54,6 +54,7 @@ const socials = [
   { name: "hackaday", altText: "Hackaday" },
   { name: "hashnode", altText: "Hashnode" },
   { name: "instagram", altText: "Instagram" },
+  { name: "bgg", altText: "BoardGameGeek" },
   { name: "itchio", altText: "Itch.io" },
   { name: "keybase", altText: "Keybase" },
   { name: "kofi", altText: "Ko-fi" },

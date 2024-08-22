@@ -31,6 +31,7 @@
   - Itch.io
   - Flipboard
   - Steam
+  - BoardGameGeek
 - add CoC
 - match theme settings in PWA settings
 - migrate fonts to be part of the project locally (avoids CORS issues, massive speed boost)
@@ -38,6 +39,7 @@
 - add x-headers in vite config for fun and function
 - randomise the order of social links
 - add a webfinger redirect in vite config (points at Mastodon)
+- add a generalised redirect list in vite config
   
 ## TODO
 

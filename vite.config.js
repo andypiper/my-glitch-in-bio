@@ -38,9 +38,47 @@ function webFingerRedirectPlugin() {
   };
 }
 
+// New function to create a generalized redirect plugin
+function createRedirectPlugin(redirects) {
+  return {
+    name: 'generalized-redirect-plugin',
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const url = new URL(req.url, `http://${req.headers.host}`);
+        const redirect = redirects.find(r => url.pathname === `/${r.from}`);
+        if (redirect) {
+          res.writeHead(301, { 'Location': redirect.to });
+          res.end();
+        } else {
+          next();
+        }
+      });
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const url = new URL(req.url, `http://${req.headers.host}`);
+        const redirect = redirects.find(r => url.pathname === `/${r.from}`);
+        if (redirect) {
+          res.writeHead(301, { 'Location': redirect.to });
+          res.end();
+        } else {
+          next();
+        }
+      });
+    },
+  };
+}
+
+// List of redirects
+const redirects = [
+  { from: 'blog', to: 'https://andypiper.co.uk' },
+  { from: 'code', to: 'https://andypiper.org' },
+  // Add more redirects here as needed
+];
+
 export default defineConfig(async ({ command, mode }) => {
   return {
-    plugins: [webFingerRedirectPlugin()],
+    plugins: [webFingerRedirectPlugin(), createRedirectPlugin(redirects)],
     build: {
       cssCodeSplit: false,
       outDir: "build"
@@ -54,7 +92,7 @@ export default defineConfig(async ({ command, mode }) => {
       },
       headers: {
         'X-Clacks-Overhead': 'GNU Terry Pratchett',
-        'X-Powered-By': 'Glitch In Bio',
+        'X-Powered-By': 'Glitch In Bio https://glitch.com/glitch-in-bio',
         'X-OpenSource': 'Yes',
         'X-Source-Repo': 'https://github.com/andypiper/my-glitch-in-bio',
         'X-Author': 'Andy Piper @andypiper@macaw.social',
