@@ -48,6 +48,6 @@
     "lighterhtml": "^4.2.0",
     "node-fetch": "^2.7.0",
     "minimist": "^1.2.6",
-    "braces": "3.0.3"
+    "braces": "^3.0.3"
   }
 }
