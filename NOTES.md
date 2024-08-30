@@ -41,6 +41,7 @@
 - randomise the order of social links
 - add a webfinger redirect in vite config (points at Mastodon)
 - add a generalised redirect list in vite config
+- add [`humans.txt`](https://humanstxt.org)
   
 ## TODO
 
@@ -51,6 +52,7 @@
 - add postmarks
 - consider creating sections for social icons (audio/video/gaming/code/text etc)
 - add PSN and Xbox and GOG https://www.gog.com/u/AndyPiper
+- make a module for generating a humans.txt file? So that it gets updated automatically.
 
 ### Checks
 

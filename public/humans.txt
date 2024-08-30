@@ -1,0 +1,27 @@
+   ____                  _             _
+  / __ \  __ _ _ __   __| |_   _ _ __ (_)_ __   ___ _ __
+ / / _` |/ _` | '_ \ / _` | | | | '_ \| | '_ \ / _ \ '__|
+| | (_| | (_| | | | | (_| | |_| | |_) | | |_) |  __/ |
+ \ \__,_|\__,_|_| |_|\__,_|\__, | .__/|_| .__/ \___|_|
+  \____/                   |___/|_|     |_|
+
+
+/* humanstxt.org */
+
+/* TEAM */
+
+Author (it me): Andy Piper
+Site: https://andypiper.me
+Fediverse: https://macaw.social/@andypiper
+GitHub: https://github.com/andypiper
+Blog: https://andypiper.co.uk
+Location: Kingston-upon-Thames, UK
+
+
+
+/* SITE */
+
+Last update: 2024/08/30
+Powered by: HTML5, CSS3, JavaScript, Glitch in Bio (Vite)
+Hosted on: Glitch.com
+Language: English
