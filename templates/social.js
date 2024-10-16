@@ -44,7 +44,6 @@ const socials = [
   { name: "bookwyrm", altTest: "Bookwyrm" },
   { name: "buttondown", altText: "Buttondown" },
   { name: "codeberg", altText: "Codeberg" },
-  { name: "cohost", altText: "Cohost" },
   { name: "devTo", altText: "DEV.to" },
   { name: "facebook", altText: "Facebook" },
   { name: "flickr", altText: "Flickr" },
