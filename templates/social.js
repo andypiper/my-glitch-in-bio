@@ -62,6 +62,7 @@ const socials = [
   { name: "lexaloffle", altText: "Lexaloffle BBS (PICO-8)" },
   { name: "letterboxd", altText: "Letterboxd" },
   { name: "linkedin", altText: "LinkedIn" },
+  { name: "matrix", altText: "Matrix" },
   { name: "medium", altText: "Medium" },
   { name: "onlyfans", altText: "OnlyFans" },
   { name: "patreon", altText: "Patreon" },
