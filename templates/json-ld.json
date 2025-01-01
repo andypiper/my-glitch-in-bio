@@ -9,7 +9,7 @@
         "@type": "Organization",
         "name": "Games at Work dot Biz",
         "sameAs": [
-          "https://botsin.space/@gamesatwork_biz",
+          "https://mastodon.social/@gamesatwork_biz",
           "https://gamesatwork.biz"
         ]
       },
@@ -19,7 +19,8 @@
         "sameAs": [
           "https://forgeandcraft.co.uk",
           "https://shop.forgeandcraft.co.uk",
-          "https://metapixl.com/forgeandcraft"
+          "https://metapixl.com/forgeandcraft",
+          "https://instagram.com/forgeandcraftstudio"
         ]
       }
     ],
@@ -65,11 +66,9 @@
       "https://bandcamp.com/andypiper",
       "https://macaw.social/@andypiper",
       "https://youtube.com/andypiperuk",
-      "https://foursquare.com/andypiper",
       "https://andypiper.co.uk/",
       "https://pixelfed.social/@andypiper",
       "https://makertube.net/a/andypiper",
-      "https://poly.me/andypiper",
       "https://lobste.rs/u/andypiper",
       "https://venera.social/profile/andypiper",
       "https://gravatar.com/andypiper",
