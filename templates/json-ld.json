@@ -1,9 +1,96 @@
 {
   "@context": "http://schema.org",
   "@type": "ProfilePage",
+  "name": "Andy Piper - Technologist",
+  "url": "https://andypiper.co.uk",
   "mainEntity": {
     "@type": "Person",
     "name": "Andy Piper",
+    "description": "Technologist",
+    "jobTitle": "Freelance technology consultant & speaker",
+    "image": "https://gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?size=512",
+    "url": "https://andypiper.co.uk",
+    "sameAs": [
+      "https://macaw.social/@andypiper",
+      "https://github.com/andypiper",
+      "https://www.linkedin.com/in/andypiperuk/",
+      "https://andypiper.omg.lol/",
+      "https://instagram.com/andypiper",
+      "https://glitch.com/@andypiper",
+      "https://replit.com/@andypiper",
+      "https://dev.to/andypiper",
+      "https://gitlab.com/andypiper",
+      "https://codeberg.org/andypiper",
+      "https://ko-fi.com/andypiper",
+      "https://twitch.tv/andypiper",
+      "https://andypiper.medium.com/",
+      "https://soundcloud.com/andypiper",
+      "https://bandcamp.com/andypiper",
+      "https://pixelfed.social/@andypiper",
+      "https://makertube.net/a/andypiper",
+      "https://lemmy.world/u/andypiper",
+      "https://social.lol/@andypiper",
+      "https://bookrastinating.com/user/andypiper",
+      "https://www.printables.com/@AndyPiper",
+      "https://bsky.app/profile/andypiper.me",
+      "https://threads.net/@andypiper",
+      "https://g.dev/andypiper",
+      "https://hackaday.io/andypiper",
+      "https://flipboard.com/@andypiper",
+      "https://archive.org/details/@andy_piper"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kingston upon Thames",
+      "addressRegion": "England",
+      "addressCountry": "UK"
+    },
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "The Lost Outpost",
+        "url": "https://andypiper.co.uk"
+      },
+      {
+        "@type": "Organization",
+        "name": "Forge and Craft",
+        "url": "https://forgeandcraft.co.uk",
+        "sameAs": [
+          "https://shop.forgeandcraft.co.uk",
+          "https://metapixl.com/forgeandcraft",
+          "https://instagram.com/forgeandcraftstudio"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "name": "Mastodon gGmbH",
+        "url": "https://joinmastodon.org"
+      }
+    ],
+    "knowsAbout": [
+      "Decentralized Web",
+      "ActivityPub",
+      "MQTT",
+      "Open Standards",
+      "Developer Relations",
+      "Public Speaking",
+      "Pen Plotter Art",
+      "3D Printing",
+      "Electronics",
+      "Python",
+      "History"
+    ],
+    "knowsLanguage": ["English"],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "personal",
+      "email": "andypiper@omg.lol"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Brasenose College Oxford",
+      "sameAs": "https://en.wikipedia.org/wiki/Brasenose_College,_Oxford"
+    },
     "affiliation": [
       {
         "@type": "Organization",
@@ -12,79 +99,7 @@
           "https://mastodon.social/@gamesatwork_biz",
           "https://gamesatwork.biz"
         ]
-      },
-      {
-        "@type": "Organization",
-        "name": "Forge and Craft",
-        "sameAs": [
-          "https://forgeandcraft.co.uk",
-          "https://shop.forgeandcraft.co.uk",
-          "https://metapixl.com/forgeandcraft",
-          "https://instagram.com/forgeandcraftstudio"
-        ]
       }
-    ],
-    "alumniOf": [
-      {
-        "@type": "CollegeOrUniversity",
-        "name": "Brasenose College Oxford",
-        "sameAs": "https://en.wikipedia.org/wiki/Brasenose_College,_Oxford"
-      }
-    ],
-    "Description": "Technologist",
-    "jobTitle": "Freelance technology consultant & speaker",
-    "worksFor": [
-      {
-        "@type": "Organization",
-        "name": "The Lost Outpost"
-      }
-    ],
-    "email": "andypiper@omg.lol",
-    "url": "https://andypiper.me",
-    "image": "https://gravatar.com/avatar/1526dcb784188b422544c6344ef223c2?size=256",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Kingston upon Thames",
-      "addressRegion": "London",
-      "addressCountry": "United Kingdom"
-    },
-    "sameAs": [
-      "https://andypiper.omg.lol/",
-      "https://andypiper.me",
-      "https://instagram.com/andypiper",
-      "https://glitch.com/@andypiper",
-      "https://replit.com/@andypiper",
-      "https://dev.to/andypiper",
-      "https://github.com/andypiper",
-      "https://gitlab.com/andypiper",
-      "https://codeberg.org/andypiper",
-      "https://www.linkedin.com/in/andypiperuk/",
-      "https://ko-fi.com/andypiper",
-      "https://twitch.tv/andypiper",
-      "https://andypiper.medium.com/",
-      "https://soundcloud.com/andypiper",
-      "https://bandcamp.com/andypiper",
-      "https://macaw.social/@andypiper",
-      "https://youtube.com/andypiperuk",
-      "https://andypiper.co.uk/",
-      "https://pixelfed.social/@andypiper",
-      "https://makertube.net/a/andypiper",
-      "https://lobste.rs/u/andypiper",
-      "https://venera.social/profile/andypiper",
-      "https://gravatar.com/andypiper",
-      "https://pipesmarks.glitch.me/u/andypiper",
-      "https://lemmy.world/u/andypiper",
-      "https://social.lol/@andypiper",
-      "https://bookrastinating.com/user/andypiper",
-      "https://www.printables.com/@AndyPiper",
-      "https://bsky.app/profile/andypiper.me",
-      "https://threads.net/@andypiper",
-      "https://g.dev/andypiper",
-      "https://andypiper.org",
-      "https://hackaday.io/andypiper",
-      "https://andypiper.itch.io/",
-      "https://www.lexaloffle.com/bbs/?uid=52301",
-      "https://flipboard.com/@andypiper"
     ]
   }
 }
