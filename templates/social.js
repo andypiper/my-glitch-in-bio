@@ -57,6 +57,7 @@ const socials = [
   { name: "bgg", altText: "BoardGameGeek" },
   { name: "itchio", altText: "Itch.io" },
   { name: "keybase", altText: "Keybase" },
+  { name: "keyoxide", altText: "Keyoxide" },
   { name: "kofi", altText: "Ko-fi" },
   { name: "lemmy", altText: "Lemmy" },
   { name: "lexaloffle", altText: "Lexaloffle BBS (PICO-8)" },

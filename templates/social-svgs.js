@@ -649,5 +649,14 @@ C213.484,200.108,212.476,198.418,210.857,197.545z"
         focusable="true"
         role="img" aria-label="Matrix">
 	      <path fill="currentColor" d="M.632.55v22.9H2.28V24H0V0h2.28v.55zm7.043 7.26v1.157h.033a3.3 3.3 0 0 1 1.117-1.024c.433-.245.936-.365 1.5-.365q.81.002 1.481.314c.448.208.785.582 1.02 1.108q.382-.562 1.034-.992q.651-.43 1.546-.43q.679 0 1.26.167c.388.11.716.286.993.53c.276.245.489.559.646.951q.229.587.23 1.417v5.728h-2.349V11.52q0-.43-.032-.812a1.8 1.8 0 0 0-.18-.66a1.1 1.1 0 0 0-.438-.448q-.292-.165-.785-.166q-.498 0-.803.189a1.4 1.4 0 0 0-.48.499a2 2 0 0 0-.231.696a6 6 0 0 0-.06.785v4.768h-2.35v-4.8q.002-.38-.018-.752a2.1 2.1 0 0 0-.143-.688a1.05 1.05 0 0 0-.415-.503c-.194-.125-.476-.19-.854-.19q-.168 0-.439.074c-.18.051-.36.143-.53.282a1.64 1.64 0 0 0-.439.595q-.18.39-.18 1.02v4.966H5.46V7.81zm15.693 15.64V.55H21.72V0H24v24h-2.28v-.55z" />
-</svg>`
+</svg>`,
+  keyoxide: html `<svg class="social-profile-icon" 
+          xmlns="http://www.w3.org/2000/svg" 
+          width="48" height="48"
+          viewBox="0 0 48 48"
+          tabIndex="0"
+          focusable="true"
+          role="img" aria-label="Keyoxide">
+          <circle cx="23.038" cy="9.886" r="1.363" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><circle cx="25.188" cy="6.478" r=".977" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/><circle cx="22.288" cy="5.153" r=".75" fill="currentColor"/>
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m33.75 34.862l-8.498-6.356l8.498-6.355a4.85 4.85 0 0 0 .979-6.79a5 5 0 0 0-.36-.42a1.646 1.646 0 1 0-2.099-1.292a4.9 4.9 0 0 0-1.951-.185a2.594 2.594 0 1 0-2.729 1.18l-5.585 4.177v-.555a4.85 4.85 0 1 0-9.7 0v20.48a4.85 4.85 0 1 0 9.7 0v-.554l5.935 4.438a4.85 4.85 0 1 0 5.81-7.768" stroke-width="1.5"/></svg>`
 };

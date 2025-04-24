@@ -7,7 +7,7 @@
     "@type": "Person",
     "name": "Andy Piper",
     "description": "Technologist",
-    "jobTitle": "Freelance technology consultant & speaker",
+    "jobTitle": "Head of Communications at Mastodon",
     "image": "https://gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?size=512",
     "url": "https://andypiper.co.uk",
     "sameAs": [
@@ -48,6 +48,11 @@
     "worksFor": [
       {
         "@type": "Organization",
+        "name": "Mastodon gGmbH",
+        "url": "https://joinmastodon.org"
+      },
+      {
+        "@type": "Organization",
         "name": "The Lost Outpost",
         "url": "https://andypiper.co.uk"
       },
@@ -60,13 +65,16 @@
           "https://metapixl.com/forgeandcraft",
           "https://instagram.com/forgeandcraftstudio"
         ]
-      },
-      {
-        "@type": "Organization",
-        "name": "Mastodon gGmbH",
-        "url": "https://joinmastodon.org"
       }
     ],
+    "workLocation": {
+      "@type": "Place",
+      "name": "Remote"
+    },
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Head of Communications"
+    },
     "knowsAbout": [
       "Decentralized Web",
       "ActivityPub",
@@ -99,6 +107,19 @@
           "https://mastodon.social/@gamesatwork_biz",
           "https://gamesatwork.biz"
         ]
+      },
+      {
+        "@type": "Organization",
+        "name": "Mastodon gGmbH",
+        "url": "https://joinmastodon.org",
+        "member": {
+          "@type": "OrganizationRole",
+          "roleName": "Head of Communications",
+          "member": {
+            "@type": "Person",
+            "name": "Andy Piper"
+          }
+        }
       }
     ]
   }

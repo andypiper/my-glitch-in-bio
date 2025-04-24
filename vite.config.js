@@ -88,7 +88,7 @@ export default defineConfig(async ({ command, mode }) => {
       port: 3000,
       strictPort: true,
       hmr: {
-        clientPort: 443
+        overlay:false
       },
       headers: {
         'X-Clacks-Overhead': 'GNU Terry Pratchett',
