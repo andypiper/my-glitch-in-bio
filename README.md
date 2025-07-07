@@ -1,8 +1,8 @@
-# Glitch in Bio!
+# formerly, Glitch in Bio!
 
 
 > [!IMPORTANT]
-> the live code on Glitch is on the `glitch` branch.
+> This used to be a Glitch app. For now, I am running it on my own hosting.
 ---
 
 > [!TIP]
@@ -11,8 +11,6 @@
 ---
 
 Your links, your way. A link-in-bio app you can customize any way you want.
-
-![screen gif showing the header of the glitch-in-bio remix being updated to say "hello, world!"](https://cdn.glitch.global/28f22022-c2c5-4372-93ec-be33834d37d9/gib.gif?v=1694020426922)
 
 ## Direct traffic to your own Glitch-in-bio app in 3 steps:
 

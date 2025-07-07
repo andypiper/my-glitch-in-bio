@@ -1,3 +1,9 @@
+# v3
+
+(Andy's v3)
+
+Move from Glitch to my own hosting.
+
 # v2
 
 ## Migration notes
@@ -6,7 +12,7 @@
 
 - move json-ld to separate imported file
 - additional preconnects
-- defer status lol 
+- defer status lol
 - update theme for readabilty / match to business cards
   - MOO design fonts
     - Notec
@@ -42,7 +48,7 @@
 - add a webfinger redirect in vite config (points at Mastodon)
 - add a generalised redirect list in vite config
 - add [`humans.txt`](https://humanstxt.org)
-  
+
 ## TODO
 
 - migrate other nice things from wita project
@@ -113,7 +119,7 @@
   - make it collapsible?
 - ~~change favicon to match site~~
 - add Mastodon embed support
-- [X] add PixelFed and Diode and Bookwyrm social links 
+- [X] add PixelFed and Diode and Bookwyrm social links
 - [X] add lastFM and Traktv social links
 - add ~~Revue~~ and BitBucket social links (edit social template)
 - add IRC/Libera Chat/Matrix/Discord social link

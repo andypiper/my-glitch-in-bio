@@ -1,6 +1,6 @@
 {
   "name": "glitch-in-bio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Your very own link-in-bio app.",
   "main": "index.html",
   "scripts": {
@@ -28,7 +28,7 @@
     "node": "18.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-in-bio"
+    "url": "https://github.com/andypiper/my-glitch-in-bio"
   },
   "license": "MIT",
   "glitch": {

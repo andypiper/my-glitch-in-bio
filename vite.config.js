@@ -6,7 +6,7 @@ function webFingerRedirectPlugin() {
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
         const url = new URL(req.url, `http://${req.headers.host}`);
-        if (url.pathname === '/.well-known/webfinger' && 
+        if (url.pathname === '/.well-known/webfinger' &&
             url.searchParams.get('resource') === 'acct:andypiper@andypiper.me') {
           res.writeHead(301, {
             'Location': 'https://macaw.social/.well-known/webfinger?resource=andypiper@macaw.social',
@@ -22,7 +22,7 @@ function webFingerRedirectPlugin() {
     configurePreviewServer(server) {
       server.middlewares.use((req, res, next) => {
         const url = new URL(req.url, `http://${req.headers.host}`);
-        if (url.pathname === '/.well-known/webfinger' && 
+        if (url.pathname === '/.well-known/webfinger' &&
             url.searchParams.get('resource') === 'acct:andypiper@andypiper.me') {
           res.writeHead(301, {
             'Location': 'https://macaw.social/.well-known/webfinger?resource=andypiper@macaw.social',
@@ -85,14 +85,14 @@ export default defineConfig(async ({ command, mode }) => {
     },
     server: {
       host: "0.0.0.0",
-      port: 13000,
+      port: 3000,
       strictPort: true,
       hmr: {
         overlay:false
       },
       headers: {
         'X-Clacks-Overhead': 'GNU Terry Pratchett',
-        'X-Powered-By': 'Glitch In Bio https://glitch.com/glitch-in-bio',
+        'X-Powered-By': 'Modified Glitch In Bio https://github.com/andypiper/my-glitch-in-bio',
         'X-OpenSource': 'Yes',
         'X-Source-Repo': 'https://github.com/andypiper/my-glitch-in-bio',
         'X-Author': 'Andy Piper @andypiper@macaw.social',

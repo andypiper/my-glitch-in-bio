@@ -1,126 +1,161 @@
 {
   "@context": "http://schema.org",
-  "@type": "ProfilePage",
-  "name": "Andy Piper - Technologist",
+  "@type": "Person",
+  "name": "Andy Piper",
+  "description": "Technologist, speaker, and pen-plotter artist",
+  "jobTitle": "Head of Communications at Mastodon",
+  "image": "https://gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?size=512",
   "url": "https://andypiper.co.uk",
-  "mainEntity": {
-    "@type": "Person",
-    "name": "Andy Piper",
-    "description": "Technologist",
-    "jobTitle": "Head of Communications at Mastodon",
-    "image": "https://gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?size=512",
-    "url": "https://andypiper.co.uk",
-    "sameAs": [
-      "https://macaw.social/@andypiper",
-      "https://github.com/andypiper",
-      "https://www.linkedin.com/in/andypiperuk/",
-      "https://andypiper.omg.lol/",
-      "https://instagram.com/andypiper",
-      "https://glitch.com/@andypiper",
-      "https://replit.com/@andypiper",
-      "https://dev.to/andypiper",
-      "https://gitlab.com/andypiper",
-      "https://codeberg.org/andypiper",
-      "https://ko-fi.com/andypiper",
-      "https://twitch.tv/andypiper",
-      "https://andypiper.medium.com/",
-      "https://soundcloud.com/andypiper",
-      "https://bandcamp.com/andypiper",
-      "https://pixelfed.social/@andypiper",
-      "https://makertube.net/a/andypiper",
-      "https://lemmy.world/u/andypiper",
-      "https://social.lol/@andypiper",
-      "https://bookrastinating.com/user/andypiper",
-      "https://www.printables.com/@AndyPiper",
-      "https://bsky.app/profile/andypiper.me",
-      "https://threads.net/@andypiper",
-      "https://g.dev/andypiper",
-      "https://hackaday.io/andypiper",
-      "https://flipboard.com/@andypiper",
-      "https://archive.org/details/@andy_piper"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Kingston upon Thames",
-      "addressRegion": "England",
-      "addressCountry": "UK"
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://andypiper.co.uk"
+  },
+  "sameAs": [
+    "https://macaw.social/@andypiper",
+    "https://github.com/andypiper",
+    "https://www.linkedin.com/in/andypiperuk/",
+    "https://andypiper.omg.lol/",
+    "https://instagram.com/andypiper",
+    "https://replit.com/@andypiper",
+    "https://dev.to/andypiper",
+    "https://gitlab.com/andypiper",
+    "https://codeberg.org/andypiper",
+    "https://ko-fi.com/andypiper",
+    "https://twitch.tv/andypiper",
+    "https://andypiper.medium.com/",
+    "https://soundcloud.com/andypiper",
+    "https://bandcamp.com/andypiper",
+    "https://pixelfed.social/@andypiper",
+    "https://makertube.net/a/andypiper",
+    "https://lemmy.world/u/andypiper",
+    "https://social.lol/@andypiper",
+    "https://bookrastinating.com/user/andypiper",
+    "https://www.printables.com/@AndyPiper",
+    "https://bsky.app/profile/andypiper.me",
+    "https://threads.net/@andypiper",
+    "https://g.dev/andypiper",
+    "https://hackaday.io/andypiper",
+    "https://flipboard.com/@andypiper",
+    "https://archive.org/details/@andy_piper",
+    "https://keyoxide.org/aspe:keyoxide.org:JQTSX3JMH2G6U6UAUH5VPUP4SE"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kingston upon Thames",
+    "addressRegion": "England",
+    "addressCountry": "UK"
+  },
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "Mastodon gGmbH",
+      "url": "https://joinmastodon.org"
     },
-    "worksFor": [
-      {
+    {
+      "@type": "Organization",
+      "name": "The Lost Outpost",
+      "url": "https://andypiper.co.uk"
+    },
+    {
+      "@type": "Organization",
+      "name": "Forge and Craft",
+      "url": "https://forgeandcraft.co.uk",
+      "sameAs": [
+        "https://shop.forgeandcraft.co.uk",
+        "https://metapixl.com/forgeandcraft",
+        "https://instagram.com/forgeandcraftstudio"
+      ]
+    }
+  ],
+  "workLocation": {
+    "@type": "Place",
+    "name": "Remote"
+  },
+  "knowsAbout": [
+    "Decentralized Web",
+    "ActivityPub",
+    "MQTT",
+    "Open Standards",
+    "Developer Relations",
+    "Public Speaking",
+    "Pen Plotter Art",
+    "3D Printing",
+    "Electronics",
+    "Python",
+    "History"
+  ],
+  "knowsLanguage": [
+    "English"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "personal",
+    "email": "andypiper@omg.lol"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Brasenose College Oxford",
+    "sameAs": "https://en.wikipedia.org/wiki/Brasenose_College,_Oxford"
+  },
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "bcs – The Chartered Institute for IT",
+      "url": "https://bcs.org/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Open Source Hardware Association",
+      "url": "https://oshwa.org/"
+    },
+    {
+      "@type": "ProgramMembership",
+      "programName": "Supporting Member",
+      "hostingOrganization": {
         "@type": "Organization",
-        "name": "Mastodon gGmbH",
-        "url": "https://joinmastodon.org"
-      },
-      {
-        "@type": "Organization",
-        "name": "The Lost Outpost",
-        "url": "https://andypiper.co.uk"
-      },
-      {
-        "@type": "Organization",
-        "name": "Forge and Craft",
-        "url": "https://forgeandcraft.co.uk",
-        "sameAs": [
-          "https://shop.forgeandcraft.co.uk",
-          "https://metapixl.com/forgeandcraft",
-          "https://instagram.com/forgeandcraftstudio"
-        ]
+        "name": "Electronic Frontier Foundation",
+        "url": "https://www.eff.org/"
       }
-    ],
-    "workLocation": {
-      "@type": "Place",
-      "name": "Remote"
     },
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Head of Communications"
-    },
-    "knowsAbout": [
-      "Decentralized Web",
-      "ActivityPub",
-      "MQTT",
-      "Open Standards",
-      "Developer Relations",
-      "Public Speaking",
-      "Pen Plotter Art",
-      "3D Printing",
-      "Electronics",
-      "Python",
-      "History"
-    ],
-    "knowsLanguage": ["English"],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "personal",
-      "email": "andypiper@omg.lol"
-    },
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "Brasenose College Oxford",
-      "sameAs": "https://en.wikipedia.org/wiki/Brasenose_College,_Oxford"
-    },
-    "affiliation": [
-      {
+    {
+      "@type": "ProgramMembership",
+      "programName": "Supporting Member",
+      "hostingOrganization": {
         "@type": "Organization",
-        "name": "Games at Work dot Biz",
-        "sameAs": [
-          "https://mastodon.social/@gamesatwork_biz",
-          "https://gamesatwork.biz"
-        ]
-      },
-      {
-        "@type": "Organization",
-        "name": "Mastodon gGmbH",
-        "url": "https://joinmastodon.org",
+        "name": "Python Software Foundation",
+        "url": "https://www.python.org/psf/"
+      }
+    }
+  ],
+  "award": [
+    "2023 OpenUK Generation Next (New Years Honours)"
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Certification",
+    "name": "bcs Certified IT Professional (CITP)"
+  },
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": "Games at Work dot Biz",
+      "sameAs": [
+        "https://mastodon.social/@gamesatwork_biz",
+        "https://gamesatwork.biz"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "name": "Mastodon gGmbH",
+      "url": "https://joinmastodon.org",
+      "member": {
+        "@type": "OrganizationRole",
+        "roleName": "Head of Communications",
         "member": {
-          "@type": "OrganizationRole",
-          "roleName": "Head of Communications",
-          "member": {
-            "@type": "Person",
-            "name": "Andy Piper"
-          }
+          "@type": "Person",
+          "name": "Andy Piper"
         }
       }
-    ]
-  }
+    }
+  ]
 }
