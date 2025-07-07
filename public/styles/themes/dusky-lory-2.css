@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Linotype Notec";
-  src: url("./fonts/ln-notec.woff2") format("woff2"),
-    url("./fonts/ln-notec.woff") format("woff");
+  src: url("/fonts/ln-notec.woff2") format("woff2"),
+    url("/fonts/ln-notec.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: "GrotesqueMT";
-  src: url("./fonts/grotesquemt.woff2") format("woff2"),
-    url("./fonts/grotesquemt.woff") format("woff");
+  src: url("/fonts/grotesquemt.woff2") format("woff2"),
+    url("/fonts/grotesquemt.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: "Metro Nova";
-  src: url("./fonts/metro-nova.woff2") format("woff2"),
-    url("./fonts/metro-nova.woff") format("woff");
+  src: url("/fonts/metro-nova.woff2") format("woff2"),
+    url("/fonts/metro-nova.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -31,7 +31,7 @@
   font-weight: 400;
   font-stretch: normal;
   font-display: swap;
-  src: url("./fonts/open-sans.ttf") format('truetype');
+  src: url("/fonts/open-sans.ttf") format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -39,7 +39,7 @@
   font-weight: 500;
   font-stretch: normal;
   font-display: swap;
-  src: url("./fonts/open-sans.ttf") format('truetype');
+  src: url("/fonts/open-sans.ttf") format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -47,7 +47,7 @@
   font-weight: 700;
   font-stretch: normal;
   font-display: swap;
-  src: url("./fonts/open-sans.ttf") format('truetype');
+  src: url("/fonts/open-sans.ttf") format('truetype');
 }
 
 :root {
