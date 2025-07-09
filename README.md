@@ -1,8 +1,8 @@
 # formerly, Glitch in Bio!
 
-
 > [!IMPORTANT]
-> This used to be a Glitch app. For now, I am running it on my own hosting.
+> This was my personal links page, and used to be a Glitch app.
+> Now that Glitch has shut down, I've kept the bones of this and I'm [working on something different](https://github.com/andypiper/dotme). As of Jul 9, 2025 this repository is archived.
 ---
 
 > [!TIP]
